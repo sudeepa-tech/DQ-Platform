@@ -1,0 +1,28 @@
+{
+ "file": "holdout_master_entity.xlsx",
+ "sheet": "Vendor_Master",
+ "headers": [
+  "S.No",
+  "Supplier No.",
+  "Supplier Name",
+  "GST No",
+  "Party Type",
+  "Material No.",
+  "Material Desc.",
+  "Base UoM",
+  "Order Qty",
+  "Net Price",
+  "Tax %",
+  "E-mail",
+  "Mobile",
+  "Street Address",
+  "Town",
+  "Region",
+  "PIN Code",
+  "Created On",
+  "Changed On",
+  "Terms of Payment",
+  "Curr."
+ ],
+ "rows": 781
+}

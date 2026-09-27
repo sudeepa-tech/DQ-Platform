@@ -1,0 +1,260 @@
+{
+ "built_from": "pristine original backend (no migration framework)",
+ "built_at": "2026-09-24T08:41:31.225Z",
+ "runs": [
+  {
+   "name": "ERP dump (legacy run)",
+   "runId": "a14f09bc-e79b-4cdc-877f-bc0fc2e527b4",
+   "datasetId": "f8c32096-009d-4f18-b97b-3e1fef9be077"
+  },
+  {
+   "name": "Hold-out master entity (legacy run)",
+   "runId": "fd0a3a1b-4f17-4e2a-923a-81ced411e0d3",
+   "datasetId": "d2e40e26-2503-4c0d-b517-6ea7d22076c6"
+  }
+ ],
+ "tables": {
+  "analysis_runs": {
+   "cols": [
+    "id",
+    "dataset_id",
+    "status",
+    "progress_pct",
+    "current_stage",
+    "started_at",
+    "finished_at",
+    "error_message",
+    "config_json",
+    "records_analyzed",
+    "health_score",
+    "health_breakdown_json"
+   ],
+   "count": 2,
+   "hash": "aa2889091767b5602c63b38a82ad61763d9da8869d442983176e438a3c1b167e"
+  },
+  "conflicts": {
+   "cols": [
+    "id",
+    "run_id",
+    "conflict_type",
+    "severity",
+    "shared_value",
+    "field_name",
+    "explanation",
+    "record_ids_json",
+    "created_at"
+   ],
+   "count": 139,
+   "hash": "a97e46b85457f17923ced76fd8c2e2ecac661ee4d10e8a712854b84dd51773f5"
+  },
+  "datasets": {
+   "cols": [
+    "id",
+    "organization_id",
+    "name",
+    "description",
+    "entity_kind",
+    "created_by",
+    "created_at",
+    "is_sample"
+   ],
+   "count": 2,
+   "hash": "f207ed2235c67a464dd01810942bd5c406093a9782f78c68de63740447d84da4"
+  },
+  "entity_cluster_members": {
+   "cols": [
+    "id",
+    "cluster_id",
+    "record_id"
+   ],
+   "count": 768,
+   "hash": "240954278c00da3ba005d22638c2d52c6cb256c1f067d9be4f8141b9d87ad191"
+  },
+  "entity_clusters": {
+   "cols": [
+    "id",
+    "run_id",
+    "cluster_kind",
+    "representative_name",
+    "record_count",
+    "confidence",
+    "matching_factors_json",
+    "conflicts_json",
+    "is_exact_repeat",
+    "created_at"
+   ],
+   "count": 192,
+   "hash": "a6f9d001c59f19192ba782f543f6332cb7d0a77a976d67617c2cec1db0310df0"
+  },
+  "exports": {
+   "cols": [
+    "id",
+    "run_id",
+    "export_type",
+    "format",
+    "file_path",
+    "created_at"
+   ],
+   "count": 0,
+   "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "field_profiles": {
+   "cols": [
+    "id",
+    "run_id",
+    "source_file_id",
+    "column_name",
+    "column_index",
+    "inferred_type",
+    "inferred_role",
+    "role_confidence",
+    "null_count",
+    "null_pct",
+    "distinct_count",
+    "cardinality_ratio",
+    "sample_values_json",
+    "stats_json"
+   ],
+   "count": 42,
+   "hash": "0bcfc80632084ae8af9a39edc4ed10c38135ef5befe018456a94e55a3e3ea0d8"
+  },
+  "golden_records": {
+   "cols": [
+    "id",
+    "run_id",
+    "cluster_id",
+    "status",
+    "created_at"
+   ],
+   "count": 0,
+   "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "governance_reviews": {
+   "cols": [
+    "id",
+    "run_id",
+    "status",
+    "created_at"
+   ],
+   "count": 0,
+   "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "jobs": {
+   "cols": [
+    "id",
+    "run_id",
+    "job_type",
+    "status",
+    "progress_pct",
+    "stage",
+    "result_json",
+    "error_message",
+    "created_at",
+    "updated_at"
+   ],
+   "count": 2,
+   "hash": "6fb2c551f829f2cbc6536c9694a29c9a1c7700af2370a460820359420ea4e1bd"
+  },
+  "lineage_events": {
+   "cols": [
+    "id",
+    "run_id",
+    "event_type",
+    "detail_json",
+    "created_at"
+   ],
+   "count": 0,
+   "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "match_pairs": {
+   "cols": [
+    "id",
+    "run_id",
+    "record_a_id",
+    "record_b_id",
+    "match_type",
+    "similarity_score",
+    "confidence",
+    "matching_factors_json",
+    "conflicting_factors_json"
+   ],
+   "count": 5731,
+   "hash": "86ad89d6cac8e722f106c6a11a1d23d71d64d0231c5d4e2fe571403ca1751bac"
+  },
+  "organizations": {
+   "cols": [
+    "id",
+    "name",
+    "created_at"
+   ],
+   "count": 1,
+   "hash": "f3574464f9cc120496956a0c286e66d2c86ad1ef965d9aff046e68ca98fb82f7"
+  },
+  "quality_issues": {
+   "cols": [
+    "id",
+    "run_id",
+    "record_id",
+    "category",
+    "issue_type",
+    "severity",
+    "field_name",
+    "explanation",
+    "detection_method",
+    "confidence",
+    "extra_json",
+    "created_at"
+   ],
+   "count": 1636,
+   "hash": "e7a1cc504416e527490451366934fcf25bd18206fc2e8ab57ff132120dc8507f"
+  },
+  "records": {
+   "cols": [
+    "id",
+    "run_id",
+    "source_file_id",
+    "source_row_ref",
+    "record_kind",
+    "raw_json",
+    "normalized_json",
+    "created_date",
+    "modified_date",
+    "primary_name",
+    "blocking_key"
+   ],
+   "count": 1091,
+   "hash": "712ff2b787f3b6bd845d898a68ec46a18699f17b2d032dbd5944a903e3c5b0c2"
+  },
+  "source_files": {
+   "cols": [
+    "id",
+    "dataset_id",
+    "original_filename",
+    "stored_path",
+    "file_size_bytes",
+    "file_type",
+    "sheet_name",
+    "status",
+    "error_message",
+    "uploaded_at",
+    "row_count",
+    "column_count"
+   ],
+   "count": 2,
+   "hash": "ffa22b487ec1106d60330ca983855100deb14e170f31ab888bead4580707e6ec"
+  },
+  "users": {
+   "cols": [
+    "id",
+    "organization_id",
+    "name",
+    "email",
+    "password_hash",
+    "role",
+    "created_at"
+   ],
+   "count": 1,
+   "hash": "b0e68b228a035320d455b6396d146ce99a8e4b5607e076a03b8e26b56355f870"
+  }
+ }
+}

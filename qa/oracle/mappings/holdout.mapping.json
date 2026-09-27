@@ -1,0 +1,3 @@
+{"columns":{"row_id":"S.No","entity_type":"Party Type","name":"Supplier Name","gstin":"GST No","vendor_code":"Supplier No.","item_code":"Material No.","item_desc":"Material Desc.","uom":"Base UoM","quantity":"Order Qty","unit_price":"Net Price","tax_rate":"Tax %","email":"E-mail","phone":"Mobile","address":"Street Address","city":"Town","state":"Region","postal":"PIN Code","created":"Created On","modified":"Changed On","payment_terms":"Terms of Payment","currency":"Curr."},
+ "date_formats":["%d.%m.%Y"],
+ "semantics":{"table_type":"master_entity","note":"hold-out; headers deliberately differ from ERP_Dump"}}

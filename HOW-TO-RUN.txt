@@ -1,0 +1,60 @@
+HOW TO RUN THIS APP (no technical knowledge needed)
+=====================================================
+
+ONE-TIME SETUP
+--------------
+1. Install Node.js (this is the only "program" you need to install):
+   - Go to https://nodejs.org
+   - Click the big button that says "LTS"
+   - Run the installer, clicking Next/Next/Finish like any normal program
+   - You only need to do this once, ever.
+
+RUNNING THE APP (every time you want to use it)
+------------------------------------------------
+You need TWO windows open at the same time. Don't worry, you don't need
+to type anything -- just double-click two files.
+
+1. Double-click "RUN-BACKEND.bat"
+   - A black window will open and do some work.
+   - The very first time, this takes a minute or two ("installing...").
+   - When it's ready, you'll see a line like:
+       Data Quality Platform API listening on port 4000
+     and a line with a login email and password. WRITE THESE DOWN
+     (or take a screenshot) -- you'll need them in step 3.
+   - Leave this window open and running.
+
+2. Double-click "RUN-FRONTEND.bat"
+   - Another black window opens and does some work.
+   - When it's ready, you'll see a line mentioning:
+       http://localhost:5173
+
+3. Open your web browser (Chrome, Edge, etc.) and go to:
+       http://localhost:5173
+
+   Log in using the email and password from step 1.
+
+THAT'S IT. You're using the app.
+
+TO STOP THE APP
+----------------
+Just close the two black windows. To use the app again later, repeat
+steps 1-3 above (setup only happens once; after that it starts in a
+few seconds).
+
+IF SOMETHING GOES WRONG
+-------------------------
+- If a window closes immediately or shows red text, take a screenshot
+  or copy the text and share it -- that tells us exactly what happened.
+- Make sure you did the Node.js install step above first.
+- Try double-clicking RUN-BACKEND.bat again -- if it's the first run,
+  sometimes the very first "installing..." step needs a retry if your
+  internet connection blips.
+
+WHAT IS THIS APP, BRIEFLY
+---------------------------
+This is a data-quality tool: upload a spreadsheet export (Excel/CSV) from
+your SAP/ERP system, and it finds duplicate records, missing information,
+invalid data, and other data-quality issues automatically. A sample
+spreadsheet with example problems already in it is included at:
+   backend\sample-data\SAMPLE_erp_export.xlsx
+so you can try it out before uploading your own real data.

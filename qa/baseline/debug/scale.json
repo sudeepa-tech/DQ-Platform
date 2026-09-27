@@ -1,0 +1,18 @@
+{
+ "heap_cap_mb": 2048,
+ "timeout_s": 60,
+ "results": [
+  {
+   "shape": "txn",
+   "n": 2000,
+   "datasetId": "3e46c37e-d467-4563-83b8-3dd0a5c4dcbc",
+   "analyzeStatus": 409,
+   "status": "unknown",
+   "error": "{\"error\":\"One or more files still need schema review before analysis can start.\",\"review_required\":true,\"files\":[{\"source_file_id\":\"0aacfd29-cc5c-4df7-bb0a-8065da4799f2\",\"original_filename\":\"txn_2000.csv\",\"mapping_version\":1,\"reason\":\"dataset_type_uncertain\",\"dataset_type\":{\"value\":\"mixed_unknown\",\"confidence\":0.4718,\"source\":\"classifier\",\"suggested\":\"mixed_unknown\",\"needs_review\":true,\"reasons\":[\"evidence is split: transaction 41%, master_material 30%, master_entity 29%\"],\"alternatives\":[{\"dataset_type\":\"transaction\",\"share\":0.4061,\"score\":7.65},{\"dataset_type\":\"master_material\",\"share\":0.3026,\"score\":5.7},{\"dataset_type\":\"master_entity\",\"share\":0.2913,\"score\":5.486}]},\"unresolved_columns\":0,\"required_action\":\"Confirm or override the dataset type via PATCH /api/schema/sources/0aacfd29-cc5c-4df7-bb0a-8065da4799f2/versions/1/dataset-type, then retry.\"}]}",
+   "seconds": 0.11,
+   "peakRssMB": 140,
+   "maxApiStallMs": 2,
+   "uploadStatus": 201
+  }
+ ]
+}

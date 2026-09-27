@@ -1,0 +1,581 @@
+{
+ "label": "service_entry",
+ "data": "Service_Entry_Sheet_23_09_2026.xlsx",
+ "run": {
+  "datasetId": "51f82bf2-59e2-442a-a7db-356d67ffb479",
+  "runId": "1911c580-0d6d-4f0f-968a-b1f5c0ecf39b",
+  "analyzeStatus": 202,
+  "status": "complete",
+  "error": null,
+  "seconds": 1.8,
+  "peakRssMB": 163,
+  "maxApiStallMs": 1654,
+  "uploadStatus": 201
+ },
+ "dashboard": {
+  "summary": {
+   "records_analyzed": 1000,
+   "files_analyzed": 1,
+   "health_score": 93,
+   "critical_issues": 0,
+   "total_issues": 1780,
+   "records_with_any_issue": 1000,
+   "pct_records_requiring_attention": 100,
+   "potential_duplicate_records": 0,
+   "exact_repeat_records": 0,
+   "incomplete_records": 0,
+   "invalid_records": 1000,
+   "conflicts": 0,
+   "stale_records": 688
+  },
+  "health": {
+   "overall": 93,
+   "dims": {
+    "completeness": 100,
+    "validity": 85,
+    "uniqueness": 100,
+    "consistency": 100,
+    "freshness": 72,
+    "conflict_penalty_applied": 0
+   }
+  },
+  "issues_by_category": [
+   {
+    "category": "freshness",
+    "c": 734
+   },
+   {
+    "category": "validity",
+    "c": 1046
+   }
+  ],
+  "top_issue_types": [
+   {
+    "issue_type": "invalid_date",
+    "category": "validity",
+    "severity": "low",
+    "c": 1046
+   },
+   {
+    "issue_type": "stale_record",
+    "category": "freshness",
+    "severity": "medium",
+    "c": 688
+   },
+   {
+    "issue_type": "missing_date_info",
+    "category": "freshness",
+    "severity": "low",
+    "c": 46
+   }
+  ],
+  "age_distribution": [
+   {
+    "bucket": "1-3 years",
+    "c": 76
+   },
+   {
+    "bucket": "3-5 years",
+    "c": 239
+   },
+   {
+    "bucket": "5+ years",
+    "c": 450
+   },
+   {
+    "bucket": "< 1 year",
+    "c": 189
+   },
+   {
+    "bucket": "unknown",
+    "c": 46
+   }
+  ]
+ },
+ "roles": [
+  {
+   "column": "Entry Sheet",
+   "type": "number",
+   "role": "phone",
+   "null_pct": 0
+  },
+  {
+   "column": "External Number",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Created By",
+   "type": "string",
+   "role": "created_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Created On",
+   "type": "date",
+   "role": "created_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Changed On",
+   "type": "date",
+   "role": "created_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Changed By",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Pers. Rsp. (Internally)",
+   "type": "date",
+   "role": "modified_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Person Resp. (Externally)",
+   "type": "date",
+   "role": "unclassified_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Location of Service",
+   "type": "string",
+   "role": "address",
+   "null_pct": 0.839
+  },
+  {
+   "column": "Price Reference Date",
+   "type": "date",
+   "role": "unclassified_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Period",
+   "type": "date",
+   "role": "unclassified_date",
+   "null_pct": 0
+  },
+  {
+   "column": "End",
+   "type": "date",
+   "role": "unclassified_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Gross Value",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Unplanned Portion",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Unpl. Value w/o Ref. to Contract",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Currency",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Package number",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Short Text",
+   "type": "string",
+   "role": "identifier",
+   "null_pct": 0
+  },
+  {
+   "column": "Purchasing Document",
+   "type": "number",
+   "role": "phone",
+   "null_pct": 0
+  },
+  {
+   "column": "Item",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Deletion indicator",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0.999
+  },
+  {
+   "column": "Acceptance",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0.067
+  },
+  {
+   "column": "Final Entry",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0.997
+  },
+  {
+   "column": "Release group",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0.034
+  },
+  {
+   "column": "Release Strategy",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0.034
+  },
+  {
+   "column": "Release indicator",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0.034
+  },
+  {
+   "column": "Release State",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0.056
+  },
+  {
+   "column": "Subject to Release",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0.939
+  },
+  {
+   "column": "Blocking Indicator",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "PtsSc quality serv.",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "On-time delivery",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Document Date",
+   "type": "date",
+   "role": "unclassified_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Posting Date",
+   "type": "date",
+   "role": "unclassified_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Reference",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0.913
+  },
+  {
+   "column": "Document Header Text",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0.913
+  },
+  {
+   "column": "Acct Assignment Cat.",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Consumption",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Net Value",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Purchase Requisition",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Item",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Maintenance Plan",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Maintenance Item",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "MntPlan Call No.",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Shipment Cost Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Item",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Communication Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "User field",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Non-deductible input tax",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Model Serv. Specifications",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Internal Object No.",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "SRV Returns Indicator",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Data Aging Filter",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  }
+ ],
+ "role_counts": {
+  "phone": 2,
+  "categorical": 13,
+  "created_date": 3,
+  "modified_date": 1,
+  "unclassified_date": 6,
+  "address": 1,
+  "numeric": 15,
+  "identifier": 1,
+  "unknown": 10
+ },
+ "role_checks": {
+  "ok": 5,
+  "bad": 14,
+  "rows": [
+   {
+    "header": "Entry Sheet",
+    "expect_one_of": [
+     "doc_key"
+    ],
+    "legacy_role": "phone",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Purchasing Document",
+    "expect_one_of": [
+     "doc_ref"
+    ],
+    "legacy_role": "phone",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Created On",
+    "expect_one_of": [
+     "created_date"
+    ],
+    "legacy_role": "created_date",
+    "verdict": "ok"
+   },
+   {
+    "header": "Changed On",
+    "expect_one_of": [
+     "modified_date"
+    ],
+    "legacy_role": "created_date",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Created By",
+    "expect_one_of": [
+     "audit_user"
+    ],
+    "legacy_role": "created_date",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Changed By",
+    "expect_one_of": [
+     "audit_user"
+    ],
+    "legacy_role": "categorical",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Gross Value",
+    "expect_one_of": [
+     "amount"
+    ],
+    "legacy_role": "numeric",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Net Value",
+    "expect_one_of": [
+     "amount"
+    ],
+    "legacy_role": "numeric",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Currency",
+    "expect_one_of": [
+     "currency"
+    ],
+    "legacy_role": "categorical",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Item",
+    "expect_one_of": [
+     "line_item"
+    ],
+    "legacy_role": "numeric",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Entry Sheet",
+    "must_not_be": [
+     "phone",
+     "quantity"
+    ],
+    "legacy_role": "phone",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Purchasing Document",
+    "must_not_be": [
+     "phone"
+    ],
+    "legacy_role": "phone",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Created By",
+    "must_not_be": [
+     "created_date",
+     "modified_date",
+     "date"
+    ],
+    "legacy_role": "created_date",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Changed By",
+    "must_not_be": [
+     "modified_date",
+     "date"
+    ],
+    "legacy_role": "categorical",
+    "verdict": "ok"
+   },
+   {
+    "header": "Short Text",
+    "must_not_be": [
+     "entity_name"
+    ],
+    "legacy_role": "identifier",
+    "verdict": "ok"
+   },
+   {
+    "header": "Pers. Rsp. (Internally)",
+    "must_not_be": [
+     "modified_date",
+     "created_date"
+    ],
+    "legacy_role": "modified_date",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Person Resp. (Externally)",
+    "must_not_be": [
+     "modified_date",
+     "created_date"
+    ],
+    "legacy_role": "unclassified_date",
+    "verdict": "ok"
+   },
+   {
+    "header": "Pers. Rsp. (Internally)",
+    "must_require_review": true,
+    "legacy_role": "modified_date",
+    "verdict": "SILENTLY_ASSIGNED"
+   },
+   {
+    "header": "Person Resp. (Externally)",
+    "must_require_review": true,
+    "legacy_role": "unclassified_date",
+    "verdict": "ok"
+   }
+  ]
+ },
+ "issue_breakdown_by_field": null
+}

@@ -1,0 +1,998 @@
+{
+ "file": "Service_Entry_Sheet_23_09_2026.xlsx",
+ "rows": 1000,
+ "columns": [
+  {
+   "index": 0,
+   "header": "Entry Sheet",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1000,
+   "unique_ratio": 1.0,
+   "top_shapes": [
+    [
+     "9999999999",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 1,
+   "header": "External Number",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 32,
+   "unique_ratio": 0.032,
+   "top_shapes": [
+    [
+     "AA-99",
+     990
+    ],
+    [
+     "AAAAA",
+     10
+    ]
+   ]
+  },
+  {
+   "index": 2,
+   "header": "Created By",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 33,
+   "unique_ratio": 0.033,
+   "top_shapes": [
+    [
+     "AAAAAAA99999",
+     997
+    ],
+    [
+     "AAAAAAAAAAAA",
+     3
+    ]
+   ]
+  },
+  {
+   "index": 3,
+   "header": "Created On",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "date": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 642,
+   "unique_ratio": 0.642,
+   "top_shapes": [
+    [
+     "9999-99-99 99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 4,
+   "header": "Changed On",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "date": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 586,
+   "unique_ratio": 0.586,
+   "top_shapes": [
+    [
+     "9999-99-99 99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 5,
+   "header": "Changed By",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 41,
+   "unique_ratio": 0.041,
+   "top_shapes": [
+    [
+     "AAAAAAA99999",
+     997
+    ],
+    [
+     "AAAAAAAAAAAA",
+     3
+    ]
+   ]
+  },
+  {
+   "index": 6,
+   "header": "Pers. Rsp. (Internally)",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 945,
+   "distinct": 657,
+   "unique_ratio": 0.657,
+   "top_shapes": [
+    [
+     "99.99.9999",
+     940
+    ],
+    [
+     "9.99.9999",
+     12
+    ],
+    [
+     "99.99.99",
+     12
+    ]
+   ]
+  },
+  {
+   "index": 7,
+   "header": "Person Resp. (Externally)",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 947,
+   "distinct": 668,
+   "unique_ratio": 0.668,
+   "top_shapes": [
+    [
+     "99.99.9999",
+     944
+    ],
+    [
+     "99.99.99",
+     12
+    ],
+    [
+     "99.9.9999",
+     11
+    ]
+   ]
+  },
+  {
+   "index": 8,
+   "header": "Location of Service",
+   "populated_ratio": 0.161,
+   "state": "sparse",
+   "excel_kinds": {
+    "empty": 839,
+    "text": 161
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 59,
+   "unique_ratio": 0.36645962732919257,
+   "top_shapes": [
+    [
+     "Aaaaaaaa",
+     20
+    ],
+    [
+     "Aaaaaaaaa Aaaaaa Aaa",
+     13
+    ],
+    [
+     "Aaaaaa",
+     11
+    ]
+   ]
+  },
+  {
+   "index": 9,
+   "header": "Price Reference Date",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "date": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 643,
+   "unique_ratio": 0.643,
+   "top_shapes": [
+    [
+     "9999-99-99 99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 10,
+   "header": "Period",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "date": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 446,
+   "unique_ratio": 0.446,
+   "top_shapes": [
+    [
+     "9999-99-99 99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 11,
+   "header": "End",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "date": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 376,
+   "unique_ratio": 0.376,
+   "top_shapes": [
+    [
+     "9999-99-99 99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 12,
+   "header": "Gross Value",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 954,
+   "unique_ratio": 0.954,
+   "top_shapes": [
+    [
+     "99999.9",
+     273
+    ],
+    [
+     "999999.9",
+     272
+    ],
+    [
+     "999999.99",
+     173
+    ]
+   ]
+  },
+  {
+   "index": 13,
+   "header": "Unplanned Portion",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 14,
+   "header": "Unpl. Value w/o Ref. to Contract",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 15,
+   "header": "Currency",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "AAA",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 16,
+   "header": "Package number",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 995,
+   "unique_ratio": 0.995,
+   "top_shapes": [
+    [
+     "999999",
+     626
+    ],
+    [
+     "9999999",
+     346
+    ],
+    [
+     "99999",
+     22
+    ]
+   ]
+  },
+  {
+   "index": 17,
+   "header": "Short Text",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 917,
+   "unique_ratio": 0.917,
+   "top_shapes": [
+    [
+     "AA 99",
+     14
+    ],
+    [
+     "Aaaaaaaa/A.A Aaaa/AA-99/",
+     9
+    ],
+    [
+     "Aaaaaaaaa/AA-99/Aaaaaaaa",
+     7
+    ]
+   ]
+  },
+  {
+   "index": 18,
+   "header": "Purchasing Document",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 927,
+   "unique_ratio": 0.927,
+   "top_shapes": [
+    [
+     "9999999999",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 19,
+   "header": "Item",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 21,
+   "unique_ratio": 0.021,
+   "top_shapes": [
+    [
+     "99",
+     982
+    ],
+    [
+     "999",
+     18
+    ]
+   ]
+  },
+  {
+   "index": 20,
+   "header": "Deletion indicator",
+   "populated_ratio": 0.001,
+   "state": "sparse",
+   "excel_kinds": {
+    "empty": 999,
+    "text": 1
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 1.0,
+   "top_shapes": [
+    [
+     "A",
+     1
+    ]
+   ]
+  },
+  {
+   "index": 21,
+   "header": "Acceptance",
+   "populated_ratio": 0.933,
+   "state": "sparse",
+   "excel_kinds": {
+    "text": 933,
+    "empty": 67
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.0010718113612004287,
+   "top_shapes": [
+    [
+     "A",
+     933
+    ]
+   ]
+  },
+  {
+   "index": 22,
+   "header": "Final Entry",
+   "populated_ratio": 0.003,
+   "state": "sparse",
+   "excel_kinds": {
+    "empty": 997,
+    "text": 3
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.3333333333333333,
+   "top_shapes": [
+    [
+     "A",
+     3
+    ]
+   ]
+  },
+  {
+   "index": 23,
+   "header": "Release group",
+   "populated_ratio": 0.966,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 966,
+    "empty": 34
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.0010351966873706005,
+   "top_shapes": [
+    [
+     "A9",
+     966
+    ]
+   ]
+  },
+  {
+   "index": 24,
+   "header": "Release Strategy",
+   "populated_ratio": 0.966,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 966,
+    "empty": 34
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.0010351966873706005,
+   "top_shapes": [
+    [
+     "99",
+     966
+    ]
+   ]
+  },
+  {
+   "index": 25,
+   "header": "Release indicator",
+   "populated_ratio": 0.966,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 966,
+    "empty": 34
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 2,
+   "unique_ratio": 0.002070393374741201,
+   "top_shapes": [
+    [
+     "A",
+     966
+    ]
+   ]
+  },
+  {
+   "index": 26,
+   "header": "Release State",
+   "populated_ratio": 0.944,
+   "state": "sparse",
+   "excel_kinds": {
+    "text": 944,
+    "empty": 56
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 2,
+   "unique_ratio": 0.00211864406779661,
+   "top_shapes": [
+    [
+     "AA",
+     905
+    ],
+    [
+     "A",
+     39
+    ]
+   ]
+  },
+  {
+   "index": 27,
+   "header": "Subject to Release",
+   "populated_ratio": 0.061,
+   "state": "sparse",
+   "excel_kinds": {
+    "empty": 939,
+    "text": 61
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.01639344262295082,
+   "top_shapes": [
+    [
+     "A",
+     61
+    ]
+   ]
+  },
+  {
+   "index": 28,
+   "header": "Blocking Indicator",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 29,
+   "header": "PtsSc quality serv.",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 30,
+   "header": "On-time delivery",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 31,
+   "header": "Document Date",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "date": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 660,
+   "unique_ratio": 0.66,
+   "top_shapes": [
+    [
+     "9999-99-99 99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 32,
+   "header": "Posting Date",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "date": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 614,
+   "unique_ratio": 0.614,
+   "top_shapes": [
+    [
+     "9999-99-99 99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 33,
+   "header": "Reference",
+   "populated_ratio": 0.087,
+   "state": "sparse",
+   "excel_kinds": {
+    "empty": 913,
+    "text": 87
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 69,
+   "unique_ratio": 0.7931034482758621,
+   "top_shapes": [
+    [
+     "999",
+     34
+    ],
+    [
+     "AAAAA9999999999",
+     16
+    ],
+    [
+     "9999",
+     14
+    ]
+   ]
+  },
+  {
+   "index": 34,
+   "header": "Document Header Text",
+   "populated_ratio": 0.087,
+   "state": "sparse",
+   "excel_kinds": {
+    "empty": 913,
+    "text": 87
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 53,
+   "unique_ratio": 0.6091954022988506,
+   "top_shapes": [
+    [
+     "Aaaaaaa Aaaaaaa aaaa",
+     8
+    ],
+    [
+     "aaaaa aaaaa",
+     7
+    ],
+    [
+     "Aaaaaaaa Aaaaaaaa",
+     6
+    ]
+   ]
+  },
+  {
+   "index": 35,
+   "header": "Acct Assignment Cat.",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 3,
+   "unique_ratio": 0.003,
+   "top_shapes": [
+    [
+     "A",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 36,
+   "header": "Consumption",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "A",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 37,
+   "header": "Net Value",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 954,
+   "unique_ratio": 0.954,
+   "top_shapes": [
+    [
+     "99999.9",
+     273
+    ],
+    [
+     "999999.9",
+     272
+    ],
+    [
+     "999999.99",
+     173
+    ]
+   ]
+  },
+  {
+   "index": 38,
+   "header": "Purchase Requisition",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 39,
+   "header": "Item",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 40,
+   "header": "Maintenance Plan",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 41,
+   "header": "Maintenance Item",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 42,
+   "header": "MntPlan Call No.",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 43,
+   "header": "Shipment Cost Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 44,
+   "header": "Item",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 45,
+   "header": "Communication Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 46,
+   "header": "User field",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 47,
+   "header": "Non-deductible input tax",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 48,
+   "header": "Model Serv. Specifications",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 49,
+   "header": "Internal Object No.",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 50,
+   "header": "SRV Returns Indicator",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 51,
+   "header": "Data Aging Filter",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  }
+ ],
+ "duplicate_headers_case_insensitive": [
+  "item"
+ ]
+}

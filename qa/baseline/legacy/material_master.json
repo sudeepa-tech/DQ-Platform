@@ -1,0 +1,2099 @@
+{
+ "label": "material_master",
+ "data": "Material_Master_23_09_2026.xlsx",
+ "run": {
+  "datasetId": "a2c23339-ec23-41f5-8463-f2a966ef383b",
+  "runId": "2dce85e9-7512-4929-b7df-9cac5f1c9622",
+  "analyzeStatus": 202,
+  "status": "complete",
+  "error": null,
+  "seconds": 3.661,
+  "peakRssMB": 259,
+  "maxApiStallMs": 3531,
+  "uploadStatus": 201
+ },
+ "dashboard": {
+  "summary": {
+   "records_analyzed": 1000,
+   "files_analyzed": 1,
+   "health_score": 75,
+   "critical_issues": 1000,
+   "total_issues": 7000,
+   "records_with_any_issue": 1000,
+   "pct_records_requiring_attention": 100,
+   "potential_duplicate_records": 0,
+   "exact_repeat_records": 12,
+   "incomplete_records": 1000,
+   "invalid_records": 0,
+   "conflicts": 0,
+   "stale_records": 0
+  },
+  "health": {
+   "overall": 75,
+   "dims": {
+    "completeness": 0,
+    "validity": 100,
+    "uniqueness": 100,
+    "consistency": 100,
+    "freshness": 100,
+    "conflict_penalty_applied": 0
+   }
+  },
+  "issues_by_category": [
+   {
+    "category": "completeness",
+    "c": 7000
+   }
+  ],
+  "top_issue_types": [
+   {
+    "issue_type": "missing_field",
+    "category": "completeness",
+    "severity": "medium",
+    "c": 5000
+   },
+   {
+    "issue_type": "missing_primary_identifier",
+    "category": "completeness",
+    "severity": "critical",
+    "c": 1000
+   },
+   {
+    "issue_type": "incomplete_record",
+    "category": "completeness",
+    "severity": "high",
+    "c": 1000
+   }
+  ],
+  "age_distribution": [
+   {
+    "bucket": "unknown",
+    "c": 1000
+   }
+  ]
+ },
+ "roles": [
+  {
+   "column": "Material",
+   "type": "number",
+   "role": "phone",
+   "null_pct": 0
+  },
+  {
+   "column": "Created On",
+   "type": "date",
+   "role": "created_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Created At Time",
+   "type": "date",
+   "role": "created_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Created By",
+   "type": "string",
+   "role": "created_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Last Change",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Changed By",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Compl. maint. status",
+   "type": "string",
+   "role": "status",
+   "null_pct": 0
+  },
+  {
+   "column": "Maintenance Status",
+   "type": "string",
+   "role": "status",
+   "null_pct": 0
+  },
+  {
+   "column": "DF at client level",
+   "type": "string",
+   "role": "name",
+   "null_pct": 1
+  },
+  {
+   "column": "Material Type",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Industry",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Material Group",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Old material number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Base Unit of Measure",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Order Unit",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Document",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Document Type",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Document Version",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Page Format",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Document Change No.",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Page Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Number Of Sheets",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Prod./insp. memo",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Page format",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Size/dimensions",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Basic material",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Industry Std Desc.",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Lab/Office",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Purchasing value key",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Gross Weight",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Net Weight",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Unit of Weight",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Volume",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Volume Unit",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Container reqmts",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Storage conditions",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Temp. conditions",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Low-Level Code",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Transportation Group",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Haz. material number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Division",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Competitor",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "EAN Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Number of GR slips",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Procurement rule",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Source of supply",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Season",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Label type",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Label form",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Field deactivated",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "EAN/UPC",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "EAN category",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Length",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Width",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Height",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Unit of Dimension",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product Hierarchy",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Stock Transfer Net Change Costing",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "CAD Indicator",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "QM in Procur. Active",
+   "type": "string",
+   "role": "status",
+   "null_pct": 1
+  },
+  {
+   "column": "Allowed Packaging Weight",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Unit of weight",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Allowed Packaging Volume",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Volume unit",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Excess wt tolerance",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Excess volume tol.",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Variable Purchase Order Unit",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Revision Level Assgd",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Configurable Material",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Batch Management",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Packaging Mat. Type",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Maximum level",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Stackability factor",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Matl Grp Pack.Matls",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Authorization Group",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Valid From",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Valid To",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Season Year",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Price Band Category",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "With empties BOM",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Ext. Material Group",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Cross-plant CM",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Material Category",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Co-Product",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Follow-up material",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Pricing Ref. Matl",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Cross-Plant Material Status",
+   "type": "string",
+   "role": "status",
+   "null_pct": 1
+  },
+  {
+   "column": "Cross-Distribution-Chain Material Status",
+   "type": "string",
+   "role": "status",
+   "null_pct": 1
+  },
+  {
+   "column": "Valid from",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Valid from",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Tax classification",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Catalog Profile",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Min. Rem. Shelf Life",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Total shelf life",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Storage percentage",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Content Unit",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Net Contents",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Comp. Price Unit",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Labeling matl grpg",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Gross Contents",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Conversion Method",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Internal object no.",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Environmentally rlvt",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product allocation",
+   "type": "string",
+   "role": "address",
+   "null_pct": 1
+  },
+  {
+   "column": "Pricing profile",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Qual.f.FreeGoodsDis.",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Manufacturer Part No.",
+   "type": "string",
+   "role": "item_code",
+   "null_pct": 1
+  },
+  {
+   "column": "Manufacturer",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Int. material number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Mfr Part Profile",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Units of meas. usage",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Rollout",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "DG indicator profile",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Highly viscous",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "In bulk/liquid",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Serialization level",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Closed",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Appr.Batch Recd Req.",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Assign effect. vals",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Material completion level",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Period Ind. for SLED",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Rounding rule SLED",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product Composition",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Gen. item cat. grp",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Logistical variants",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Material is locked",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Indicator for relevance in CM",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Assortment List Type",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Expiration Date",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "EAN Variant",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Generic Material",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Reference matl for packing",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "GDS-Relevant",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Origin Acceptance",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Standard HU Type",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Pilferable",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Whse Stor. Condition",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "WH Material Group",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Handling Indicator",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Relevant for HS",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Handling Unit Type",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Varb. Tare Weight",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Maximum Capacity",
+   "type": "number",
+   "role": "address",
+   "null_pct": 0
+  },
+  {
+   "column": "Overcapacity Toler.",
+   "type": "number",
+   "role": "address",
+   "null_pct": 0
+  },
+  {
+   "column": "Max. Pack. Length",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Max. Pack. Width",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Max. Pack. Height",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Unit of Measurement",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Cntry/Reg of Origin",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Material Freight Grp",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Quarant. Per.",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Quarantine Time Unit",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Quality Inspection Group",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Serial No. Profile",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Form Name",
+   "type": "string",
+   "role": "name",
+   "null_pct": 1
+  },
+  {
+   "column": "Logistics Unit of Measure",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Material Is a CW Material",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "CW Profile for CW Quantity",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Catch Weight Tolerance Group",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Adjustment Profile (Merchandise Distr.)",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Intellectual Property",
+   "type": "string",
+   "role": "phone",
+   "null_pct": 1
+  },
+  {
+   "column": "Variant Price Allowed",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Medium",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Commodity",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Cont. Non-Textile Parts of Animal Origin",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Textile Composition Maintenance Active",
+   "type": "string",
+   "role": "status",
+   "null_pct": 1
+  },
+  {
+   "column": "Last Changed Time",
+   "type": "date",
+   "role": "created_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Material",
+   "type": "number",
+   "role": "phone",
+   "null_pct": 0
+  },
+  {
+   "column": "Chemical Compliance Relevance Indicator",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Category of a Logistical Material",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Material Number of Sales Material",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Identification Tag Type",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product OID",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Silent data migration status",
+   "type": "number",
+   "role": "status",
+   "null_pct": 0
+  },
+  {
+   "column": "Segmentation Structure",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Segmentation Strategy",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Segmentation Status",
+   "type": "string",
+   "role": "status",
+   "null_pct": 1
+  },
+  {
+   "column": "Segmentation Strategy Scope",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Segmentation Relevant",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "ANP Code",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Protected Species Management Code",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Fashion Attribute 1",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Fashion Attribute 2",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Fashion Attribute 3",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Season Usage",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Season Active in Inventory Management",
+   "type": "string",
+   "role": "status",
+   "null_pct": 1
+  },
+  {
+   "column": "Material Conv. ID",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Dummy Field",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Product ID",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Maturation Time",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Reqd Min. Shelf Life",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Reqd Max. Shelf Life",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Preferred Unit of Measure",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Reference Product for Package Building",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product Shape",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product Orientation Profile",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Overhang Threshold [%]",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Bridge Threshold [%]",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Maximum Slope for Bridges [°]",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Absolute Height Threshold",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "UoM of Absolute Height Threshold",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product for Kit-to-Order",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Procure to Order",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Push Deployment from Supplier",
+   "type": "string",
+   "role": "name",
+   "null_pct": 1
+  },
+  {
+   "column": "Inventory Balancing Not Allowed",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Global Stock on Entry Location DRP",
+   "type": "string",
+   "role": "address",
+   "null_pct": 1
+  },
+  {
+   "column": "Excl. from Express Shipm.",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "New Product",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Production Start Date",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Production End Date",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Inventory Planning Mode",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product is Classified",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Material Is Activated for CW",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Valuation UoM",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "CW Tolerance Group",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Fixed Tare",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Ref.Unit of Measure TARE Calculation",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Loading Units",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Loading Unit Group",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Structure Category",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Tolerance Type ID",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Counting Group",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "DSD Grouping",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Cable Diameter",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Unit for Dimensions",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Cable Diameter Allowance in Percent",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Bending Factor",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Inner Width",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Outer Diameter",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Core Diameter",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Load Capacity",
+   "type": "number",
+   "role": "address",
+   "null_pct": 0
+  },
+  {
+   "column": "R-O Flange Thick.",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "R-O Flange Height",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Coil Delivery",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Run-Out Flange",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "No. Vertical Layers",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Smallest Permitted Clearance",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Serialization Type",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Synchronization Active",
+   "type": "string",
+   "role": "status",
+   "null_pct": 1
+  },
+  {
+   "column": "Last Synchronization Time",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Indicator Changed Since Integration",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Profile Relevant Country/Region",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Product Category",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Tilting Allowed",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "No Stacking",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Only Bottom Layer",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Only Top Layer",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Stacking Factor",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Load without PKM",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "PKM Overhang Depth",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "PKM Overhang Width",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Max. Stacking Height",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Min. Stacking Height",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Max.StackH Tolerance",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "No. Mat / Closed PKM",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "VSO Unit of Measure",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Closed PKM Required",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Packaging Code",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "DG Packaging Status",
+   "type": "string",
+   "role": "status",
+   "null_pct": 1
+  },
+  {
+   "column": "Duration of Work",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Unit",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Service Profile",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Response Prof.",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Billing Cycle",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Billing Cycle Determination Rule ID",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Assignment Schema",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Contract Auto Renewal Indicator",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Material Condition Mgmt",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Return Code",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Return to Logistics Level",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "NATO Item ID Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Interchangeability Code for Ammunition",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "RIC ID",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Sensitivity for Characteristics",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Long Manufacturer Part Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Overlength Part Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Spare Part Class Code",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Variable ObjectID",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "MS Book Part Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Tolerance Type",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "SU Batch Default Value",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Goods Rcpt to Posted Single-Unit Bch",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Form-Fit-Function class",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Supersession chain number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Creation Status",
+   "type": "string",
+   "role": "status",
+   "null_pct": 1
+  },
+  {
+   "column": "Int. Char. Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Int. Char. Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Int. Char. Number",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Color",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Main Size",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Second Size",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Free Charact. Value",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Care Code",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Brand",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Component 1",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Percentage Share 1",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Component 2",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Percentage Share 2",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Component 3",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Percentage Share 3",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Component 4",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Percentage Share 4",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Component 5",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Percentage Share 5",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Fashion Grade",
+   "type": "string",
+   "role": "unknown",
+   "null_pct": 1
+  },
+  {
+   "column": "Material Description",
+   "type": "string",
+   "role": "item_desc",
+   "null_pct": 0
+  },
+  {
+   "column": "Material description",
+   "type": "string",
+   "role": "item_desc",
+   "null_pct": 0
+  }
+ ],
+ "role_counts": {
+  "phone": 3,
+  "created_date": 4,
+  "unknown": 208,
+  "status": 12,
+  "name": 3,
+  "categorical": 9,
+  "numeric": 61,
+  "address": 5,
+  "item_code": 1,
+  "item_desc": 2
+ },
+ "role_checks": {
+  "ok": 4,
+  "bad": 14,
+  "rows": [
+   {
+    "header": "Material",
+    "expect_one_of": [
+     "material_key"
+    ],
+    "legacy_role": "phone",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Material Description",
+    "expect_one_of": [
+     "material_description"
+    ],
+    "legacy_role": "item_desc",
+    "verdict": "ok"
+   },
+   {
+    "header": "Material description",
+    "expect_one_of": [
+     "material_description"
+    ],
+    "legacy_role": "item_desc",
+    "verdict": "ok"
+   },
+   {
+    "header": "Created On",
+    "expect_one_of": [
+     "created_date"
+    ],
+    "legacy_role": "created_date",
+    "verdict": "ok"
+   },
+   {
+    "header": "Created By",
+    "expect_one_of": [
+     "audit_user"
+    ],
+    "legacy_role": "created_date",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Base Unit of Measure",
+    "expect_one_of": [
+     "uom"
+    ],
+    "legacy_role": "categorical",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Material Type",
+    "expect_one_of": [
+     "material_type",
+     "category"
+    ],
+    "legacy_role": "categorical",
+    "verdict": "ok"
+   },
+   {
+    "header": "Material Group",
+    "expect_one_of": [
+     "category",
+     "material_group"
+    ],
+    "legacy_role": "numeric",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Material",
+    "must_not_be": [
+     "phone",
+     "quantity",
+     "date"
+    ],
+    "legacy_role": "phone",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Product allocation",
+    "must_not_be": [
+     "address",
+     "city",
+     "phone"
+    ],
+    "legacy_role": "address",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Maximum Capacity",
+    "must_not_be": [
+     "address",
+     "city"
+    ],
+    "legacy_role": "address",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Load Capacity",
+    "must_not_be": [
+     "address",
+     "city"
+    ],
+    "legacy_role": "address",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Intellectual Property",
+    "must_not_be": [
+     "phone"
+    ],
+    "legacy_role": "phone",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Form Name",
+    "must_not_be": [
+     "entity_name"
+    ],
+    "legacy_role": "name",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "DF at client level",
+    "must_not_be": [
+     "entity_name"
+    ],
+    "legacy_role": "name",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Push Deployment from Supplier",
+    "must_not_be": [
+     "entity_name"
+    ],
+    "legacy_role": "name",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Created By",
+    "must_not_be": [
+     "created_date",
+     "modified_date",
+     "date"
+    ],
+    "legacy_role": "created_date",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   },
+   {
+    "header": "Created At Time",
+    "must_not_be": [
+     "created_date",
+     "date"
+    ],
+    "legacy_role": "created_date",
+    "verdict": "FORBIDDEN_ASSIGNMENT"
+   }
+  ]
+ },
+ "issue_breakdown_by_field": null
+}

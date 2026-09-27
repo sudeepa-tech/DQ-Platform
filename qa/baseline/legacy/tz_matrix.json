@@ -1,0 +1,356 @@
+{
+ "adapter": "legacy",
+ "results": [
+  {
+   "tz": "Asia/Kolkata",
+   "dataset": "service_entry",
+   "columns": {
+    "Created On": {
+     "rows": 1000,
+     "mismatches": 1000,
+     "example": {
+      "row": 2,
+      "expected": "2014-03-27",
+      "got": "2014-03-26"
+     }
+    },
+    "Changed On": {
+     "rows": 1000,
+     "mismatches": 1000,
+     "example": {
+      "row": 2,
+      "expected": "2014-04-01",
+      "got": "2014-03-31"
+     }
+    },
+    "Posting Date": {
+     "rows": 1000,
+     "mismatches": 1000,
+     "example": {
+      "row": 2,
+      "expected": "2014-03-27",
+      "got": "2014-03-26"
+     }
+    },
+    "Document Date": {
+     "rows": 1000,
+     "mismatches": 1000,
+     "example": {
+      "row": 2,
+      "expected": "2014-03-27",
+      "got": "2014-03-26"
+     }
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Created By",
+     "Created On",
+     "Changed On"
+    ],
+    "comparedAgainst": "Created On",
+    "mismatches": 1000,
+    "example": {
+     "row": 2,
+     "expected": "2014-03-27",
+     "got": null
+    },
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "dataset": "material_master",
+   "columns": {
+    "Created On": {
+     "rows": 1000,
+     "mismatches": 1000,
+     "example": {
+      "row": 2,
+      "expected": "2015-09-10",
+      "got": "2015-09-09"
+     }
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Created On",
+     "Created At Time",
+     "Created By",
+     "Last Changed Time"
+    ],
+    "comparedAgainst": "Created On",
+    "mismatches": 1000,
+    "example": {
+     "row": 2,
+     "expected": "2015-09-10",
+     "got": "2015-09-08"
+    },
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "dataset": "holdout",
+   "columns": {
+    "Created On": {
+     "rows": 781,
+     "mismatches": 781,
+     "example": {
+      "row": 2,
+      "expected": "2023-12-21",
+      "got": "2023-12-20"
+     }
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Created On",
+     "Changed On"
+    ],
+    "comparedAgainst": "Created On",
+    "mismatches": 781,
+    "example": {
+     "row": 2,
+     "expected": "2023-12-21",
+     "got": "2023-12-19"
+    },
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "dataset": "erp_dump",
+   "columns": {
+    "Creation_Date": {
+     "rows": 310,
+     "mismatches": 0,
+     "example": null
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Creation_Date"
+    ],
+    "comparedAgainst": "Creation_Date",
+    "mismatches": 308,
+    "example": {
+     "row": 2,
+     "expected": "2023-10-11",
+     "got": "2023-10-10"
+    },
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "UTC",
+   "dataset": "service_entry",
+   "columns": {
+    "Created On": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    },
+    "Changed On": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    },
+    "Posting Date": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    },
+    "Document Date": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Created By",
+     "Created On",
+     "Changed On"
+    ],
+    "comparedAgainst": "Created On",
+    "mismatches": 1000,
+    "example": {
+     "row": 2,
+     "expected": "2014-03-27",
+     "got": null
+    },
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "UTC",
+   "dataset": "material_master",
+   "columns": {
+    "Created On": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Created On",
+     "Created At Time",
+     "Created By",
+     "Last Changed Time"
+    ],
+    "comparedAgainst": "Created On",
+    "mismatches": 0,
+    "example": null,
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "UTC",
+   "dataset": "holdout",
+   "columns": {
+    "Created On": {
+     "rows": 781,
+     "mismatches": 0,
+     "example": null
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Created On",
+     "Changed On"
+    ],
+    "comparedAgainst": "Created On",
+    "mismatches": 0,
+    "example": null,
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "UTC",
+   "dataset": "erp_dump",
+   "columns": {
+    "Creation_Date": {
+     "rows": 310,
+     "mismatches": 0,
+     "example": null
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Creation_Date"
+    ],
+    "comparedAgainst": "Creation_Date",
+    "mismatches": 0,
+    "example": null,
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "America/New_York",
+   "dataset": "service_entry",
+   "columns": {
+    "Created On": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    },
+    "Changed On": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    },
+    "Posting Date": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    },
+    "Document Date": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Created By",
+     "Created On",
+     "Changed On"
+    ],
+    "comparedAgainst": "Created On",
+    "mismatches": 1000,
+    "example": {
+     "row": 2,
+     "expected": "2014-03-27",
+     "got": null
+    },
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "America/New_York",
+   "dataset": "material_master",
+   "columns": {
+    "Created On": {
+     "rows": 1000,
+     "mismatches": 0,
+     "example": null
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Created On",
+     "Created At Time",
+     "Created By",
+     "Last Changed Time"
+    ],
+    "comparedAgainst": "Created On",
+    "mismatches": 0,
+    "example": null,
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "America/New_York",
+   "dataset": "holdout",
+   "columns": {
+    "Created On": {
+     "rows": 781,
+     "mismatches": 0,
+     "example": null
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Created On",
+     "Changed On"
+    ],
+    "comparedAgainst": "Created On",
+    "mismatches": 0,
+    "example": null,
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  },
+  {
+   "tz": "America/New_York",
+   "dataset": "erp_dump",
+   "columns": {
+    "Creation_Date": {
+     "rows": 310,
+     "mismatches": 0,
+     "example": null
+    }
+   },
+   "recordLayer": {
+    "engineCreatedDateColumns": [
+     "Creation_Date"
+    ],
+    "comparedAgainst": "Creation_Date",
+    "mismatches": 0,
+    "example": null,
+    "note": "engine may map a different column to created_date (see SAP role bugs); mismatches then reflect that too"
+   }
+  }
+ ]
+}

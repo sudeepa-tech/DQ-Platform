@@ -1,0 +1,126 @@
+{
+ "gate": "S5",
+ "status": "APPROVED by product owner",
+ "approved_decisions": {
+  "name_blocking_default": false,
+  "different_valid_gstins": "always cannot-link; PAN never relaxes this",
+  "temporal_conflicts": "owned by S4; S5 keeps field differences as evidence",
+  "item_semantics": "entity/mixed -> item conflicts; material master -> material matching; transaction -> document semantics; repeated item values never entity identity",
+  "qa_overlay": "temporary; S6 must replace it with the production pipeline and populate the identity/cluster/conflict tables"
+ },
+ "versions": {
+  "identity_engine": "identity-1.0.0",
+  "identity_config": "identity-config-1.0.0",
+  "identity_config_hash": "2b23525c2d7d1bec95376569bbaa970b890dbff43f7bfb683d5139379d735c20",
+  "snapshot_schema_version": 3,
+  "semantic_config": "semantic-config-1.1.0"
+ },
+ "expected": {
+  "backend_tests": {
+   "total": 233,
+   "pass": 233
+  },
+  "qa_regression": {
+   "total": 118,
+   "pass": 97,
+   "fail": 10,
+   "todo": 11,
+   "regressions_vs_s4": 0,
+   "known_failing": [
+    "RT-07",
+    "RT-15 (KPI half, S6/S7)",
+    "RT-16",
+    "RT-18",
+    "RT-19",
+    "RT-42",
+    "GOLD consistency score x2 (S7)",
+    "RT-34 x2"
+   ]
+  },
+  "mutation": {
+   "s5": {
+    "control": "PASS (suite green without mutation)",
+    "mutants": 71,
+    "killed": 71,
+    "equivalent": [],
+    "survived": [],
+    "invalid": []
+   },
+   "s4": {
+    "mutants": 53,
+    "killed": 53
+   },
+   "s3": {
+    "mutants": 43,
+    "killed": 42,
+    "equivalent": [
+     "M11"
+    ]
+   }
+  },
+  "timezone_matrix": "12/12 clean",
+  "oracle": "rt15_identity_layer.test.js all green"
+ },
+ "datasets": {
+  "erp_dump": {
+   "results_hash": "29da2f5fa539932cd954f300e18ec014d11f8365d8007f4a4fd9279fc4975cdc",
+   "summary": {
+    "clusters": 82,
+    "accepted_pairs": 98,
+    "candidates": 0,
+    "ambiguous": 0,
+    "needs_review_clusters": 0,
+    "conflicts_by_type": {
+     "gstin_shared_identity": 10,
+     "material_code_description": 10
+    },
+    "material_candidates": null,
+    "transaction_candidates": null
+   }
+  },
+  "holdout": {
+   "results_hash": "e1cf68c3be48c3210257f6c7b81e55bb5366f54e0c3a8a2766e246a5c2d079ed",
+   "summary": {
+    "clusters": 105,
+    "accepted_pairs": 105,
+    "candidates": 12,
+    "ambiguous": 1,
+    "needs_review_clusters": 15,
+    "conflicts_by_type": {
+     "gstin_mismatch": 8,
+     "gstin_shared_identity": 12,
+     "vendor_code_identity": 5,
+     "material_code_description": 10
+    },
+    "material_candidates": null,
+    "transaction_candidates": null
+   }
+  },
+  "material_master": {
+   "results_hash": "57f5c71f5bf0940fa96d1d842f335e69b75293105c4640f7633ab6d23f4a2b07",
+   "summary": {
+    "clusters": null,
+    "accepted_pairs": null,
+    "candidates": null,
+    "ambiguous": null,
+    "needs_review_clusters": null,
+    "conflicts_by_type": {},
+    "material_candidates": 23,
+    "transaction_candidates": null
+   }
+  },
+  "service_entry": {
+   "results_hash": "2334c1d8ad763b7ca69ab99986cc556dfb758de4a71e43c6aa16ddd4593416de",
+   "summary": {
+    "clusters": null,
+    "accepted_pairs": null,
+    "candidates": null,
+    "ambiguous": null,
+    "needs_review_clusters": null,
+    "conflicts_by_type": {},
+    "material_candidates": null,
+    "transaction_candidates": 5
+   }
+  }
+ }
+}

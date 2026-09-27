@@ -1,0 +1,629 @@
+{
+ "label": "holdout",
+ "data": "holdout_master_entity.xlsx",
+ "run": {
+  "datasetId": "1aa61420-bff0-40d3-8963-531485b27a88",
+  "runId": "56fa8f0f-a60b-4e3a-a376-2b2c4a6495d7",
+  "analyzeStatus": 202,
+  "status": "complete",
+  "error": null,
+  "seconds": 1.654,
+  "peakRssMB": 151,
+  "maxApiStallMs": 1530,
+  "uploadStatus": 202
+ },
+ "dashboard": {
+  "summary": {
+   "records_analyzed": 781,
+   "files_analyzed": 1,
+   "health_score": 74,
+   "critical_issues": 20,
+   "total_issues": 1102,
+   "records_with_any_issue": 781,
+   "pct_records_requiring_attention": 100,
+   "potential_duplicate_records": 0,
+   "exact_repeat_records": 198,
+   "incomplete_records": 44,
+   "invalid_records": 15,
+   "conflicts": 99,
+   "stale_records": 0
+  },
+  "health": {
+   "overall": 74,
+   "dims": {
+    "completeness": 96,
+    "validity": 99,
+    "uniqueness": 60,
+    "consistency": 100,
+    "freshness": 100,
+    "conflict_penalty_applied": 15
+   }
+  },
+  "issues_by_category": [
+   {
+    "category": "completeness",
+    "c": 84
+   },
+   {
+    "category": "freshness",
+    "c": 4
+   },
+   {
+    "category": "uniqueness",
+    "c": 999
+   },
+   {
+    "category": "validity",
+    "c": 15
+   }
+  ],
+  "top_issue_types": [
+   {
+    "issue_type": "duplicate_identifier",
+    "category": "uniqueness",
+    "severity": "medium",
+    "c": 999
+   },
+   {
+    "issue_type": "missing_field",
+    "category": "completeness",
+    "severity": "medium",
+    "c": 64
+   },
+   {
+    "issue_type": "missing_primary_identifier",
+    "category": "completeness",
+    "severity": "critical",
+    "c": 20
+   },
+   {
+    "issue_type": "invalid_gstin",
+    "category": "validity",
+    "severity": "high",
+    "c": 9
+   },
+   {
+    "issue_type": "future_created_date",
+    "category": "freshness",
+    "severity": "high",
+    "c": 4
+   },
+   {
+    "issue_type": "invalid_phone",
+    "category": "validity",
+    "severity": "low",
+    "c": 3
+   },
+   {
+    "issue_type": "invalid_email",
+    "category": "validity",
+    "severity": "medium",
+    "c": 3
+   }
+  ],
+  "age_distribution": [
+   {
+    "bucket": "unknown",
+    "c": 781
+   }
+  ]
+ },
+ "roles": [
+  {
+   "column": "S.No",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Supplier No.",
+   "type": "number",
+   "role": "name",
+   "null_pct": 0.026
+  },
+  {
+   "column": "Supplier Name",
+   "type": "string",
+   "role": "name",
+   "null_pct": 0.008
+  },
+  {
+   "column": "GST No",
+   "type": "string",
+   "role": "gstin",
+   "null_pct": 0.044
+  },
+  {
+   "column": "Party Type",
+   "type": "string",
+   "role": "name",
+   "null_pct": 0
+  },
+  {
+   "column": "Material No.",
+   "type": "string",
+   "role": "item_code",
+   "null_pct": 0
+  },
+  {
+   "column": "Material Desc.",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Base UoM",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Order Qty",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Net Price",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Tax %",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "E-mail",
+   "type": "string",
+   "role": "email",
+   "null_pct": 0.003
+  },
+  {
+   "column": "Mobile",
+   "type": "number",
+   "role": "phone",
+   "null_pct": 0.003
+  },
+  {
+   "column": "Street Address",
+   "type": "string",
+   "role": "address",
+   "null_pct": 0.003
+  },
+  {
+   "column": "Town",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0.005
+  },
+  {
+   "column": "Region",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "PIN Code",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Created On",
+   "type": "date",
+   "role": "created_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Changed On",
+   "type": "date",
+   "role": "created_date",
+   "null_pct": 0
+  },
+  {
+   "column": "Terms of Payment",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Curr.",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  }
+ ],
+ "role_counts": {
+  "numeric": 5,
+  "name": 3,
+  "gstin": 1,
+  "item_code": 1,
+  "categorical": 6,
+  "email": 1,
+  "phone": 1,
+  "address": 1,
+  "created_date": 2
+ },
+ "vs_truth": {
+  "engine": "legacy_v0",
+  "records": 781,
+  "entity": {
+   "truth": {
+    "clusters": 105,
+    "records": 210
+   },
+   "app": {
+    "clusters": 99,
+    "records": 198,
+    "sizes": {
+     "2": 99
+    }
+   },
+   "record": {
+    "tp": 168,
+    "fp": 28,
+    "fn": 42,
+    "precision": 0.857,
+    "recall": 0.8,
+    "fp_ids": [
+     "12",
+     "610",
+     "35",
+     "661",
+     "431",
+     "91",
+     "143",
+     "536",
+     "167",
+     "559",
+     "202",
+     "518"
+    ],
+    "fn_ids": [
+     "1",
+     "241",
+     "10",
+     "7",
+     "104",
+     "47",
+     "128",
+     "9",
+     "135",
+     "461",
+     "153",
+     "508"
+    ]
+   },
+   "pair": {
+    "tp": 84,
+    "fp": 14,
+    "fn": 21,
+    "precision": 0.857,
+    "recall": 0.8
+   },
+   "clusters_exactly_correct": 84,
+   "clusters_impure": 15,
+   "clusters_with_two_valid_gstins": 8,
+   "fuzzy_candidates_auto_clustered": 0
+  },
+  "conflicts": {
+   "truth_groups_by_type": {
+    "gstin_mismatch": 8,
+    "gstin_shared_identity": 12,
+    "vendor_code_identity": 5
+   },
+   "app_conflict_rows_identity_or_contact": 99,
+   "app_distinct_member_sets": 45,
+   "rows_per_distinct_group": 2.2,
+   "found_gstin_mismatch": "0/8",
+   "found_gstin_shared_identity": "12/12",
+   "found_vendor_code_identity": "0/5",
+   "gst_rows": 33,
+   "gst_distinct_sets": 33,
+   "extra_groups_not_in_truth": 33
+  },
+  "item": {
+   "truth_codes": 10,
+   "app_codes": 0,
+   "codes_found": 0,
+   "codes_missing": [
+    "M1000",
+    "M1001",
+    "M1006",
+    "M1008",
+    "M1009",
+    "M1010",
+    "M1014",
+    "M1017",
+    "M1018",
+    "M1019"
+   ],
+   "codes_extra": [],
+   "records_flagged_by_conflicts": 0,
+   "minority_truth_records": 10,
+   "minority_recall": 0,
+   "flagged_precision_vs_minority": 0
+  },
+  "issues": {
+   "missing": {
+    "expected": 50,
+    "detected": 44,
+    "tp": 44,
+    "fp": 0,
+    "fn": 6,
+    "fn_ids": [
+     "205",
+     "236",
+     "552",
+     "564",
+     "738",
+     "772"
+    ],
+    "fp_ids": [],
+    "by_field_detected": {
+     "GST No": "34/34",
+     "Supplier No.": "20/20",
+     "Supplier Name": "6/6",
+     "Town": "0/4",
+     "Street Address": "0/2",
+     "Mobile": "2/2",
+     "E-mail": "2/2"
+    }
+   },
+   "invalid": {
+    "expected": 28,
+    "detected": 15,
+    "tp": 15,
+    "fp": 0,
+    "fn": 13,
+    "fn_ids": [
+     "34",
+     "139",
+     "147",
+     "171",
+     "176",
+     "197",
+     "234",
+     "325",
+     "332",
+     "490",
+     "560",
+     "582",
+     "659"
+    ],
+    "fp_ids": [],
+    "by_field_detected": {
+     "PIN Code": "0/4",
+     "E-mail": "3/3",
+     "GST No": "9/9",
+     "Net Price": "0/3",
+     "Changed On": "0/3",
+     "Order Qty": "0/2",
+     "Mobile": "3/3",
+     "Tax %": "0/1"
+    }
+   },
+   "temporal": {
+    "expected": 6,
+    "detected": 0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 6,
+    "fn_ids": [
+     "36",
+     "188",
+     "258",
+     "385",
+     "554",
+     "600"
+    ],
+    "fp_ids": []
+   },
+   "future": {
+    "expected": 4,
+    "detected": 4,
+    "tp": 4,
+    "fp": 0,
+    "fn": 0,
+    "fn_ids": [],
+    "fp_ids": []
+   },
+   "stale": {
+    "reference_date": "2026-09-24",
+    "threshold_years": 3,
+    "expected": 230,
+    "detected": 0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 230,
+    "fn_ids": [
+     "5",
+     "8",
+     "14",
+     "24",
+     "29",
+     "43",
+     "44",
+     "45",
+     "47",
+     "51",
+     "56",
+     "57",
+     "63",
+     "68",
+     "76"
+    ],
+    "fp_ids": []
+   },
+   "stale_sensitivity_truth": [
+    "2026-09-24@1y=573",
+    "2026-09-24@2y=421",
+    "2026-09-24@3y=230",
+    "2026-09-24@4y=80",
+    "2026-09-24@5y=15",
+    "2027-07-19@1y=709",
+    "2027-07-19@2y=540",
+    "2027-07-19@3y=381",
+    "2027-07-19@4y=201",
+    "2027-07-19@5y=61"
+   ],
+   "uniqueness_noise": {
+    "duplicate_identifier_issue_rows": 999,
+    "on_item_or_material_fields": 781
+   },
+   "total_issues": 1102,
+   "records_with_any_issue": 781
+  },
+  "scores": {
+   "overall": 74,
+   "dims": {
+    "completeness": 96,
+    "validity": 99,
+    "uniqueness": 60,
+    "consistency": 100,
+    "freshness": 100
+   }
+  },
+  "persisted_pairs": 234,
+  "item_clusters": {
+   "count": 0,
+   "records": 0
+  },
+  "exact_repeat_entity_clusters_hidden_from_headline": 99
+ },
+ "holdout_role_generalization": {
+  "ok": 7,
+  "wrong": 14,
+  "rows": [
+   {
+    "header": "S.No",
+    "expected": "row_id",
+    "legacy_role": "numeric",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Supplier No.",
+    "expected": "entity_id",
+    "legacy_role": "name",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Supplier Name",
+    "expected": "entity_name",
+    "legacy_role": "name",
+    "verdict": "ok"
+   },
+   {
+    "header": "GST No",
+    "expected": "legal_id",
+    "legacy_role": "gstin",
+    "verdict": "ok"
+   },
+   {
+    "header": "Party Type",
+    "expected": "entity_type",
+    "legacy_role": "name",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Material No.",
+    "expected": "material_key",
+    "legacy_role": "item_code",
+    "verdict": "ok"
+   },
+   {
+    "header": "Material Desc.",
+    "expected": "material_description",
+    "legacy_role": "categorical",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Base UoM",
+    "expected": "uom",
+    "legacy_role": "categorical",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Order Qty",
+    "expected": "quantity",
+    "legacy_role": "numeric",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Net Price",
+    "expected": "price",
+    "legacy_role": "numeric",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Tax %",
+    "expected": "tax_rate",
+    "legacy_role": "numeric",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "E-mail",
+    "expected": "email",
+    "legacy_role": "email",
+    "verdict": "ok"
+   },
+   {
+    "header": "Mobile",
+    "expected": "phone",
+    "legacy_role": "phone",
+    "verdict": "ok"
+   },
+   {
+    "header": "Street Address",
+    "expected": "address",
+    "legacy_role": "address",
+    "verdict": "ok"
+   },
+   {
+    "header": "Town",
+    "expected": "city",
+    "legacy_role": "categorical",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Region",
+    "expected": "state",
+    "legacy_role": "categorical",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "PIN Code",
+    "expected": "postal",
+    "legacy_role": "numeric",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Created On",
+    "expected": "created_date",
+    "legacy_role": "created_date",
+    "verdict": "ok"
+   },
+   {
+    "header": "Changed On",
+    "expected": "modified_date",
+    "legacy_role": "created_date",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Terms of Payment",
+    "expected": "payment_terms",
+    "legacy_role": "categorical",
+    "verdict": "WRONG"
+   },
+   {
+    "header": "Curr.",
+    "expected": "currency",
+    "legacy_role": "categorical",
+    "verdict": "WRONG"
+   }
+  ]
+ }
+}

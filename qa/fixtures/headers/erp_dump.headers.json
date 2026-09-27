@@ -1,0 +1,28 @@
+{
+ "file": "ERP_DQ_Authenticity_Test_Dump.xlsx",
+ "sheet": "ERP_Dump",
+ "headers": [
+  "Record_ID",
+  "Entity_Type",
+  "Company_Name",
+  "GSTIN",
+  "Vendor_Code",
+  "Item_Code",
+  "Item_Description",
+  "UOM",
+  "Quantity",
+  "Unit_Price",
+  "Tax_Rate",
+  "Email",
+  "Phone",
+  "Address",
+  "City",
+  "State",
+  "Postal_Code",
+  "Creation_Date",
+  "Modification_Date",
+  "Payment_Terms",
+  "Currency"
+ ],
+ "rows": 310
+}

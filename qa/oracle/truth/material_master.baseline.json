@@ -1,0 +1,288 @@
+{
+ "meta": {
+  "file": "Material_Master_23_09_2026.xlsx",
+  "rows": 1000,
+  "columns": 308,
+  "kind": "baseline (no labels)"
+ },
+ "facts": {
+  "empty_columns": 225,
+  "populated_columns": 83,
+  "sparse_columns": 0,
+  "duplicate_headers_case_insensitive": [
+   "material",
+   "page format",
+   "unit of weight",
+   "volume unit",
+   "valid from",
+   "int. char. number",
+   "material description"
+  ],
+  "material_key_unique": true,
+  "distinct_materials": 1000,
+  "last_change_populated": [
+   0.0
+  ],
+  "created_on_range": [
+   "2015-08-24 00:00:00",
+   "2020-03-11 00:00:00"
+  ],
+  "created_on_kinds": {
+   "date": 1000
+  },
+  "created_at_time_kinds": {
+   "time": 1000
+  }
+ },
+ "material_duplicates": {
+  "exact_normalized_description_groups": [
+   {
+    "normalized_description": "flexi paver 450x400x65mm grey",
+    "materials": [
+     "12003880",
+     "12003881"
+    ]
+   },
+   {
+    "normalized_description": "main door frame  1220x2100mm",
+    "materials": [
+     "12004072",
+     "12004080"
+    ]
+   },
+   {
+    "normalized_description": "main window frame  3050x2000mm",
+    "materials": [
+     "12004089",
+     "12004095"
+    ]
+   },
+   {
+    "normalized_description": "irish grey  wall tile 300x600mm",
+    "materials": [
+     "12004356",
+     "12004357"
+    ]
+   },
+   {
+    "normalized_description": "pc extruded allm grilles 600x350mm",
+    "materials": [
+     "12004704",
+     "12004723"
+    ]
+   },
+   {
+    "normalized_description": "lacqured glass panelling",
+    "materials": [
+     "12006063",
+     "12006068"
+    ]
+   }
+  ],
+  "group_count": 6,
+  "rows_involved": 12,
+  "near_duplicate_review_population": [
+   {
+    "a": "12004663",
+    "b": "12004664",
+    "ratio": 0.975,
+    "da": "celio mortise handle set  ml cel or a sc",
+    "db": "celio mortise handle set  ml cel or b sc"
+   },
+   {
+    "a": "12004663",
+    "b": "12004666",
+    "ratio": 0.974,
+    "da": "celio mortise handle set  ml cel or a sc",
+    "db": "celio mortise handle set  ml cel or sc"
+   },
+   {
+    "a": "12004664",
+    "b": "12004666",
+    "ratio": 0.974,
+    "da": "celio mortise handle set  ml cel or b sc",
+    "db": "celio mortise handle set  ml cel or sc"
+   },
+   {
+    "a": "12005070",
+    "b": "12005073",
+    "ratio": 0.968,
+    "da": "chroma gris size 600x600mm tile",
+    "db": "chroma fris size 600x600mm tile"
+   },
+   {
+    "a": "12004338",
+    "b": "12004360",
+    "ratio": 0.959,
+    "da": "eternity beige hl  wall tile 300x600mm",
+    "db": "eternity beige  wall tile 300x600mm"
+   },
+   {
+    "a": "12004434",
+    "b": "12004435",
+    "ratio": 0.964,
+    "da": "marra lbr  300x600mm varmora",
+    "db": "marra dbr  300x600mm varmora"
+   },
+   {
+    "a": "12004998",
+    "b": "12005193",
+    "ratio": 0.975,
+    "da": "cotto royal  dt  wall tile 300x600 nitco",
+    "db": "cotto royal  lt  wall tile 300x600 nitco"
+   },
+   {
+    "a": "12004994",
+    "b": "12004995",
+    "ratio": 0.95,
+    "da": "misty brown  lt  wall tile  450x300 nico",
+    "db": "misty brown  dt  wall tile 450x300 nitco"
+   },
+   {
+    "a": "12004994",
+    "b": "12004996",
+    "ratio": 0.95,
+    "da": "misty brown  lt  wall tile  450x300 nico",
+    "db": "misty brown  ht  wall tile 450x300 nitco"
+   },
+   {
+    "a": "12004995",
+    "b": "12004996",
+    "ratio": 0.975,
+    "da": "misty brown  dt  wall tile 450x300 nitco",
+    "db": "misty brown  ht  wall tile 450x300 nitco"
+   },
+   {
+    "a": "12004166",
+    "b": "12004167",
+    "ratio": 0.974,
+    "da": "digital wall tile 10074l 600x300 regent",
+    "db": "digital walltile 10074hl 600x300 regent"
+   },
+   {
+    "a": "12004169",
+    "b": "12004170",
+    "ratio": 0.987,
+    "da": "digital wall tile 7032l 600x300 regent",
+    "db": "digital wall tile 7032hl 600x300 regent"
+   },
+   {
+    "a": "12004172",
+    "b": "12004173",
+    "ratio": 0.987,
+    "da": "digital wall tile 4138l 600x300 regent",
+    "db": "digital wall tile 4138hl 600x300 regent"
+   },
+   {
+    "a": "12006274",
+    "b": "12006275",
+    "ratio": 0.957,
+    "da": "damper holder  a  h60mc",
+    "db": "damper holder  b  h60mc"
+   },
+   {
+    "a": "12006674",
+    "b": "12006675",
+    "ratio": 0.949,
+    "da": "cera tile 300x600mm  dp 1013l",
+    "db": "cera tile 300x600mm  dp 1013 d"
+   },
+   {
+    "a": "12006716",
+    "b": "12006717",
+    "ratio": 0.947,
+    "da": "cera tile  dg 615l 300x600mm",
+    "db": "cera tile  dg 615 d 300x600mm"
+   },
+   {
+    "a": "12006718",
+    "b": "12006860",
+    "ratio": 0.947,
+    "da": "cera tile  dg 615l 300x300mm",
+    "db": "cera tile  dg 615 f 300x300mm"
+   }
+  ],
+  "near_duplicate_review_count": 17,
+  "note": "exact groups = the population an engine MUST surface as material_match candidates; near list = must be explainable, sampled manually"
+ },
+ "expected_roles": {
+  "must_map": {
+   "Material": [
+    "material_key"
+   ],
+   "Material Description": [
+    "material_description"
+   ],
+   "Material description": [
+    "material_description"
+   ],
+   "Created On": [
+    "created_date"
+   ],
+   "Created By": [
+    "audit_user"
+   ],
+   "Base Unit of Measure": [
+    "uom"
+   ],
+   "Material Type": [
+    "material_type",
+    "category"
+   ],
+   "Material Group": [
+    "category",
+    "material_group"
+   ]
+  },
+  "must_not_map": {
+   "Material": [
+    "phone",
+    "quantity",
+    "date"
+   ],
+   "Product allocation": [
+    "address",
+    "city",
+    "phone"
+   ],
+   "Maximum Capacity": [
+    "address",
+    "city"
+   ],
+   "Load Capacity": [
+    "address",
+    "city"
+   ],
+   "Intellectual Property": [
+    "phone"
+   ],
+   "Form Name": [
+    "entity_name"
+   ],
+   "DF at client level": [
+    "entity_name"
+   ],
+   "Push Deployment from Supplier": [
+    "entity_name"
+   ],
+   "Created By": [
+    "created_date",
+    "modified_date",
+    "date"
+   ],
+   "Created At Time": [
+    "created_date",
+    "date"
+   ]
+  },
+  "empty_columns_must_not_generate_record_issues": true,
+  "modification_semantics": "'Last Change' is 100% empty = never changed (SAP). Must NOT yield per-record missing-modification issues; freshness ages from creation.",
+  "no_column_may_be_mapped_to": [
+   "entity_name",
+   "gstin",
+   "email",
+   "phone",
+   "address"
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "heap_cap_mb": 2048,
+ "timeout_s": 120,
+ "results": [
+  {
+   "shape": "txn",
+   "n": 2000,
+   "datasetId": "7111a766-91ae-4499-971b-f530c5ac7972",
+   "runId": "89611ef1-3228-40ea-84e6-ef22bb7d14d2",
+   "analyzeStatus": 202,
+   "status": "complete",
+   "error": null,
+   "seconds": 1.107,
+   "peakRssMB": 145,
+   "maxApiStallMs": 1000,
+   "uploadStatus": 201,
+   "persistedPairs": 0,
+   "entityClusters": 0,
+   "itemClusters": 0
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "heap_cap_mb": 2048,
+ "timeout_s": 240,
+ "results": [
+  {
+   "shape": "master",
+   "n": 2000,
+   "datasetId": "bd28d2b5-1df4-46d6-a1ec-aca3846836dd",
+   "runId": "904760ef-4eff-4895-8302-2f99b3dd45d4",
+   "analyzeStatus": 202,
+   "status": "failed",
+   "error": "Maximum call stack size exceeded",
+   "seconds": 7.424,
+   "peakRssMB": 351,
+   "maxApiStallMs": 7320,
+   "uploadStatus": 201,
+   "server_log_error": [
+    "Analysis run 904760ef-4eff-4895-8302-2f99b3dd45d4 failed: Maximum call stack size exceeded"
+   ]
+  },
+  {
+   "shape": "master",
+   "n": 5000,
+   "datasetId": "ad4e6eff-f168-4b33-a3b2-c1ca413b96eb",
+   "runId": "f1c76e55-b025-462d-8b9b-28007542db42",
+   "analyzeStatus": 202,
+   "status": "failed",
+   "error": "Maximum call stack size exceeded",
+   "seconds": 20.673,
+   "peakRssMB": 587,
+   "maxApiStallMs": 20567,
+   "uploadStatus": 201,
+   "server_log_error": [
+    "Analysis run f1c76e55-b025-462d-8b9b-28007542db42 failed: Maximum call stack size exceeded"
+   ]
+  },
+  {
+   "shape": "master",
+   "n": 10000,
+   "datasetId": "66877c24-8351-463e-b27f-923b087d4c74",
+   "runId": "67510b4d-c557-4cf7-89cf-a64de1c5569d",
+   "analyzeStatus": 202,
+   "status": "failed",
+   "error": "Maximum call stack size exceeded",
+   "seconds": 12.687,
+   "peakRssMB": 752,
+   "maxApiStallMs": 12579,
+   "uploadStatus": 201,
+   "server_log_error": [
+    "Analysis run 67510b4d-c557-4cf7-89cf-a64de1c5569d failed: Maximum call stack size exceeded"
+   ]
+  },
+  {
+   "shape": "txn",
+   "n": 2000,
+   "datasetId": "e7649b0c-75b7-4994-b920-e0772276cba1",
+   "runId": "80efd1ba-e966-4dc0-b39f-0cf075a1c797",
+   "analyzeStatus": 202,
+   "status": "failed",
+   "error": "Maximum call stack size exceeded",
+   "seconds": 4.471,
+   "peakRssMB": 360,
+   "maxApiStallMs": 4367,
+   "uploadStatus": 201,
+   "server_log_error": [
+    "Analysis run 80efd1ba-e966-4dc0-b39f-0cf075a1c797 failed: Maximum call stack size exceeded"
+   ]
+  },
+  {
+   "shape": "txn",
+   "n": 5000,
+   "datasetId": "dc1f4343-4aa1-46e3-aa1a-d85126c9e500",
+   "runId": "4d7a0ff8-a636-4b57-9cb1-41d73c43103c",
+   "analyzeStatus": 202,
+   "status": "failed",
+   "error": "Maximum call stack size exceeded",
+   "seconds": 9.284,
+   "peakRssMB": 503,
+   "maxApiStallMs": 9176,
+   "uploadStatus": 201,
+   "server_log_error": [
+    "Analysis run 4d7a0ff8-a636-4b57-9cb1-41d73c43103c failed: Maximum call stack size exceeded"
+   ]
+  },
+  {
+   "shape": "txn",
+   "n": 10000,
+   "datasetId": "d8ba9f17-4e1f-4168-ae38-ee7f132f9708",
+   "runId": "0acc1ecd-ee1a-4382-b675-822e36a4dd3d",
+   "analyzeStatus": 202,
+   "status": "failed",
+   "error": "Maximum call stack size exceeded",
+   "seconds": 17.371,
+   "peakRssMB": 890,
+   "maxApiStallMs": 17266,
+   "uploadStatus": 201,
+   "server_log_error": [
+    "Analysis run 0acc1ecd-ee1a-4382-b675-822e36a4dd3d failed: Maximum call stack size exceeded"
+   ]
+  }
+ ]
+}

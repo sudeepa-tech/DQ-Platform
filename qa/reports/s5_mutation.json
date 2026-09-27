@@ -1,0 +1,703 @@
+{
+ "summary": {
+  "control": "PASS (suite green without mutation)",
+  "mutants": 71,
+  "killed": 71,
+  "equivalent": [],
+  "survived": [],
+  "invalid": []
+ },
+ "results": [
+  {
+   "id": "CONTROL",
+   "status": "SURVIVED",
+   "killed_by": [],
+   "n_failing": 0,
+   "why": "no mutation: the suite must pass"
+  },
+  {
+   "id": "M01",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr",
+    "backend: 1. same valid GSTIN + same entity = an accepted match with exact, complete evidence (field",
+    "backend: 4. FUZZY candidates are review-only: no cluster, no confidence, no scoring eligibility unt"
+   ],
+   "n_failing": 3,
+   "why": "legal suffixes (Pvt/Ltd/...) are no longer stripped from names"
+  },
+  {
+   "id": "M02",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr",
+    "backend: 1. same valid GSTIN + same entity = an accepted match with exact, complete evidence (field"
+   ],
+   "n_failing": 2,
+   "why": "the 'M/s' company prefix is no longer stripped"
+  },
+  {
+   "id": "M03",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr"
+   ],
+   "n_failing": 1,
+   "why": "name abbreviations are not expanded"
+  },
+  {
+   "id": "M04",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr",
+    "backend: 5. numeric suffixes in names keep their meaning: \"...05\" is not \"...06\" unless hard identi"
+   ],
+   "n_failing": 2,
+   "why": "numeric tokens stop being discriminators ('... 05' vs '... 06' become compatible)"
+  },
+  {
+   "id": "M05",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr"
+   ],
+   "n_failing": 1,
+   "why": "shared suffix words fake similarity ('Kalinga Tools Agencies' vs 'Annapurna Electricals Agencies')"
+  },
+  {
+   "id": "M06",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr"
+   ],
+   "n_failing": 1,
+   "why": "the compatible-name threshold is far too loose"
+  },
+  {
+   "id": "M07",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr"
+   ],
+   "n_failing": 1,
+   "why": "dissimilar names are never 'different' (only 'ambiguous')"
+  },
+  {
+   "id": "M08",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr"
+   ],
+   "n_failing": 1,
+   "why": "a transposition costs two edits (plain Levenshtein)"
+  },
+  {
+   "id": "M09",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr",
+    "backend: PARITY: identity normalization agrees with the validity layer on phone / e-mail / GSTIN, s"
+   ],
+   "n_failing": 2,
+   "why": "a +91 country prefix is not stripped from phones"
+  },
+  {
+   "id": "M10",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr",
+    "backend: PARITY: identity normalization agrees with the validity layer on phone / e-mail / GSTIN, s"
+   ],
+   "n_failing": 2,
+   "why": "a leading trunk 0 is not stripped from phones"
+  },
+  {
+   "id": "M11",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr",
+    "backend: PARITY: identity normalization agrees with the validity layer on phone / e-mail / GSTIN, s"
+   ],
+   "n_failing": 2,
+   "why": "any 10 digits count as a phone (numbers starting 0-5 accepted)"
+  },
+  {
+   "id": "M12",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr",
+    "backend: 1. same valid GSTIN + same entity = an accepted match with exact, complete evidence (field"
+   ],
+   "n_failing": 2,
+   "why": "vendor codes keep leading zeros / case ('000123' != '123', 'v-9' != 'V-9')"
+  },
+  {
+   "id": "M13",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr",
+    "backend: 6+7+8. city / state alone, invalid ids and row identifiers are NEVER identity; the vendor "
+   ],
+   "n_failing": 2,
+   "why": "placeholders ('N/A') become vendor codes and match each other"
+  },
+  {
+   "id": "M14",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr",
+    "backend: 1. same valid GSTIN + same entity = an accepted match with exact, complete evidence (field"
+   ],
+   "n_failing": 2,
+   "why": "legal ids are case-sensitive"
+  },
+  {
+   "id": "M15",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: EVIDENCE BOUNDARIES: a PAN and a GSTIN never conflict; a missing name with ONE hard agreem"
+   ],
+   "n_failing": 1,
+   "why": "city / state tokens are not removed from the address core"
+  },
+  {
+   "id": "M16",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMITIVES: names normalize (M/s, legal suffixes, abbreviations); numeric tokens are discr"
+   ],
+   "n_failing": 1,
+   "why": "e-mail addresses compare case-sensitively"
+  },
+  {
+   "id": "M17",
+   "status": "KILLED",
+   "killed_by": [
+    "qa: item-code conflicts: exactly the oracle's codes; only the MINORITY records flagged; the ma",
+    "qa: RT-90 [hold-out] identity vs the independent oracle",
+    "qa: item matching does not explode (legacy: thousands of item pairs): exactly one conflict gro"
+   ],
+   "n_failing": 4,
+   "why": "descriptions '6mm' and '8mm' are equivalent"
+  },
+  {
+   "id": "M18",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CAPABILITIES follow the confirmed mapping and dataset type, and say why a matcher did not "
+   ],
+   "n_failing": 1,
+   "why": "columns the user excluded still supply identity evidence"
+  },
+  {
+   "id": "M19",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 6+7+8. city / state alone, invalid ids and row identifiers are NEVER identity; the vendor "
+   ],
+   "n_failing": 1,
+   "why": "ids the validity layer flagged invalid are still used as identity evidence"
+  },
+  {
+   "id": "M20",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CAPABILITIES follow the confirmed mapping and dataset type, and say why a matcher did not "
+   ],
+   "n_failing": 1,
+   "why": "entity matching runs without a name or identity column"
+  },
+  {
+   "id": "M21",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 1. same valid GSTIN + same entity = an accepted match with exact, complete evidence (field",
+    "backend: 2. same valid GSTIN + DIFFERENT vendor code = same business identity (entity_match / ident",
+    "backend: 3. DIFFERENT valid GSTINs = strong conflict / cannot-link, on every path: shared vendor co"
+   ],
+   "n_failing": 8,
+   "why": "records sharing a legal id are never candidates"
+  },
+  {
+   "id": "M22",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 1. same valid GSTIN + same entity = an accepted match with exact, complete evidence (field",
+    "backend: 3. DIFFERENT valid GSTINs = strong conflict / cannot-link, on every path: shared vendor co",
+    "backend: 5. numeric suffixes in names keep their meaning: \"...05\" is not \"...06\" unless hard identi"
+   ],
+   "n_failing": 9,
+   "why": "records sharing a vendor code are never candidates"
+  },
+  {
+   "id": "M23",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 1. same valid GSTIN + same entity = an accepted match with exact, complete evidence (field",
+    "backend: 4. FUZZY candidates are review-only: no cluster, no confidence, no scoring eligibility unt",
+    "backend: 9. BLOCKING: candidates come from inverted indexes only (never all-pairs); oversize blocks"
+   ],
+   "n_failing": 3,
+   "why": "phone / e-mail never generate candidates"
+  },
+  {
+   "id": "M24",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: EVIDENCE BOUNDARIES: a PAN and a GSTIN never conflict; a missing name with ONE hard agreem"
+   ],
+   "n_failing": 1,
+   "why": "postal + address never generates candidates"
+  },
+  {
+   "id": "M25",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 9. BLOCKING: candidates come from inverted indexes only (never all-pairs); oversize blocks"
+   ],
+   "n_failing": 1,
+   "why": "oversize blocks are not skipped (O(k^2) explosion on a shared switchboard number)"
+  },
+  {
+   "id": "M26",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 3. DIFFERENT valid GSTINs = strong conflict / cannot-link, on every path: shared vendor co",
+    "backend: 10. CLUSTERING is constrained union-find: transitive chains join, but never across a legal",
+    "backend: 13. CONFLICT GROUPS: one underlying cause = one group, however many evidence paths and pai"
+   ],
+   "n_failing": 5,
+   "why": "pair de-duplication collides (pairs lost)"
+  },
+  {
+   "id": "M27",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 3. DIFFERENT valid GSTINs = strong conflict / cannot-link, on every path: shared vendor co",
+    "backend: 10. CLUSTERING is constrained union-find: transitive chains join, but never across a legal",
+    "backend: 13. CONFLICT GROUPS: one underlying cause = one group, however many evidence paths and pai"
+   ],
+   "n_failing": 5,
+   "why": "the same vendor code with two different valid GSTINs is not a conflict"
+  },
+  {
+   "id": "M28",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 5. numeric suffixes in names keep their meaning: \"...05\" is not \"...06\" unless hard identi",
+    "backend: 6+7+8. city / state alone, invalid ids and row identifiers are NEVER identity; the vendor ",
+    "backend: CANNOT-LINK from a CONFLICT and from a human REJECTION also blocks the transitive route th"
+   ],
+   "n_failing": 3,
+   "why": "compatible / unknown names sharing a vendor code are called a conflict"
+  },
+  {
+   "id": "M29",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: EVIDENCE BOUNDARIES: a PAN and a GSTIN never conflict; a missing name with ONE hard agreem"
+   ],
+   "n_failing": 1,
+   "why": "a PAN vs a GSTIN counts as two different legal ids"
+  },
+  {
+   "id": "M30",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: EVIDENCE BOUNDARIES: a PAN and a GSTIN never conflict; a missing name with ONE hard agreem"
+   ],
+   "n_failing": 1,
+   "why": "a record with no name is accepted on ONE hard agreement"
+  },
+  {
+   "id": "M31",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 5. numeric suffixes in names keep their meaning: \"...05\" is not \"...06\" unless hard identi"
+   ],
+   "n_failing": 1,
+   "why": "a shared e-mail is not contact evidence"
+  },
+  {
+   "id": "M32",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 2. same valid GSTIN + DIFFERENT vendor code = same business identity (entity_match / ident",
+    "backend: IDENTITY RUNS FROM THE CONFIRMED SNAPSHOT: planted duplicate / variant / conflict / candid",
+    "backend: CONFIG VERSIONING: the identity configuration (engine version + effective settings + hash)"
+   ],
+   "n_failing": 3,
+   "why": "same GSTIN + different vendor code is not tagged identity_match_vendor_code_variant"
+  },
+  {
+   "id": "M33",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 2. same valid GSTIN + DIFFERENT vendor code = same business identity (entity_match / ident",
+    "backend: IDENTITY RUNS FROM THE CONFIRMED SNAPSHOT: planted duplicate / variant / conflict / candid",
+    "backend: CONFIG VERSIONING: the identity configuration (engine version + effective settings + hash)"
+   ],
+   "n_failing": 3,
+   "why": "vendor-code variants are silently auto-accepted (not reviewable)"
+  },
+  {
+   "id": "M34",
+   "status": "KILLED",
+   "killed_by": [
+    "qa: clusters: exactly the oracle's member sets (no false cluster, none missed), sizes and coun",
+    "qa: pairs: the accepted pairs are exactly the oracle's duplicate pairs, with the oracle's dupl",
+    "qa: fuzzy candidates: exactly the oracle's, REVIEW-ONLY (never in a cluster, no confidence, no"
+   ],
+   "n_failing": 6,
+   "why": "an ambiguous name (0.60-0.90) is auto-accepted as a duplicate"
+  },
+  {
+   "id": "M35",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 4. FUZZY candidates are review-only: no cluster, no confidence, no scoring eligibility unt",
+    "backend: EVIDENCE BOUNDARIES: a PAN and a GSTIN never conflict; a missing name with ONE hard agreem"
+   ],
+   "n_failing": 2,
+   "why": "a fuzzy candidate needs only ONE strong signal"
+  },
+  {
+   "id": "M36",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: EVIDENCE BOUNDARIES: a PAN and a GSTIN never conflict; a missing name with ONE hard agreem"
+   ],
+   "n_failing": 1,
+   "why": "records with two different valid GSTINs can still be fuzzy candidates"
+  },
+  {
+   "id": "M37",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: EVIDENCE BOUNDARIES: a PAN and a GSTIN never conflict; a missing name with ONE hard agreem"
+   ],
+   "n_failing": 1,
+   "why": "the same street text in different postal codes counts as the same address"
+  },
+  {
+   "id": "M38",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CLUSTER CONSTRAINTS enforced directly: a legal-id difference, a cannot-link pair and an in"
+   ],
+   "n_failing": 1,
+   "why": "clusters may join two different valid legal ids"
+  },
+  {
+   "id": "M39",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CLUSTER CONSTRAINTS enforced directly: a legal-id difference, a cannot-link pair and an in",
+    "backend: CANNOT-LINK from a CONFLICT and from a human REJECTION also blocks the transitive route th"
+   ],
+   "n_failing": 2,
+   "why": "explicit cannot-link pairs do not stop a union"
+  },
+  {
+   "id": "M40",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 5. numeric suffixes in names keep their meaning: \"...05\" is not \"...06\" unless hard identi",
+    "backend: CLUSTER CONSTRAINTS enforced directly: a legal-id difference, a cannot-link pair and an in"
+   ],
+   "n_failing": 2,
+   "why": "a nameless record can bridge '... 05' and '... 06'"
+  },
+  {
+   "id": "M41",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CANNOT-LINK from a CONFLICT and from a human REJECTION also blocks the transitive route th"
+   ],
+   "n_failing": 1,
+   "why": "union order ignores evidence strength (weakest links applied first)"
+  },
+  {
+   "id": "M42",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 11. ITEM / MATERIAL codes: repeated codes are never entity duplicates; the same code with ",
+    "backend: CAPABILITIES follow the confirmed mapping and dataset type, and say why a matcher did not "
+   ],
+   "n_failing": 2,
+   "why": "every matcher runs on every dataset type (entity matching on transactions ...)"
+  },
+  {
+   "id": "M43",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 6+7+8. city / state alone, invalid ids and row identifiers are NEVER identity; the vendor "
+   ],
+   "n_failing": 1,
+   "why": "the validity findings are not consulted (invalid ids become evidence)"
+  },
+  {
+   "id": "M44",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CANNOT-LINK from a CONFLICT and from a human REJECTION also blocks the transitive route th"
+   ],
+   "n_failing": 1,
+   "why": "a conflict is not a cannot-link (a bridging record merges both sides)"
+  },
+  {
+   "id": "M45",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CANNOT-LINK from a CONFLICT and from a human REJECTION also blocks the transitive route th"
+   ],
+   "n_failing": 1,
+   "why": "a human rejection is not a cannot-link (the pair is re-joined through a third record)"
+  },
+  {
+   "id": "M46",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 4. FUZZY candidates are review-only: no cluster, no confidence, no scoring eligibility unt",
+    "backend: EVIDENCE BOUNDARIES: a PAN and a GSTIN never conflict; a missing name with ONE hard agreem",
+    "backend: IDENTITY RUNS FROM THE CONFIRMED SNAPSHOT: planted duplicate / variant / conflict / candid"
+   ],
+   "n_failing": 3,
+   "why": "candidates / ambiguous pairs are scoring-eligible before a human confirms"
+  },
+  {
+   "id": "M47",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 4. FUZZY candidates are review-only: no cluster, no confidence, no scoring eligibility unt",
+    "backend: HUMAN DECISIONS feed back into clustering through the service: confirming the fuzzy candid"
+   ],
+   "n_failing": 2,
+   "why": "a confirmed candidate carries no confidence"
+  },
+  {
+   "id": "M48",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 6+7+8. city / state alone, invalid ids and row identifiers are NEVER identity; the vendor ",
+    "backend: CANNOT-LINK from a CONFLICT and from a human REJECTION also blocks the transitive route th",
+    "backend: IDENTITY RUNS FROM THE CONFIRMED SNAPSHOT: planted duplicate / variant / conflict / candid"
+   ],
+   "n_failing": 3,
+   "why": "the row identifier counts as a business difference (no exact duplicates)"
+  },
+  {
+   "id": "M49",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 6+7+8. city / state alone, invalid ids and row identifiers are NEVER identity; the vendor ",
+    "backend: CANNOT-LINK from a CONFLICT and from a human REJECTION also blocks the transitive route th",
+    "backend: IDENTITY RUNS FROM THE CONFIRMED SNAPSHOT: planted duplicate / variant / conflict / candid"
+   ],
+   "n_failing": 3,
+   "why": "exact duplicates are not recognised"
+  },
+  {
+   "id": "M50",
+   "status": "KILLED",
+   "killed_by": [
+    "qa: pairs: the accepted pairs are exactly the oracle's duplicate pairs, with the oracle's dupl",
+    "qa: RT-90 [ERP_Dump] identity vs the independent oracle",
+    "qa: pairs: the accepted pairs are exactly the oracle's duplicate pairs, with the oracle's dupl"
+   ],
+   "n_failing": 4,
+   "why": "a name-only difference is 'normalized' even when the names differ"
+  },
+  {
+   "id": "M51",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 2. same valid GSTIN + DIFFERENT vendor code = same business identity (entity_match / ident"
+   ],
+   "n_failing": 1,
+   "why": "clusters never ask for review"
+  },
+  {
+   "id": "M52",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CANNOT-LINK from a CONFLICT and from a human REJECTION also blocks the transitive route th"
+   ],
+   "n_failing": 1,
+   "why": "cluster confidence is the strongest link, not the weakest"
+  },
+  {
+   "id": "M53",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CANNOT-LINK from a CONFLICT and from a human REJECTION also blocks the transitive route th"
+   ],
+   "n_failing": 1,
+   "why": "exact repeats are never flagged on the cluster"
+  },
+  {
+   "id": "M54",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 10. CLUSTERING is constrained union-find: transitive chains join, but never across a legal",
+    "backend: 13. CONFLICT GROUPS: one underlying cause = one group, however many evidence paths and pai"
+   ],
+   "n_failing": 2,
+   "why": "one cause is reported once per record pair (conflict inflation)"
+  },
+  {
+   "id": "M55",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 11. ITEM / MATERIAL codes: repeated codes are never entity duplicates; the same code with "
+   ],
+   "n_failing": 1,
+   "why": "item conflicts flag the majority records too"
+  },
+  {
+   "id": "M56",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ITEM CONFLICT edge cases: a blank description is not a class; blank codes are ignored; ite"
+   ],
+   "n_failing": 1,
+   "why": "a blank description is treated as a conflicting description"
+  },
+  {
+   "id": "M57",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 11. ITEM / MATERIAL codes: repeated codes are never entity duplicates; the same code with "
+   ],
+   "n_failing": 1,
+   "why": "the tie policy is inverted"
+  },
+  {
+   "id": "M58",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: MATERIAL matching (material master): exact and near descriptions are REVIEW-ONLY candidate"
+   ],
+   "n_failing": 1,
+   "why": "the same material id is a 'duplicate' of itself"
+  },
+  {
+   "id": "M59",
+   "status": "KILLED",
+   "killed_by": [
+    "qa: every oracle exact-description group is surfaced as ONE review group, by exact-description",
+    "qa: RT-97 [material master] material matching vs the independent baseline"
+   ],
+   "n_failing": 2,
+   "why": "every pair sharing a block is a near-description candidate"
+  },
+  {
+   "id": "M60",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: TRANSACTION matching: a candidate needs the same reference AND amount AND (date or vendor)"
+   ],
+   "n_failing": 1,
+   "why": "transactions with different amounts are candidates"
+  },
+  {
+   "id": "M61",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: TRANSACTION matching: a candidate needs the same reference AND amount AND (date or vendor)"
+   ],
+   "n_failing": 1,
+   "why": "same reference + amount but different date AND vendor are candidates"
+  },
+  {
+   "id": "M62",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: TRANSACTION matching: a candidate needs the same reference AND amount AND (date or vendor)"
+   ],
+   "n_failing": 1,
+   "why": "a document line is matched against itself"
+  },
+  {
+   "id": "M63",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DETERMINISM + CONFIGURATION: identical inputs give identical results; configuration is ver"
+   ],
+   "n_failing": 1,
+   "why": "an inconsistent name threshold pair is accepted"
+  },
+  {
+   "id": "M64",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: 9. BLOCKING: candidates come from inverted indexes only (never all-pairs); oversize blocks"
+   ],
+   "n_failing": 1,
+   "why": "name blocks are always on (100x candidate pairs)"
+  },
+  {
+   "id": "M65",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: GUARDS + NO WRITES: unknown source / configuration refused; identity writes nothing (no ma"
+   ],
+   "n_failing": 1,
+   "why": "a changed source file is analysed against a stale snapshot"
+  },
+  {
+   "id": "M66",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: GUARDS + NO WRITES: unknown source / configuration refused; identity writes nothing (no ma"
+   ],
+   "n_failing": 1,
+   "why": "a tampered identity configuration is used silently"
+  },
+  {
+   "id": "M67",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: RE-RUN PLANNING carries identity settings forward and merges changes (deeply) into a NEW c"
+   ],
+   "n_failing": 1,
+   "why": "a re-run drops the parent's identity settings"
+  },
+  {
+   "id": "M68",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REQUIREDNESS DEFAULTS are exactly the explicitly approved S3 list (S4 approval, decision 4"
+   ],
+   "n_failing": 1,
+   "why": "unapproved 'expected' defaults return (S4 decision 4)"
+  },
+  {
+   "id": "M69",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REQUIREDNESS DEFAULTS are exactly the explicitly approved S3 list (S4 approval, decision 4"
+   ],
+   "n_failing": 1,
+   "why": "unapproved transaction defaults return (S4 decision 4)"
+  },
+  {
+   "id": "M70",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: FRESHNESS BASIS is explicit and persisted (S4 approval decision 5): each stale finding nam"
+   ],
+   "n_failing": 1,
+   "why": "the freshness basis is misreported when Creation Date was used (S4 decision 5)"
+  },
+  {
+   "id": "M71",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: FRESHNESS BASIS is explicit and persisted (S4 approval decision 5): each stale finding nam"
+   ],
+   "n_failing": 1,
+   "why": "the dataset-level freshness reason is not stated"
+  }
+ ]
+}

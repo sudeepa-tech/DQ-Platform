@@ -1,0 +1,6657 @@
+{
+ "meta": {
+  "oracle_version": "1.2",
+  "data": "ERP_DQ_Authenticity_Test_Dump.xlsx",
+  "sheet": "ERP_Dump",
+  "n_records": 310,
+  "ref_date": "2026-09-24",
+  "mapping": {
+   "columns": {
+    "row_id": "Record_ID",
+    "entity_type": "Entity_Type",
+    "name": "Company_Name",
+    "gstin": "GSTIN",
+    "vendor_code": "Vendor_Code",
+    "item_code": "Item_Code",
+    "item_desc": "Item_Description",
+    "uom": "UOM",
+    "quantity": "Quantity",
+    "unit_price": "Unit_Price",
+    "tax_rate": "Tax_Rate",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "postal": "Postal_Code",
+    "created": "Creation_Date",
+    "modified": "Modification_Date",
+    "payment_terms": "Payment_Terms",
+    "currency": "Currency"
+   },
+   "date_formats": [
+    "%Y-%m-%d"
+   ],
+   "semantics": {
+    "table_type": "master_entity",
+    "note": "ERP_Dump treated as master_entity per user decision 6; item/qty/price are attributes"
+   }
+  },
+  "semantics_sha256": "1bbc50354a7c3102b85599dab29a76fade14ee6f12db88e415e5ef7e31ba21e1"
+ },
+ "records": {
+  "ERP-00290": {
+   "sheet_row": 2,
+   "created": "2023-10-11",
+   "modified": "2024-10-16",
+   "name": "Orion Manufacturing 07"
+  },
+  "ERP-00010": {
+   "sheet_row": 3,
+   "created": "2025-03-02",
+   "modified": "2025-07-29",
+   "name": "Delta Auto Components 01"
+  },
+  "ERP-00058": {
+   "sheet_row": 4,
+   "created": "2024-10-14",
+   "modified": "2025-02-26",
+   "name": "NorthStar Technologies 03"
+  },
+  "ERP-00061": {
+   "sheet_row": 5,
+   "created": "2023-11-12",
+   "modified": "2024-05-17",
+   "name": "Apex Industrial Supplies 04"
+  },
+  "ERP-00026": {
+   "sheet_row": 6,
+   "created": "2024-01-07",
+   "modified": "2024-06-13",
+   "name": "BluePeak Traders 02"
+  },
+  "ERP-00064": {
+   "sheet_row": 7,
+   "created": "2023-07-03",
+   "modified": "2024-07-15",
+   "name": "Vertex Engineering 04"
+  },
+  "ERP-00093": {
+   "sheet_row": 8,
+   "created": "2024-04-22",
+   "modified": "2024-11-21",
+   "name": "Pioneer Metals 05"
+  },
+  "ERP-00185": {
+   "sheet_row": 9,
+   "created": "2023-02-10",
+   "modified": "2023-07-19",
+   "name": "Orion Manufacturing 10"
+  },
+  "ERP-00245": {
+   "sheet_row": 10,
+   "created": "2023-07-14",
+   "modified": "2023-09-01",
+   "name": "Sterling  Enterprises  02"
+  },
+  "ERP-00047": {
+   "sheet_row": 11,
+   "created": "2023-05-03",
+   "modified": "2024-02-19",
+   "name": "Prime Electricals 03"
+  },
+  "ERP-00076": {
+   "sheet_row": 12,
+   "created": "2024-07-21",
+   "modified": "2024-09-25",
+   "name": "Crown Plastics 04"
+  },
+  "ERP-00164": {
+   "sheet_row": 13,
+   "created": "2024-12-15",
+   "modified": "2025-04-17",
+   "name": "Vertex Engineering 09"
+  },
+  "ERP-00297": {
+   "sheet_row": 14,
+   "created": "2016-02-15",
+   "modified": "2018-02-15",
+   "name": "Eastern Components 08"
+  },
+  "ERP-00308": {
+   "sheet_row": 15,
+   "created": "2025-12-15",
+   "modified": "2025-05-10",
+   "name": "NorthStar Technologies 08"
+  },
+  "ERP-00286": {
+   "sheet_row": 16,
+   "created": "2024-01-13",
+   "modified": "2024-09-12",
+   "name": "Apex Industrial Supplies 07"
+  },
+  "ERP-00291": {
+   "sheet_row": 17,
+   "created": "2023-08-21",
+   "modified": "2024-02-22",
+   "name": "BluePeak Traders 07"
+  },
+  "ERP-00006": {
+   "sheet_row": 18,
+   "created": "2025-02-20",
+   "modified": "2025-08-12",
+   "name": "BluePeak Traders 01"
+  },
+  "ERP-00156": {
+   "sheet_row": 19,
+   "created": "2024-07-19",
+   "modified": "2025-02-13",
+   "name": "Crown Plastics 08"
+  },
+  "ERP-00165": {
+   "sheet_row": 20,
+   "created": "2023-11-22",
+   "modified": "2024-12-08",
+   "name": "Orion Manufacturing 09"
+  },
+  "ERP-00169": {
+   "sheet_row": 21,
+   "created": "2023-12-13",
+   "modified": "2024-10-28",
+   "name": "Metro Industrial Works 09"
+  },
+  "ERP-00074": {
+   "sheet_row": 22,
+   "created": "2023-12-05",
+   "modified": "2024-10-20",
+   "name": "Global Machinery 04"
+  },
+  "ERP-00105": {
+   "sheet_row": 23,
+   "created": "2023-06-06",
+   "modified": "2023-10-07",
+   "name": "Orion Manufacturing 06"
+  },
+  "ERP-00138": {
+   "sheet_row": 24,
+   "created": "2023-10-26",
+   "modified": "2023-11-12",
+   "name": "NorthStar Technologies 07"
+  },
+  "ERP-00207": {
+   "sheet_row": 25,
+   "created": "2025-01-29",
+   "modified": "2025-09-02",
+   "name": "Prime Electricals 11"
+  },
+  "ERP-00077": {
+   "sheet_row": 26,
+   "created": "2025-02-05",
+   "modified": "2025-05-06",
+   "name": "Acme Processors 04"
+  },
+  "ERP-00174": {
+   "sheet_row": 27,
+   "created": "2023-02-17",
+   "modified": "2023-08-03",
+   "name": "Global Machinery 09"
+  },
+  "ERP-00114": {
+   "sheet_row": 28,
+   "created": "2024-08-29",
+   "modified": "2025-01-14",
+   "name": "Global Machinery 06"
+  },
+  "ERP-00034": {
+   "sheet_row": 29,
+   "created": "2024-07-06",
+   "modified": "2024-09-12",
+   "name": "Global Machinery 02"
+  },
+  "ERP-00276": {
+   "sheet_row": 30,
+   "created": "2023-08-05",
+   "modified": "2024-03-25",
+   "name": "Apex Industrial Supplies 06"
+  },
+  "ERP-00252": {
+   "sheet_row": 31,
+   "created": "2023-05-03",
+   "modified": "2024-02-19",
+   "name": "Prime Electicals 03"
+  },
+  "ERP-00109": {
+   "sheet_row": 32,
+   "created": "2023-03-19",
+   "modified": "2024-01-17",
+   "name": "Metro Industrial Works 06"
+  },
+  "ERP-00004": {
+   "sheet_row": 33,
+   "created": "2024-07-12",
+   "modified": "2025-02-12",
+   "name": "Vertex Engineering 01"
+  },
+  "ERP-00083": {
+   "sheet_row": 34,
+   "created": "2023-07-19",
+   "modified": "2024-07-21",
+   "name": "Shree Logistics 05"
+  },
+  "ERP-00260": {
+   "sheet_row": 35,
+   "created": "2025-04-10",
+   "modified": "2025-08-16",
+   "name": "Shakti Industrial Services"
+  },
+  "ERP-00094": {
+   "sheet_row": 36,
+   "created": "2025-02-27",
+   "modified": "2025-12-24",
+   "name": "Global Machinery 05"
+  },
+  "ERP-00102": {
+   "sheet_row": 37,
+   "created": "2025-02-09",
+   "modified": "2025-09-13",
+   "name": "Eastern Components 06"
+  },
+  "ERP-00046": {
+   "sheet_row": 38,
+   "created": "2025-05-21",
+   "modified": "2025-08-25",
+   "name": "BluePeak Traders 03"
+  },
+  "ERP-00018": {
+   "sheet_row": 39,
+   "created": "2023-09-27",
+   "modified": "2024-10-14",
+   "name": "NorthStar Technologies 01"
+  },
+  "ERP-00198": {
+   "sheet_row": 40,
+   "created": "2023-02-03",
+   "modified": "2024-01-23",
+   "name": "NorthStar Technologies 10"
+  },
+  "ERP-00120": {
+   "sheet_row": 41,
+   "created": "2023-10-29",
+   "modified": "2024-02-20",
+   "name": "Kalinga Industrial Solutions 06"
+  },
+  "ERP-00043": {
+   "sheet_row": 42,
+   "created": "2024-11-08",
+   "modified": "2025-11-11",
+   "name": "Shree Logistics 03"
+  },
+  "ERP-00025": {
+   "sheet_row": 43,
+   "created": "2024-07-06",
+   "modified": "2025-08-09",
+   "name": "Orion Manufacturing 02"
+  },
+  "ERP-00180": {
+   "sheet_row": 44,
+   "created": "2024-01-29",
+   "modified": "2024-10-03",
+   "name": "Kalinga Industrial Solutions 09"
+  },
+  "ERP-00243": {
+   "sheet_row": 45,
+   "created": "2023-03-14",
+   "modified": "2023-12-03",
+   "name": "PIONEER METALS 02"
+  },
+  "ERP-00299": {
+   "sheet_row": 46,
+   "created": "2016-04-15",
+   "modified": "2018-04-15",
+   "name": "Vertex Engineering 08"
+  },
+  "ERP-00197": {
+   "sheet_row": 47,
+   "created": "2023-06-08",
+   "modified": "2024-01-07",
+   "name": "Acme Processors 10"
+  },
+  "ERP-00227": {
+   "sheet_row": 48,
+   "created": "2023-03-14",
+   "modified": "2023-12-03",
+   "name": "Pioneer Metals 02"
+  },
+  "ERP-00008": {
+   "sheet_row": 49,
+   "created": "2023-05-08",
+   "modified": "2023-11-18",
+   "name": "Sunrise Packaging 01"
+  },
+  "ERP-00288": {
+   "sheet_row": 50,
+   "created": "2023-05-04",
+   "modified": "2024-05-08",
+   "name": "Shree Logistics 07"
+  },
+  "ERP-00078": {
+   "sheet_row": 51,
+   "created": "2023-10-21",
+   "modified": "2024-02-06",
+   "name": "NorthStar Technologies 04"
+  },
+  "ERP-00115": {
+   "sheet_row": 52,
+   "created": "2024-04-06",
+   "modified": "2024-08-09",
+   "name": "Sterling Enterprises 06"
+  },
+  "ERP-00240": {
+   "sheet_row": 53,
+   "created": "2024-01-18",
+   "modified": "2024-08-30",
+   "name": "DELTA AUTO COMPONENTS 02"
+  },
+  "ERP-00146": {
+   "sheet_row": 54,
+   "created": "2024-08-24",
+   "modified": "2024-09-04",
+   "name": "BluePeak Traders 08"
+  },
+  "ERP-00085": {
+   "sheet_row": 55,
+   "created": "2023-06-30",
+   "modified": "2024-06-21",
+   "name": "Orion Manufacturing 05"
+  },
+  "ERP-00182": {
+   "sheet_row": 56,
+   "created": "2023-10-09",
+   "modified": "2023-10-14",
+   "name": "Eastern Components 10"
+  },
+  "ERP-00231": {
+   "sheet_row": 57,
+   "created": "2024-04-24",
+   "modified": "2025-01-20",
+   "name": "APEX INDUSTRIAL SUPPLIES 02"
+  },
+  "ERP-00303": {
+   "sheet_row": 58,
+   "created": "2016-08-15",
+   "modified": "2018-08-15",
+   "name": "Sunrise Packaging 08"
+  },
+  "ERP-00199": {
+   "sheet_row": 59,
+   "created": "2025-05-25",
+   "modified": "2025-11-27",
+   "name": "Zenith Equipment 10"
+  },
+  "ERP-00196": {
+   "sheet_row": 60,
+   "created": "2024-02-02",
+   "modified": "2024-09-22",
+   "name": "Crown Plastics 10"
+  },
+  "ERP-00211": {
+   "sheet_row": 61,
+   "created": "2024-10-16",
+   "modified": "2024-12-13",
+   "name": "Apex Industrial Supplies 01"
+  },
+  "ERP-00225": {
+   "sheet_row": 62,
+   "created": "2024-03-09",
+   "modified": "2024-06-26",
+   "name": "Metro Industrial Works 02"
+  },
+  "ERP-00159": {
+   "sheet_row": 63,
+   "created": "2023-09-07",
+   "modified": "2024-04-28",
+   "name": "Zenith Equipment 08"
+  },
+  "ERP-00127": {
+   "sheet_row": 64,
+   "created": "2023-05-10",
+   "modified": "2023-09-28",
+   "name": "Prime Electricals 07"
+  },
+  "ERP-00110": {
+   "sheet_row": 65,
+   "created": "2024-09-06",
+   "modified": "2024-11-07",
+   "name": "Delta Auto Components 06"
+  },
+  "ERP-00248": {
+   "sheet_row": 66,
+   "created": "2024-11-08",
+   "modified": "2025-11-11",
+   "name": "Shree Logistics 03"
+  },
+  "ERP-00235": {
+   "sheet_row": 67,
+   "created": "2024-07-06",
+   "modified": "2025-08-09",
+   "name": "Orion Manufacturing 02 PVT LTD"
+  },
+  "ERP-00203": {
+   "sheet_row": 68,
+   "created": "2024-08-23",
+   "modified": "2024-12-12",
+   "name": "Shree Logistics 11"
+  },
+  "ERP-00079": {
+   "sheet_row": 69,
+   "created": "2024-11-22",
+   "modified": "2025-03-12",
+   "name": "Zenith Equipment 04"
+  },
+  "ERP-00148": {
+   "sheet_row": 70,
+   "created": "2024-10-12",
+   "modified": "2025-06-21",
+   "name": "Sunrise Packaging 08"
+  },
+  "ERP-00060": {
+   "sheet_row": 71,
+   "created": "2024-07-12",
+   "modified": "2024-07-31",
+   "name": "Kalinga Industrial Solutions 03"
+  },
+  "ERP-00119": {
+   "sheet_row": 72,
+   "created": "2024-05-02",
+   "modified": "2025-03-29",
+   "name": "Zenith Equipment 06"
+  },
+  "ERP-00007": {
+   "sheet_row": 73,
+   "created": "2025-05-17",
+   "modified": "2025-11-10",
+   "name": "Prime Electricals 01"
+  },
+  "ERP-00183": {
+   "sheet_row": 74,
+   "created": "2024-09-13",
+   "modified": "2025-03-13",
+   "name": "Shree Logistics 10"
+  },
+  "ERP-00031": {
+   "sheet_row": 75,
+   "created": "2023-12-13",
+   "modified": "2023-12-24",
+   "name": "Nova Systems 02"
+  },
+  "ERP-00023": {
+   "sheet_row": 76,
+   "created": "2023-06-11",
+   "modified": "2024-01-30",
+   "name": "Shree Logistics 02"
+  },
+  "ERP-00263": {
+   "sheet_row": 77,
+   "created": "2023-12-03",
+   "modified": "2024-04-24",
+   "name": "Capital Industrial Traders"
+  },
+  "ERP-00057": {
+   "sheet_row": 78,
+   "created": "2024-10-11",
+   "modified": "2025-05-16",
+   "name": "Acme Processors 03"
+  },
+  "ERP-00149": {
+   "sheet_row": 79,
+   "created": "2023-11-25",
+   "modified": "2024-11-03",
+   "name": "Metro Industrial Works 08"
+  },
+  "ERP-00141": {
+   "sheet_row": 80,
+   "created": "2024-10-25",
+   "modified": "2025-01-10",
+   "name": "Apex Industrial Supplies 08"
+  },
+  "ERP-00209": {
+   "sheet_row": 81,
+   "created": "2023-02-14",
+   "modified": "2024-02-22",
+   "name": "Metro Industrial Works 11"
+  },
+  "ERP-00279": {
+   "sheet_row": 82,
+   "created": "2023-02-11",
+   "modified": "2024-03-04",
+   "name": "Vertex Engineering 06"
+  },
+  "ERP-00204": {
+   "sheet_row": 83,
+   "created": "2023-01-03",
+   "modified": "2023-05-25",
+   "name": "Vertex Engineering 11"
+  },
+  "ERP-00145": {
+   "sheet_row": 84,
+   "created": "2023-09-14",
+   "modified": "2023-09-28",
+   "name": "Orion Manufacturing 08"
+  },
+  "ERP-00168": {
+   "sheet_row": 85,
+   "created": "2025-01-09",
+   "modified": "2025-03-24",
+   "name": "Sunrise Packaging 09"
+  },
+  "ERP-00091": {
+   "sheet_row": 86,
+   "created": "2023-03-24",
+   "modified": "2023-06-03",
+   "name": "Nova Systems 05"
+  },
+  "ERP-00224": {
+   "sheet_row": 87,
+   "created": "2023-03-29",
+   "modified": "2024-04-07",
+   "name": "Prime Electricals 02"
+  },
+  "ERP-00067": {
+   "sheet_row": 88,
+   "created": "2023-11-09",
+   "modified": "2024-03-05",
+   "name": "Prime Electricals 04"
+  },
+  "ERP-00117": {
+   "sheet_row": 89,
+   "created": "2023-12-15",
+   "modified": "2024-05-07",
+   "name": "Acme Processors 06"
+  },
+  "ERP-00173": {
+   "sheet_row": 90,
+   "created": "2025-06-12",
+   "modified": "2025-08-03",
+   "name": "Pioneer Metals 09"
+  },
+  "ERP-00251": {
+   "sheet_row": 91,
+   "created": "2025-05-21",
+   "modified": "2025-08-25",
+   "name": "BluePeak Traders 03"
+  },
+  "ERP-00020": {
+   "sheet_row": 92,
+   "created": "2024-10-04",
+   "modified": "2024-12-25",
+   "name": "Kalinga Industrial Solutions 01"
+  },
+  "ERP-00147": {
+   "sheet_row": 93,
+   "created": "2024-06-15",
+   "modified": "2025-05-15",
+   "name": "Prime Electricals 08"
+  },
+  "ERP-00080": {
+   "sheet_row": 94,
+   "created": "2024-06-11",
+   "modified": "2025-05-17",
+   "name": "Kalinga Industrial Solutions 04"
+  },
+  "ERP-00300": {
+   "sheet_row": 95,
+   "created": "2016-05-15",
+   "modified": "2018-05-15",
+   "name": "Orion Manufacturing 08"
+  },
+  "ERP-00289": {
+   "sheet_row": 96,
+   "created": "2025-02-19",
+   "modified": "2026-02-08",
+   "name": "Vertex Engineering 07"
+  },
+  "ERP-00073": {
+   "sheet_row": 97,
+   "created": "2025-01-06",
+   "modified": "2026-01-21",
+   "name": "Pioneer Metals 04"
+  },
+  "ERP-00016": {
+   "sheet_row": 98,
+   "created": "2023-11-19",
+   "modified": "2024-03-07",
+   "name": "Crown Plastics 01"
+  },
+  "ERP-00011": {
+   "sheet_row": 99,
+   "created": "2023-10-12",
+   "modified": "2024-06-01",
+   "name": "Nova Systems 01"
+  },
+  "ERP-00275": {
+   "sheet_row": 100,
+   "created": "2024-12-31",
+   "modified": "2025-05-27",
+   "name": "Delta Auto Components 05"
+  },
+  "ERP-00239": {
+   "sheet_row": 101,
+   "created": "2024-03-09",
+   "modified": "2024-06-26",
+   "name": "Metro  Industrial  Works  02"
+  },
+  "ERP-00098": {
+   "sheet_row": 102,
+   "created": "2025-01-11",
+   "modified": "2025-04-06",
+   "name": "NorthStar Technologies 05"
+  },
+  "ERP-00069": {
+   "sheet_row": 103,
+   "created": "2024-02-14",
+   "modified": "2025-01-27",
+   "name": "Metro Industrial Works 04"
+  },
+  "ERP-00241": {
+   "sheet_row": 104,
+   "created": "2023-12-13",
+   "modified": "2023-12-24",
+   "name": "Nova Systems 02 PVT LTD"
+  },
+  "ERP-00038": {
+   "sheet_row": 105,
+   "created": "2023-05-24",
+   "modified": "2023-12-27",
+   "name": "NorthStar Technologies 02"
+  },
+  "ERP-00017": {
+   "sheet_row": 106,
+   "created": "2023-05-27",
+   "modified": "2023-10-10",
+   "name": "Acme Processors 01"
+  },
+  "ERP-00056": {
+   "sheet_row": 107,
+   "created": "2023-12-18",
+   "modified": "2024-04-01",
+   "name": "Crown Plastics 03"
+  },
+  "ERP-00155": {
+   "sheet_row": 108,
+   "created": "2023-05-05",
+   "modified": "2023-05-20",
+   "name": "Sterling Enterprises 08"
+  },
+  "ERP-00280": {
+   "sheet_row": 109,
+   "created": "2023-06-06",
+   "modified": "2023-10-07",
+   "name": "Orion Manufacturing 06"
+  },
+  "ERP-00068": {
+   "sheet_row": 110,
+   "created": "2023-12-03",
+   "modified": "2024-04-24",
+   "name": "Sunrise Packaging 04"
+  },
+  "ERP-00112": {
+   "sheet_row": 111,
+   "created": "2023-04-19",
+   "modified": "2023-11-27",
+   "name": "Evergreen Distributors 06"
+  },
+  "ERP-00070": {
+   "sheet_row": 112,
+   "created": "2024-08-17",
+   "modified": "2024-12-31",
+   "name": "Delta Auto Components 04"
+  },
+  "ERP-00032": {
+   "sheet_row": 113,
+   "created": "2024-10-08",
+   "modified": "2024-11-08",
+   "name": "Evergreen Distributors 02"
+  },
+  "ERP-00184": {
+   "sheet_row": 114,
+   "created": "2025-02-12",
+   "modified": "2026-02-17",
+   "name": "Vertex Engineering 10"
+  },
+  "ERP-00158": {
+   "sheet_row": 115,
+   "created": "2024-06-05",
+   "modified": "2025-06-02",
+   "name": "NorthStar Technologies 08"
+  },
+  "ERP-00238": {
+   "sheet_row": 116,
+   "created": "2023-05-12",
+   "modified": "2024-04-14",
+   "name": "Sunrise Packaging 02 PVT LTD"
+  },
+  "ERP-00125": {
+   "sheet_row": 117,
+   "created": "2023-10-11",
+   "modified": "2024-10-16",
+   "name": "Orion Manufacturing 07"
+  },
+  "ERP-00019": {
+   "sheet_row": 118,
+   "created": "2024-06-05",
+   "modified": "2025-02-13",
+   "name": "Zenith Equipment 01"
+  },
+  "ERP-00259": {
+   "sheet_row": 119,
+   "created": "2023-07-03",
+   "modified": "2024-07-15",
+   "name": "Eastern Commercial House"
+  },
+  "ERP-00097": {
+   "sheet_row": 120,
+   "created": "2024-05-12",
+   "modified": "2024-05-27",
+   "name": "Acme Processors 05"
+  },
+  "ERP-00140": {
+   "sheet_row": 121,
+   "created": "2024-08-26",
+   "modified": "2025-07-31",
+   "name": "Kalinga Industrial Solutions 07"
+  },
+  "ERP-00133": {
+   "sheet_row": 122,
+   "created": "2023-08-20",
+   "modified": "2024-09-21",
+   "name": "Pioneer Metals 07"
+  },
+  "ERP-00087": {
+   "sheet_row": 123,
+   "created": "2025-04-14",
+   "modified": "2026-04-18",
+   "name": "Prime Electricals 05"
+  },
+  "ERP-00261": {
+   "sheet_row": 124,
+   "created": "2024-01-27",
+   "modified": "2024-02-16",
+   "name": "Western Components India"
+  },
+  "ERP-00153": {
+   "sheet_row": 125,
+   "created": "2024-01-06",
+   "modified": "2024-11-20",
+   "name": "Pioneer Metals 08"
+  },
+  "ERP-00126": {
+   "sheet_row": 126,
+   "created": "2023-08-21",
+   "modified": "2024-02-22",
+   "name": "BluePeak Traders 07"
+  },
+  "ERP-00262": {
+   "sheet_row": 127,
+   "created": "2023-11-09",
+   "modified": "2024-03-05",
+   "name": "Modern Process Solutions"
+  },
+  "ERP-00205": {
+   "sheet_row": 128,
+   "created": "2023-04-23",
+   "modified": "2024-03-27",
+   "name": "Orion Manufacturing 11"
+  },
+  "ERP-00306": {
+   "sheet_row": 129,
+   "created": "2025-12-15",
+   "modified": "2025-05-10",
+   "name": "Crown Plastics 08"
+  },
+  "ERP-00296": {
+   "sheet_row": 130,
+   "created": "2016-01-15",
+   "modified": "2018-01-15",
+   "name": "Apex Industrial Supplies 08"
+  },
+  "ERP-00176": {
+   "sheet_row": 131,
+   "created": "2024-09-16",
+   "modified": "2025-03-31",
+   "name": "Crown Plastics 09"
+  },
+  "ERP-00194": {
+   "sheet_row": 132,
+   "created": "2023-11-06",
+   "modified": "2024-10-04",
+   "name": "Global Machinery 10"
+  },
+  "ERP-00219": {
+   "sheet_row": 133,
+   "created": "2023-05-27",
+   "modified": "2023-10-10",
+   "name": "Acme Processors 01"
+  },
+  "ERP-00295": {
+   "sheet_row": 134,
+   "created": "2023-09-16",
+   "modified": "2024-05-18",
+   "name": "Delta Auto Components 07"
+  },
+  "ERP-00130": {
+   "sheet_row": 135,
+   "created": "2023-09-16",
+   "modified": "2024-05-18",
+   "name": "Delta Auto Components 07"
+  },
+  "ERP-00039": {
+   "sheet_row": 136,
+   "created": "2024-03-29",
+   "modified": "2025-01-05",
+   "name": "Zenith Equipment 02"
+  },
+  "ERP-00247": {
+   "sheet_row": 137,
+   "created": "2023-09-29",
+   "modified": "2024-05-19",
+   "name": "Eastern Components 03"
+  },
+  "ERP-00178": {
+   "sheet_row": 138,
+   "created": "2025-04-03",
+   "modified": "2025-11-28",
+   "name": "NorthStar Technologies 09"
+  },
+  "ERP-00144": {
+   "sheet_row": 139,
+   "created": "2024-03-24",
+   "modified": "2024-05-05",
+   "name": "Vertex Engineering 08"
+  },
+  "ERP-00113": {
+   "sheet_row": 140,
+   "created": "2023-06-30",
+   "modified": "2024-07-10",
+   "name": "Pioneer Metals 06"
+  },
+  "ERP-00177": {
+   "sheet_row": 141,
+   "created": "2023-08-26",
+   "modified": "2024-04-19",
+   "name": "Acme Processors 09"
+  },
+  "ERP-00118": {
+   "sheet_row": 142,
+   "created": "2023-09-05",
+   "modified": "2024-09-08",
+   "name": "NorthStar Technologies 06"
+  },
+  "ERP-00287": {
+   "sheet_row": 143,
+   "created": "2023-12-27",
+   "modified": "2024-12-21",
+   "name": "Eastern Components 07"
+  },
+  "ERP-00281": {
+   "sheet_row": 144,
+   "created": "2023-08-12",
+   "modified": "2024-04-07",
+   "name": "BluePeak Traders 06"
+  },
+  "ERP-00246": {
+   "sheet_row": 145,
+   "created": "2023-08-07",
+   "modified": "2024-02-29",
+   "name": "Apex Industiral Supplies 03"
+  },
+  "ERP-00186": {
+   "sheet_row": 146,
+   "created": "2023-05-15",
+   "modified": "2023-07-01",
+   "name": "BluePeak Traders 10"
+  },
+  "ERP-00234": {
+   "sheet_row": 147,
+   "created": "2024-06-03",
+   "modified": "2024-07-28",
+   "name": "VERTEX ENGINEERING 02"
+  },
+  "ERP-00003": {
+   "sheet_row": 148,
+   "created": "2023-08-12",
+   "modified": "2023-12-10",
+   "name": "Shree Logistics 01"
+  },
+  "ERP-00116": {
+   "sheet_row": 149,
+   "created": "2025-05-21",
+   "modified": "2025-11-04",
+   "name": "Crown Plastics 06"
+  },
+  "ERP-00195": {
+   "sheet_row": 150,
+   "created": "2023-11-08",
+   "modified": "2024-07-18",
+   "name": "Sterling Enterprises 10"
+  },
+  "ERP-00187": {
+   "sheet_row": 151,
+   "created": "2023-07-25",
+   "modified": "2023-10-01",
+   "name": "Prime Electricals 10"
+  },
+  "ERP-00121": {
+   "sheet_row": 152,
+   "created": "2024-01-13",
+   "modified": "2024-09-12",
+   "name": "Apex Industrial Supplies 07"
+  },
+  "ERP-00223": {
+   "sheet_row": 153,
+   "created": "2024-07-06",
+   "modified": "2025-08-09",
+   "name": "Orion Manufacturing 02"
+  },
+  "ERP-00268": {
+   "sheet_row": 154,
+   "created": "2023-07-19",
+   "modified": "2024-07-21",
+   "name": "Shree Logistics 05"
+  },
+  "ERP-00128": {
+   "sheet_row": 155,
+   "created": "2023-05-10",
+   "modified": "2024-04-01",
+   "name": "Sunrise Packaging 07"
+  },
+  "ERP-00075": {
+   "sheet_row": 156,
+   "created": "2023-11-13",
+   "modified": "2024-10-20",
+   "name": "Sterling Enterprises 04"
+  },
+  "ERP-00030": {
+   "sheet_row": 157,
+   "created": "2024-01-18",
+   "modified": "2024-08-30",
+   "name": "Delta Auto Components 02"
+  },
+  "ERP-00084": {
+   "sheet_row": 158,
+   "created": "2024-11-02",
+   "modified": "2025-10-21",
+   "name": "Vertex Engineering 05"
+  },
+  "ERP-00257": {
+   "sheet_row": 159,
+   "created": "2024-11-13",
+   "modified": "2025-01-05",
+   "name": "Kalinga Engineering Works"
+  },
+  "ERP-00108": {
+   "sheet_row": 160,
+   "created": "2024-08-15",
+   "modified": "2024-08-29",
+   "name": "Sunrise Packaging 06"
+  },
+  "ERP-00292": {
+   "sheet_row": 161,
+   "created": "2023-05-10",
+   "modified": "2023-09-28",
+   "name": "Prime Electricals 07"
+  },
+  "ERP-00166": {
+   "sheet_row": 162,
+   "created": "2023-06-05",
+   "modified": "2024-02-14",
+   "name": "BluePeak Traders 09"
+  },
+  "ERP-00134": {
+   "sheet_row": 163,
+   "created": "2025-05-30",
+   "modified": "2026-03-28",
+   "name": "Global Machinery 07"
+  },
+  "ERP-00284": {
+   "sheet_row": 164,
+   "created": null,
+   "modified": "2024-01-17",
+   "name": "Metro Industrial Works 06"
+  },
+  "ERP-00229": {
+   "sheet_row": 165,
+   "created": "2023-12-14",
+   "modified": "2024-02-08",
+   "name": "Acme Processors 02"
+  },
+  "ERP-00066": {
+   "sheet_row": 166,
+   "created": "2024-01-27",
+   "modified": "2024-02-16",
+   "name": "BluePeak Traders 04"
+  },
+  "ERP-00210": {
+   "sheet_row": 167,
+   "created": "2024-05-05",
+   "modified": "2024-11-27",
+   "name": "Delta Auto Components 11"
+  },
+  "ERP-00086": {
+   "sheet_row": 168,
+   "created": "2024-04-12",
+   "modified": "2024-06-20",
+   "name": "BluePeak Traders 05"
+  },
+  "ERP-00226": {
+   "sheet_row": 169,
+   "created": "2023-12-13",
+   "modified": "2023-12-24",
+   "name": "Nova Systems 02"
+  },
+  "ERP-00160": {
+   "sheet_row": 170,
+   "created": "2025-02-03",
+   "modified": "2025-04-14",
+   "name": "Kalinga Industrial Solutions 08"
+  },
+  "ERP-00013": {
+   "sheet_row": 171,
+   "created": "2023-06-17",
+   "modified": "2024-02-09",
+   "name": "Pioneer Metals 01"
+  },
+  "ERP-00036": {
+   "sheet_row": 172,
+   "created": "2024-04-23",
+   "modified": "2025-05-02",
+   "name": "Crown Plastics 02"
+  },
+  "ERP-00029": {
+   "sheet_row": 173,
+   "created": "2024-03-09",
+   "modified": "2024-06-26",
+   "name": "Metro Industrial Works 02"
+  },
+  "ERP-00171": {
+   "sheet_row": 174,
+   "created": "2025-06-12",
+   "modified": "2026-03-17",
+   "name": "Nova Systems 09"
+  },
+  "ERP-00143": {
+   "sheet_row": 175,
+   "created": "2023-11-08",
+   "modified": "2024-11-01",
+   "name": "Shree Logistics 08"
+  },
+  "ERP-00255": {
+   "sheet_row": 176,
+   "created": "2023-11-04",
+   "modified": "2024-06-26",
+   "name": "Delta Auto Components 03"
+  },
+  "ERP-00132": {
+   "sheet_row": 177,
+   "created": "2023-03-29",
+   "modified": "2023-08-04",
+   "name": "Evergreen Distributors 07"
+  },
+  "ERP-00181": {
+   "sheet_row": 178,
+   "created": "2024-08-11",
+   "modified": "2025-01-10",
+   "name": "Apex Industrial Supplies 10"
+  },
+  "ERP-00052": {
+   "sheet_row": 179,
+   "created": "2023-12-24",
+   "modified": "2024-01-29",
+   "name": "Evergreen Distributors 03"
+  },
+  "ERP-00096": {
+   "sheet_row": 180,
+   "created": "2024-07-13",
+   "modified": "2025-05-18",
+   "name": "Crown Plastics 05"
+  },
+  "ERP-00220": {
+   "sheet_row": 181,
+   "created": "2024-06-05",
+   "modified": "2025-02-13",
+   "name": "Zenith Equipment 01"
+  },
+  "ERP-00179": {
+   "sheet_row": 182,
+   "created": "2024-08-24",
+   "modified": "2025-01-25",
+   "name": "Zenith Equipment 09"
+  },
+  "ERP-00233": {
+   "sheet_row": 183,
+   "created": "2023-06-11",
+   "modified": "2024-01-30",
+   "name": "Shree  Logistics  02"
+  },
+  "ERP-00042": {
+   "sheet_row": 184,
+   "created": "2023-09-29",
+   "modified": "2024-05-19",
+   "name": "Eastern Components 03"
+  },
+  "ERP-00090": {
+   "sheet_row": 185,
+   "created": "2024-12-31",
+   "modified": "2025-05-27",
+   "name": "Delta Auto Components 05"
+  },
+  "ERP-00230": {
+   "sheet_row": 186,
+   "created": "2024-03-29",
+   "modified": "2025-01-05",
+   "name": "Zenith Equipment 02"
+  },
+  "ERP-00137": {
+   "sheet_row": 187,
+   "created": "2023-06-10",
+   "modified": "2023-06-12",
+   "name": "Acme Processors 07"
+  },
+  "ERP-00027": {
+   "sheet_row": 188,
+   "created": "2023-03-29",
+   "modified": "2024-04-07",
+   "name": "Prime Electricals 02"
+  },
+  "ERP-00304": {
+   "sheet_row": 189,
+   "created": "2016-09-15",
+   "modified": "2018-09-15",
+   "name": "Metro Industrial Works 08"
+  },
+  "ERP-00142": {
+   "sheet_row": 190,
+   "created": "2025-03-22",
+   "modified": "2025-08-27",
+   "name": "Eastern Components 08"
+  },
+  "ERP-00212": {
+   "sheet_row": 191,
+   "created": "2023-08-12",
+   "modified": "2023-12-10",
+   "name": "Shree Logistics 01"
+  },
+  "ERP-00001": {
+   "sheet_row": 192,
+   "created": "2024-10-16",
+   "modified": "2024-12-13",
+   "name": "Apex Industrial Supplies 01"
+  },
+  "ERP-00278": {
+   "sheet_row": 193,
+   "created": "2024-07-06",
+   "modified": "2024-08-02",
+   "name": "Shree Logistics 06"
+  },
+  "ERP-00282": {
+   "sheet_row": 194,
+   "created": "2025-02-04",
+   "modified": "2026-02-07",
+   "name": "Prime Electricals 06"
+  },
+  "ERP-00101": {
+   "sheet_row": 195,
+   "created": "2023-08-05",
+   "modified": "2024-03-25",
+   "name": "Apex Industrial Supplies 06"
+  },
+  "ERP-00193": {
+   "sheet_row": 196,
+   "created": "2023-12-02",
+   "modified": "2024-10-10",
+   "name": "Pioneer Metals 10"
+  },
+  "ERP-00266": {
+   "sheet_row": 197,
+   "created": "2023-11-14",
+   "modified": "2024-03-09",
+   "name": "Apex Industrial Supplies 05"
+  },
+  "ERP-00104": {
+   "sheet_row": 198,
+   "created": "2023-02-11",
+   "modified": "2024-03-04",
+   "name": "Vertex Engineering 06"
+  },
+  "ERP-00172": {
+   "sheet_row": 199,
+   "created": "2023-10-22",
+   "modified": "2024-02-16",
+   "name": "Evergreen Distributors 09"
+  },
+  "ERP-00099": {
+   "sheet_row": 200,
+   "created": "2024-02-08",
+   "modified": "2024-12-08",
+   "name": "Zenith Equipment 05"
+  },
+  "ERP-00037": {
+   "sheet_row": 201,
+   "created": "2023-12-14",
+   "modified": "2024-02-08",
+   "name": "Acme Processors 02"
+  },
+  "ERP-00062": {
+   "sheet_row": 202,
+   "created": "2024-11-13",
+   "modified": "2025-01-05",
+   "name": "Eastern Components 04"
+  },
+  "ERP-00151": {
+   "sheet_row": 203,
+   "created": "2023-09-16",
+   "modified": "2024-02-29",
+   "name": "Nova Systems 08"
+  },
+  "ERP-00250": {
+   "sheet_row": 204,
+   "created": "2024-05-03",
+   "modified": "2025-01-16",
+   "name": "Orion Manufacturing 03"
+  },
+  "ERP-00214": {
+   "sheet_row": 205,
+   "created": "2025-05-17",
+   "modified": "2025-11-10",
+   "name": "Prime Electricals 01"
+  },
+  "ERP-00256": {
+   "sheet_row": 206,
+   "created": "2023-11-12",
+   "modified": "2024-05-17",
+   "name": "Bharat Industrial Trading"
+  },
+  "ERP-00012": {
+   "sheet_row": 207,
+   "created": "2024-11-17",
+   "modified": "2025-04-03",
+   "name": "Evergreen Distributors 01"
+  },
+  "ERP-00307": {
+   "sheet_row": 208,
+   "created": "2025-12-15",
+   "modified": "2025-05-10",
+   "name": "Acme Processors 08"
+  },
+  "ERP-00201": {
+   "sheet_row": 209,
+   "created": "2023-04-04",
+   "modified": "2024-03-09",
+   "name": "Apex Industrial Supplies 11"
+  },
+  "ERP-00293": {
+   "sheet_row": 210,
+   "created": null,
+   "modified": "2024-04-01",
+   "name": "Sunrise Packaging 07"
+  },
+  "ERP-00028": {
+   "sheet_row": 211,
+   "created": "2023-05-12",
+   "modified": "2024-04-14",
+   "name": "Sunrise Packaging 02"
+  },
+  "ERP-00232": {
+   "sheet_row": 212,
+   "created": "2024-11-29",
+   "modified": "2025-08-31",
+   "name": "Eastern Components 02 PVT LTD"
+  },
+  "ERP-00005": {
+   "sheet_row": 213,
+   "created": "2025-02-16",
+   "modified": "2025-05-09",
+   "name": "Orion Manufacturing 01"
+  },
+  "ERP-00123": {
+   "sheet_row": 214,
+   "created": "2023-05-04",
+   "modified": "2024-05-08",
+   "name": "Shree Logistics 07"
+  },
+  "ERP-00033": {
+   "sheet_row": 215,
+   "created": "2023-03-14",
+   "modified": "2023-12-03",
+   "name": "Pioneer Metals 02"
+  },
+  "ERP-00221": {
+   "sheet_row": 216,
+   "created": "2024-04-24",
+   "modified": "2025-01-20",
+   "name": "Apex Industrial Supplies 02"
+  },
+  "ERP-00163": {
+   "sheet_row": 217,
+   "created": "2023-12-20",
+   "modified": "2024-06-08",
+   "name": "Shree Logistics 09"
+  },
+  "ERP-00222": {
+   "sheet_row": 218,
+   "created": "2023-06-11",
+   "modified": "2024-01-30",
+   "name": "Shree Logistics 02"
+  },
+  "ERP-00267": {
+   "sheet_row": 219,
+   "created": "2024-05-01",
+   "modified": "2025-03-10",
+   "name": "Eastern Components 05"
+  },
+  "ERP-00139": {
+   "sheet_row": 220,
+   "created": "2025-05-30",
+   "modified": "2026-01-18",
+   "name": "Zenith Equipment 07"
+  },
+  "ERP-00063": {
+   "sheet_row": 221,
+   "created": "2023-06-08",
+   "modified": "2023-10-08",
+   "name": "Shree Logistics 04"
+  },
+  "ERP-00216": {
+   "sheet_row": 222,
+   "created": "2023-10-12",
+   "modified": "2024-06-01",
+   "name": "Nova Systems 01"
+  },
+  "ERP-00136": {
+   "sheet_row": 223,
+   "created": "2024-11-07",
+   "modified": "2024-12-19",
+   "name": "Crown Plastics 07"
+  },
+  "ERP-00129": {
+   "sheet_row": 224,
+   "created": "2023-10-19",
+   "modified": "2024-06-16",
+   "name": "Metro Industrial Works 07"
+  },
+  "ERP-00301": {
+   "sheet_row": 225,
+   "created": "2016-06-15",
+   "modified": "2018-06-15",
+   "name": "BluePeak Traders 08"
+  },
+  "ERP-00009": {
+   "sheet_row": 226,
+   "created": "2025-06-01",
+   "modified": "2025-12-04",
+   "name": "Metro Industrial Works 01"
+  },
+  "ERP-00071": {
+   "sheet_row": 227,
+   "created": "2025-01-16",
+   "modified": "2025-06-26",
+   "name": "Nova Systems 04"
+  },
+  "ERP-00273": {
+   "sheet_row": 228,
+   "created": "2025-06-01",
+   "modified": "2026-01-31",
+   "name": "Sunrise Packaging 05"
+  },
+  "ERP-00065": {
+   "sheet_row": 229,
+   "created": "2025-04-10",
+   "modified": "2025-08-16",
+   "name": "Orion Manufacturing 04"
+  },
+  "ERP-00045": {
+   "sheet_row": 230,
+   "created": "2024-05-03",
+   "modified": "2025-01-16",
+   "name": "Orion Manufacturing 03"
+  },
+  "ERP-00249": {
+   "sheet_row": 231,
+   "created": "2023-03-01",
+   "modified": "2023-12-23",
+   "name": "Vertex Engineering 03"
+  },
+  "ERP-00157": {
+   "sheet_row": 232,
+   "created": "2023-05-01",
+   "modified": "2024-03-28",
+   "name": "Acme Processors 08"
+  },
+  "ERP-00041": {
+   "sheet_row": 233,
+   "created": "2023-08-07",
+   "modified": "2024-02-29",
+   "name": "Apex Industrial Supplies 03"
+  },
+  "ERP-00124": {
+   "sheet_row": 234,
+   "created": "2025-02-19",
+   "modified": "2026-02-08",
+   "name": "Vertex Engineering 07"
+  },
+  "ERP-00285": {
+   "sheet_row": 235,
+   "created": "2024-09-06",
+   "modified": "2024-11-07",
+   "name": "Delta Auto Components 06"
+  },
+  "ERP-00217": {
+   "sheet_row": 236,
+   "created": "2023-06-17",
+   "modified": "2024-02-09",
+   "name": "Pioneer Metals 01"
+  },
+  "ERP-00154": {
+   "sheet_row": 237,
+   "created": "2023-10-01",
+   "modified": "2024-07-09",
+   "name": "Global Machinery 08"
+  },
+  "ERP-00024": {
+   "sheet_row": 238,
+   "created": "2024-06-03",
+   "modified": "2024-07-28",
+   "name": "Vertex Engineering 02"
+  },
+  "ERP-00269": {
+   "sheet_row": 239,
+   "created": "2024-11-02",
+   "modified": "2025-10-21",
+   "name": "Vertex Engineering 05"
+  },
+  "ERP-00111": {
+   "sheet_row": 240,
+   "created": "2024-01-15",
+   "modified": "2024-02-20",
+   "name": "Nova Systems 06"
+  },
+  "ERP-00082": {
+   "sheet_row": 241,
+   "created": "2024-05-01",
+   "modified": "2025-03-10",
+   "name": "Eastern Components 05"
+  },
+  "ERP-00237": {
+   "sheet_row": 242,
+   "created": "2023-03-29",
+   "modified": "2024-04-07",
+   "name": "PRIME ELECTRICALS 02"
+  },
+  "ERP-00208": {
+   "sheet_row": 243,
+   "created": "2024-06-09",
+   "modified": "2025-04-09",
+   "name": "Sunrise Packaging 11"
+  },
+  "ERP-00213": {
+   "sheet_row": 244,
+   "created": "2025-02-16",
+   "modified": "2025-05-09",
+   "name": "Orion Manufacturing 01"
+  },
+  "ERP-00040": {
+   "sheet_row": 245,
+   "created": "2023-04-06",
+   "modified": "2024-04-26",
+   "name": "Kalinga Industrial Solutions 02"
+  },
+  "ERP-00254": {
+   "sheet_row": 246,
+   "created": "2023-11-18",
+   "modified": "2024-03-20",
+   "name": "Metro Industrial Works 03"
+  },
+  "ERP-00302": {
+   "sheet_row": 247,
+   "created": "2016-07-15",
+   "modified": "2018-07-15",
+   "name": "Prime Electricals 08"
+  },
+  "ERP-00270": {
+   "sheet_row": 248,
+   "created": "2023-06-30",
+   "modified": "2024-06-21",
+   "name": "Orion Manufacturing 05"
+  },
+  "ERP-00200": {
+   "sheet_row": 249,
+   "created": "2023-03-04",
+   "modified": "2023-09-24",
+   "name": "Kalinga Industrial Solutions 10"
+  },
+  "ERP-00015": {
+   "sheet_row": 250,
+   "created": "2024-02-15",
+   "modified": "2024-07-02",
+   "name": "Sterling Enterprises 01"
+  },
+  "ERP-00048": {
+   "sheet_row": 251,
+   "created": "2024-11-04",
+   "modified": "2025-08-30",
+   "name": "Sunrise Packaging 03"
+  },
+  "ERP-00095": {
+   "sheet_row": 252,
+   "created": "2023-11-02",
+   "modified": "2024-11-22",
+   "name": "Sterling Enterprises 05"
+  },
+  "ERP-00272": {
+   "sheet_row": 253,
+   "created": "2025-04-14",
+   "modified": "2026-04-18",
+   "name": "Prime Electricals 05"
+  },
+  "ERP-00228": {
+   "sheet_row": 254,
+   "created": "2023-07-14",
+   "modified": "2023-09-01",
+   "name": "Sterling Enterprises 02"
+  },
+  "ERP-00283": {
+   "sheet_row": 255,
+   "created": "2024-08-15",
+   "modified": null,
+   "name": "Sunrise Packaging 06"
+  },
+  "ERP-00202": {
+   "sheet_row": 256,
+   "created": "2023-05-09",
+   "modified": "2024-02-23",
+   "name": "Eastern Components 11"
+  },
+  "ERP-00162": {
+   "sheet_row": 257,
+   "created": "2025-05-07",
+   "modified": "2026-03-04",
+   "name": "Eastern Components 09"
+  },
+  "ERP-00044": {
+   "sheet_row": 258,
+   "created": "2023-03-01",
+   "modified": "2023-12-23",
+   "name": "Vertex Engineering 03"
+  },
+  "ERP-00218": {
+   "sheet_row": 259,
+   "created": "2024-02-15",
+   "modified": "2024-07-02",
+   "name": "Sterling Enterprises 01"
+  },
+  "ERP-00191": {
+   "sheet_row": 260,
+   "created": "2024-01-13",
+   "modified": "2024-12-23",
+   "name": "Nova Systems 10"
+  },
+  "ERP-00106": {
+   "sheet_row": 261,
+   "created": "2023-08-12",
+   "modified": "2024-04-07",
+   "name": "BluePeak Traders 06"
+  },
+  "ERP-00054": {
+   "sheet_row": 262,
+   "created": "2024-11-10",
+   "modified": "2025-01-03",
+   "name": "Global Machinery 03"
+  },
+  "ERP-00002": {
+   "sheet_row": 263,
+   "created": "2025-01-24",
+   "modified": "2025-03-18",
+   "name": "Eastern Components 01"
+  },
+  "ERP-00050": {
+   "sheet_row": 264,
+   "created": "2023-11-04",
+   "modified": "2024-06-26",
+   "name": "Delta Auto Components 03"
+  },
+  "ERP-00081": {
+   "sheet_row": 265,
+   "created": "2023-11-14",
+   "modified": "2024-03-09",
+   "name": "Apex Industrial Supplies 05"
+  },
+  "ERP-00206": {
+   "sheet_row": 266,
+   "created": "2024-08-25",
+   "modified": "2025-02-07",
+   "name": "BluePeak Traders 11"
+  },
+  "ERP-00035": {
+   "sheet_row": 267,
+   "created": "2023-07-14",
+   "modified": "2023-09-01",
+   "name": "Sterling Enterprises 02"
+  },
+  "ERP-00264": {
+   "sheet_row": 268,
+   "created": "2024-02-14",
+   "modified": "2025-01-27",
+   "name": "United Equipment Corporation"
+  },
+  "ERP-00092": {
+   "sheet_row": 269,
+   "created": "2024-12-24",
+   "modified": "2025-04-13",
+   "name": "Evergreen Distributors 05"
+  },
+  "ERP-00053": {
+   "sheet_row": 270,
+   "created": "2025-05-03",
+   "modified": "2026-02-06",
+   "name": "Pioneer Metals 03"
+  },
+  "ERP-00265": {
+   "sheet_row": 271,
+   "created": "2024-08-17",
+   "modified": "2024-12-31",
+   "name": "Indian Technical Supplies"
+  },
+  "ERP-00242": {
+   "sheet_row": 272,
+   "created": "2024-10-08",
+   "modified": "2024-11-08",
+   "name": "Evergreen  Distributors  02"
+  },
+  "ERP-00014": {
+   "sheet_row": 273,
+   "created": "2024-07-24",
+   "modified": "2024-11-14",
+   "name": "Global Machinery 01"
+  },
+  "ERP-00089": {
+   "sheet_row": 274,
+   "created": "2023-10-11",
+   "modified": "2024-11-07",
+   "name": "Metro Industrial Works 05"
+  },
+  "ERP-00274": {
+   "sheet_row": 275,
+   "created": "2023-10-11",
+   "modified": "2024-11-07",
+   "name": "Metro Industrial Works 05"
+  },
+  "ERP-00167": {
+   "sheet_row": 276,
+   "created": "2025-06-09",
+   "modified": "2025-07-31",
+   "name": "Prime Electricals 09"
+  },
+  "ERP-00305": {
+   "sheet_row": 277,
+   "created": "2016-01-15",
+   "modified": "2018-01-15",
+   "name": "Delta Auto Components 08"
+  },
+  "ERP-00135": {
+   "sheet_row": 278,
+   "created": "2024-09-16",
+   "modified": "2025-09-30",
+   "name": "Sterling Enterprises 07"
+  },
+  "ERP-00298": {
+   "sheet_row": 279,
+   "created": "2016-03-15",
+   "modified": "2018-03-15",
+   "name": "Shree Logistics 08"
+  },
+  "ERP-00244": {
+   "sheet_row": 280,
+   "created": "2024-07-06",
+   "modified": "2024-09-12",
+   "name": "Global Machinery 02 PVT LTD"
+  },
+  "ERP-00055": {
+   "sheet_row": 281,
+   "created": "2024-07-20",
+   "modified": "2024-10-08",
+   "name": "Sterling Enterprises 03"
+  },
+  "ERP-00051": {
+   "sheet_row": 282,
+   "created": "2024-07-30",
+   "modified": "2024-09-20",
+   "name": "Nova Systems 03"
+  },
+  "ERP-00175": {
+   "sheet_row": 283,
+   "created": "2023-05-30",
+   "modified": "2023-10-03",
+   "name": "Sterling Enterprises 09"
+  },
+  "ERP-00190": {
+   "sheet_row": 284,
+   "created": "2023-04-03",
+   "modified": "2023-10-23",
+   "name": "Delta Auto Components 10"
+  },
+  "ERP-00309": {
+   "sheet_row": 285,
+   "created": "2025-12-15",
+   "modified": "2025-05-10",
+   "name": "Zenith Equipment 08"
+  },
+  "ERP-00188": {
+   "sheet_row": 286,
+   "created": "2025-04-24",
+   "modified": "2025-12-27",
+   "name": "Sunrise Packaging 10"
+  },
+  "ERP-00170": {
+   "sheet_row": 287,
+   "created": "2025-05-29",
+   "modified": "2026-02-27",
+   "name": "Delta Auto Components 09"
+  },
+  "ERP-00059": {
+   "sheet_row": 288,
+   "created": "2024-07-28",
+   "modified": "2024-08-02",
+   "name": "Zenith Equipment 03"
+  },
+  "ERP-00049": {
+   "sheet_row": 289,
+   "created": "2023-11-18",
+   "modified": "2024-03-20",
+   "name": "Metro Industrial Works 03"
+  },
+  "ERP-00236": {
+   "sheet_row": 290,
+   "created": "2024-01-07",
+   "modified": "2024-06-13",
+   "name": "BluePeak  Traders  02"
+  },
+  "ERP-00253": {
+   "sheet_row": 291,
+   "created": "2024-11-04",
+   "modified": "2025-08-30",
+   "name": "Sunrise Packaging 03"
+  },
+  "ERP-00022": {
+   "sheet_row": 292,
+   "created": "2024-11-29",
+   "modified": "2025-08-31",
+   "name": "Eastern Components 02"
+  },
+  "ERP-00161": {
+   "sheet_row": 293,
+   "created": "2025-03-17",
+   "modified": "2025-12-02",
+   "name": "Apex Industrial Supplies 09"
+  },
+  "ERP-00277": {
+   "sheet_row": 294,
+   "created": "2025-02-09",
+   "modified": "2025-09-13",
+   "name": null
+  },
+  "ERP-00192": {
+   "sheet_row": 295,
+   "created": "2023-04-21",
+   "modified": "2024-04-01",
+   "name": "Evergreen Distributors 10"
+  },
+  "ERP-00294": {
+   "sheet_row": 296,
+   "created": "2023-10-19",
+   "modified": null,
+   "name": "Metro Industrial Works 07"
+  },
+  "ERP-00258": {
+   "sheet_row": 297,
+   "created": "2023-06-08",
+   "modified": "2023-10-08",
+   "name": "National Supply Corporation"
+  },
+  "ERP-00150": {
+   "sheet_row": 298,
+   "created": "2024-05-22",
+   "modified": "2024-10-17",
+   "name": "Delta Auto Components 08"
+  },
+  "ERP-00131": {
+   "sheet_row": 299,
+   "created": "2024-08-13",
+   "modified": "2025-07-02",
+   "name": "Nova Systems 07"
+  },
+  "ERP-00152": {
+   "sheet_row": 300,
+   "created": "2024-11-04",
+   "modified": "2025-08-09",
+   "name": "Evergreen Distributors 08"
+  },
+  "ERP-00100": {
+   "sheet_row": 301,
+   "created": "2025-06-06",
+   "modified": "2026-01-29",
+   "name": "Kalinga Industrial Solutions 05"
+  },
+  "ERP-00088": {
+   "sheet_row": 302,
+   "created": "2025-06-01",
+   "modified": "2026-01-31",
+   "name": "Sunrise Packaging 05"
+  },
+  "ERP-00215": {
+   "sheet_row": 303,
+   "created": "2025-06-01",
+   "modified": "2025-12-04",
+   "name": "Metro Industrial Works 01"
+  },
+  "ERP-00122": {
+   "sheet_row": 304,
+   "created": "2023-12-27",
+   "modified": "2024-12-21",
+   "name": "Eastern Components 07"
+  },
+  "ERP-00310": {
+   "sheet_row": 305,
+   "created": "2025-12-15",
+   "modified": "2025-05-10",
+   "name": "Kalinga Industrial Solutions 08"
+  },
+  "ERP-00021": {
+   "sheet_row": 306,
+   "created": "2024-04-24",
+   "modified": "2025-01-20",
+   "name": "Apex Industrial Supplies 02"
+  },
+  "ERP-00189": {
+   "sheet_row": 307,
+   "created": "2023-03-19",
+   "modified": "2023-05-31",
+   "name": "Metro Industrial Works 10"
+  },
+  "ERP-00072": {
+   "sheet_row": 308,
+   "created": "2023-09-18",
+   "modified": "2023-10-11",
+   "name": "Evergreen Distributors 04"
+  },
+  "ERP-00107": {
+   "sheet_row": 309,
+   "created": "2025-02-04",
+   "modified": "2026-02-07",
+   "name": "Prime Electricals 06"
+  },
+  "ERP-00271": {
+   "sheet_row": 310,
+   "created": "2024-04-12",
+   "modified": "2024-06-20",
+   "name": "BluePeak Traders 05"
+  },
+  "ERP-00103": {
+   "sheet_row": 311,
+   "created": "2024-07-06",
+   "modified": "2024-08-02",
+   "name": "Shree Logistics 06"
+  }
+ },
+ "entity_clusters": [
+  {
+   "id": "C001",
+   "members": [
+    "ERP-00001",
+    "ERP-00211"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00211",
+     "b": "ERP-00001",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C002",
+   "members": [
+    "ERP-00003",
+    "ERP-00212"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00003",
+     "b": "ERP-00212",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C003",
+   "members": [
+    "ERP-00005",
+    "ERP-00213"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00005",
+     "b": "ERP-00213",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C004",
+   "members": [
+    "ERP-00007",
+    "ERP-00214"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00007",
+     "b": "ERP-00214",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C005",
+   "members": [
+    "ERP-00009",
+    "ERP-00215"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00009",
+     "b": "ERP-00215",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C006",
+   "members": [
+    "ERP-00011",
+    "ERP-00216"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00011",
+     "b": "ERP-00216",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C007",
+   "members": [
+    "ERP-00013",
+    "ERP-00217"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00013",
+     "b": "ERP-00217",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C008",
+   "members": [
+    "ERP-00015",
+    "ERP-00218"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00015",
+     "b": "ERP-00218",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C009",
+   "members": [
+    "ERP-00017",
+    "ERP-00219"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00017",
+     "b": "ERP-00219",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C010",
+   "members": [
+    "ERP-00019",
+    "ERP-00220"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00019",
+     "b": "ERP-00220",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C011",
+   "members": [
+    "ERP-00021",
+    "ERP-00221",
+    "ERP-00231"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00231",
+     "b": "ERP-00221",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00231",
+     "b": "ERP-00021",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00221",
+     "b": "ERP-00021",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 2,
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C012",
+   "members": [
+    "ERP-00022",
+    "ERP-00232"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00232",
+     "b": "ERP-00022",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 1
+   }
+  },
+  {
+   "id": "C013",
+   "members": [
+    "ERP-00023",
+    "ERP-00222",
+    "ERP-00233"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00023",
+     "b": "ERP-00233",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00023",
+     "b": "ERP-00222",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    },
+    {
+     "a": "ERP-00233",
+     "b": "ERP-00222",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 2,
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C014",
+   "members": [
+    "ERP-00024",
+    "ERP-00234"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00234",
+     "b": "ERP-00024",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 1
+   }
+  },
+  {
+   "id": "C015",
+   "members": [
+    "ERP-00025",
+    "ERP-00223",
+    "ERP-00235"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00025",
+     "b": "ERP-00235",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00025",
+     "b": "ERP-00223",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    },
+    {
+     "a": "ERP-00235",
+     "b": "ERP-00223",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 2,
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C016",
+   "members": [
+    "ERP-00026",
+    "ERP-00236"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00026",
+     "b": "ERP-00236",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 1
+   }
+  },
+  {
+   "id": "C017",
+   "members": [
+    "ERP-00027",
+    "ERP-00224",
+    "ERP-00237"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00224",
+     "b": "ERP-00027",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    },
+    {
+     "a": "ERP-00224",
+     "b": "ERP-00237",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00027",
+     "b": "ERP-00237",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1,
+    "normalized_duplicate": 2
+   }
+  },
+  {
+   "id": "C018",
+   "members": [
+    "ERP-00028",
+    "ERP-00238"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00238",
+     "b": "ERP-00028",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 1
+   }
+  },
+  {
+   "id": "C019",
+   "members": [
+    "ERP-00029",
+    "ERP-00225",
+    "ERP-00239"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00225",
+     "b": "ERP-00239",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00225",
+     "b": "ERP-00029",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    },
+    {
+     "a": "ERP-00239",
+     "b": "ERP-00029",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 2,
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C020",
+   "members": [
+    "ERP-00030",
+    "ERP-00240"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00240",
+     "b": "ERP-00030",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 1
+   }
+  },
+  {
+   "id": "C021",
+   "members": [
+    "ERP-00031",
+    "ERP-00226",
+    "ERP-00241"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00031",
+     "b": "ERP-00241",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00031",
+     "b": "ERP-00226",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    },
+    {
+     "a": "ERP-00241",
+     "b": "ERP-00226",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 2,
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C022",
+   "members": [
+    "ERP-00032",
+    "ERP-00242"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00032",
+     "b": "ERP-00242",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 1
+   }
+  },
+  {
+   "id": "C023",
+   "members": [
+    "ERP-00033",
+    "ERP-00227",
+    "ERP-00243"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00243",
+     "b": "ERP-00227",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00243",
+     "b": "ERP-00033",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00227",
+     "b": "ERP-00033",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 2,
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C024",
+   "members": [
+    "ERP-00034",
+    "ERP-00244"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00034",
+     "b": "ERP-00244",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 1
+   }
+  },
+  {
+   "id": "C025",
+   "members": [
+    "ERP-00035",
+    "ERP-00228",
+    "ERP-00245"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00245",
+     "b": "ERP-00228",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00245",
+     "b": "ERP-00035",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "normalized_duplicate",
+     "match_class": "normalized_duplicate",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    },
+    {
+     "a": "ERP-00228",
+     "b": "ERP-00035",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "normalized_duplicate": 2,
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C026",
+   "members": [
+    "ERP-00037",
+    "ERP-00229"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00229",
+     "b": "ERP-00037",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C027",
+   "members": [
+    "ERP-00039",
+    "ERP-00230"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00039",
+     "b": "ERP-00230",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C028",
+   "members": [
+    "ERP-00041",
+    "ERP-00246"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00246",
+     "b": "ERP-00041",
+     "name_relation": "sim",
+     "name_ratio": 0.963,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "fuzzy_name_variant",
+     "match_class": "fuzzy_name_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "fuzzy_name_variant": 1
+   }
+  },
+  {
+   "id": "C029",
+   "members": [
+    "ERP-00042",
+    "ERP-00247"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00247",
+     "b": "ERP-00042",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C030",
+   "members": [
+    "ERP-00043",
+    "ERP-00248"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00043",
+     "b": "ERP-00248",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C031",
+   "members": [
+    "ERP-00044",
+    "ERP-00249"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00249",
+     "b": "ERP-00044",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C032",
+   "members": [
+    "ERP-00045",
+    "ERP-00250"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00250",
+     "b": "ERP-00045",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C033",
+   "members": [
+    "ERP-00046",
+    "ERP-00251"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00046",
+     "b": "ERP-00251",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C034",
+   "members": [
+    "ERP-00047",
+    "ERP-00252"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00047",
+     "b": "ERP-00252",
+     "name_relation": "sim",
+     "name_ratio": 0.974,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "fuzzy_name_variant",
+     "match_class": "fuzzy_name_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "fuzzy_name_variant": 1
+   }
+  },
+  {
+   "id": "C035",
+   "members": [
+    "ERP-00048",
+    "ERP-00253"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00048",
+     "b": "ERP-00253",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C036",
+   "members": [
+    "ERP-00049",
+    "ERP-00254"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00254",
+     "b": "ERP-00049",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C037",
+   "members": [
+    "ERP-00050",
+    "ERP-00255"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00255",
+     "b": "ERP-00050",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "exact_business_duplicate",
+     "match_class": "exact_business_duplicate",
+     "match_subtype": null,
+     "diff_fields": []
+    }
+   ],
+   "dup_types": {
+    "exact_business_duplicate": 1
+   }
+  },
+  {
+   "id": "C038",
+   "members": [
+    "ERP-00081",
+    "ERP-00266"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00266",
+     "b": "ERP-00081",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C039",
+   "members": [
+    "ERP-00082",
+    "ERP-00267"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00267",
+     "b": "ERP-00082",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C040",
+   "members": [
+    "ERP-00083",
+    "ERP-00268"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00083",
+     "b": "ERP-00268",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C041",
+   "members": [
+    "ERP-00084",
+    "ERP-00269"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00084",
+     "b": "ERP-00269",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C042",
+   "members": [
+    "ERP-00085",
+    "ERP-00270"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00085",
+     "b": "ERP-00270",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C043",
+   "members": [
+    "ERP-00086",
+    "ERP-00271"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00086",
+     "b": "ERP-00271",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C044",
+   "members": [
+    "ERP-00087",
+    "ERP-00272"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00087",
+     "b": "ERP-00272",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C045",
+   "members": [
+    "ERP-00088",
+    "ERP-00273"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00273",
+     "b": "ERP-00088",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C046",
+   "members": [
+    "ERP-00089",
+    "ERP-00274"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00089",
+     "b": "ERP-00274",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C047",
+   "members": [
+    "ERP-00090",
+    "ERP-00275"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00275",
+     "b": "ERP-00090",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "value"
+      },
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C048",
+   "members": [
+    "ERP-00101",
+    "ERP-00276"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00276",
+     "b": "ERP-00101",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "GSTIN",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C049",
+   "members": [
+    "ERP-00102",
+    "ERP-00277"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00102",
+     "b": "ERP-00277",
+     "name_relation": "unknown",
+     "name_ratio": null,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Company_Name",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C050",
+   "members": [
+    "ERP-00103",
+    "ERP-00278"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00278",
+     "b": "ERP-00103",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Code",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C051",
+   "members": [
+    "ERP-00104",
+    "ERP-00279"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00279",
+     "b": "ERP-00104",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Item_Description",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C052",
+   "members": [
+    "ERP-00105",
+    "ERP-00280"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00105",
+     "b": "ERP-00280",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Email",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C053",
+   "members": [
+    "ERP-00106",
+    "ERP-00281"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00281",
+     "b": "ERP-00106",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Phone",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C054",
+   "members": [
+    "ERP-00107",
+    "ERP-00282"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00282",
+     "b": "ERP-00107",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Address",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C055",
+   "members": [
+    "ERP-00108",
+    "ERP-00283"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00108",
+     "b": "ERP-00283",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Modification_Date",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C056",
+   "members": [
+    "ERP-00109",
+    "ERP-00284"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00109",
+     "b": "ERP-00284",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C057",
+   "members": [
+    "ERP-00110",
+    "ERP-00285"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00110",
+     "b": "ERP-00285",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "GSTIN",
+       "kind": "null_gap"
+      },
+      {
+       "field": "Address",
+       "kind": "null_gap"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C058",
+   "members": [
+    "ERP-00121",
+    "ERP-00286"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00286",
+     "b": "ERP-00121",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "GSTIN",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C059",
+   "members": [
+    "ERP-00122",
+    "ERP-00287"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00287",
+     "b": "ERP-00122",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "GSTIN",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C060",
+   "members": [
+    "ERP-00123",
+    "ERP-00288"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00288",
+     "b": "ERP-00123",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Email",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C061",
+   "members": [
+    "ERP-00124",
+    "ERP-00289"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00289",
+     "b": "ERP-00124",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Phone",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C062",
+   "members": [
+    "ERP-00125",
+    "ERP-00290"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00290",
+     "b": "ERP-00125",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Postal_Code",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C063",
+   "members": [
+    "ERP-00126",
+    "ERP-00291"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00291",
+     "b": "ERP-00126",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Quantity",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C064",
+   "members": [
+    "ERP-00127",
+    "ERP-00292"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00127",
+     "b": "ERP-00292",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Unit_Price",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C065",
+   "members": [
+    "ERP-00128",
+    "ERP-00293"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00128",
+     "b": "ERP-00293",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C066",
+   "members": [
+    "ERP-00129",
+    "ERP-00294"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00129",
+     "b": "ERP-00294",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C067",
+   "members": [
+    "ERP-00130",
+    "ERP-00295"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00295",
+     "b": "ERP-00130",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "attribute_variant",
+     "match_class": "attribute_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "GSTIN",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "attribute_variant": 1
+   }
+  },
+  {
+   "id": "C068",
+   "members": [
+    "ERP-00141",
+    "ERP-00296"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00141",
+     "b": "ERP-00296",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C069",
+   "members": [
+    "ERP-00142",
+    "ERP-00297"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00297",
+     "b": "ERP-00142",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C070",
+   "members": [
+    "ERP-00143",
+    "ERP-00298"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00143",
+     "b": "ERP-00298",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C071",
+   "members": [
+    "ERP-00144",
+    "ERP-00299"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00299",
+     "b": "ERP-00144",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C072",
+   "members": [
+    "ERP-00145",
+    "ERP-00300"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00145",
+     "b": "ERP-00300",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C073",
+   "members": [
+    "ERP-00146",
+    "ERP-00301"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00146",
+     "b": "ERP-00301",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C074",
+   "members": [
+    "ERP-00147",
+    "ERP-00302"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00147",
+     "b": "ERP-00302",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C075",
+   "members": [
+    "ERP-00148",
+    "ERP-00303"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00303",
+     "b": "ERP-00148",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C076",
+   "members": [
+    "ERP-00149",
+    "ERP-00304"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00149",
+     "b": "ERP-00304",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C077",
+   "members": [
+    "ERP-00150",
+    "ERP-00305"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00305",
+     "b": "ERP-00150",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C078",
+   "members": [
+    "ERP-00156",
+    "ERP-00306"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00156",
+     "b": "ERP-00306",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C079",
+   "members": [
+    "ERP-00157",
+    "ERP-00307"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00307",
+     "b": "ERP-00157",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C080",
+   "members": [
+    "ERP-00158",
+    "ERP-00308"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00308",
+     "b": "ERP-00158",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C081",
+   "members": [
+    "ERP-00159",
+    "ERP-00309"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00159",
+     "b": "ERP-00309",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  },
+  {
+   "id": "C082",
+   "members": [
+    "ERP-00160",
+    "ERP-00310"
+   ],
+   "pairs": [
+    {
+     "a": "ERP-00160",
+     "b": "ERP-00310",
+     "name_relation": "eq",
+     "name_ratio": 1.0,
+     "evidence": [
+      "gstin_agree",
+      "vendor_code_agree",
+      "phone_equal",
+      "email_equal"
+     ],
+     "dup_type": "audit_date_variant",
+     "match_class": "audit_date_variant",
+     "match_subtype": null,
+     "diff_fields": [
+      {
+       "field": "Creation_Date",
+       "kind": "value"
+      },
+      {
+       "field": "Modification_Date",
+       "kind": "value"
+      }
+     ]
+    }
+   ],
+   "dup_types": {
+    "audit_date_variant": 1
+   }
+  }
+ ],
+ "refused_unions": 0,
+ "conflict_groups": [
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00061",
+    "ERP-00256"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  },
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00064",
+    "ERP-00259"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  },
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00065",
+    "ERP-00260"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  },
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00068",
+    "ERP-00263"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  },
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00067",
+    "ERP-00262"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  },
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00069",
+    "ERP-00264"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  },
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00070",
+    "ERP-00265"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  },
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00066",
+    "ERP-00261"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  },
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00062",
+    "ERP-00257"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  },
+  {
+   "type": "gstin_shared_identity",
+   "members": [
+    "ERP-00063",
+    "ERP-00258"
+   ],
+   "evidence": [
+    "gstin_agree",
+    "phone_equal",
+    "email_equal"
+   ],
+   "name_relation": "different"
+  }
+ ],
+ "fuzzy_candidates": [],
+ "ambiguous_pairs": [],
+ "shared_contact_observations": [],
+ "item_conflicts": [
+  {
+   "code": "MAT-1001",
+   "tie": false,
+   "classes": [
+    {
+     "description": "industrial bearing 6205",
+     "count": 29,
+     "records": [
+      "ERP-00001",
+      "ERP-00013",
+      "ERP-00025",
+      "ERP-00037",
+      "ERP-00049",
+      "ERP-00061",
+      "ERP-00073",
+      "ERP-00085",
+      "ERP-00097",
+      "ERP-00109",
+      "ERP-00121",
+      "ERP-00133",
+      "ERP-00145",
+      "ERP-00157",
+      "ERP-00169",
+      "ERP-00181",
+      "ERP-00193",
+      "ERP-00205",
+      "ERP-00211",
+      "ERP-00217",
+      "ERP-00223",
+      "ERP-00229",
+      "ERP-00235",
+      "ERP-00254",
+      "ERP-00256",
+      "ERP-00284",
+      "ERP-00286",
+      "ERP-00300",
+      "ERP-00307"
+     ]
+    },
+    {
+     "description": "industrial safety helmet premium",
+     "count": 1,
+     "records": [
+      "ERP-00270"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00270"
+   ]
+  },
+  {
+   "code": "MAT-1002",
+   "tie": false,
+   "classes": [
+    {
+     "description": "stainless steel bolt m10",
+     "count": 25,
+     "records": [
+      "ERP-00002",
+      "ERP-00014",
+      "ERP-00026",
+      "ERP-00038",
+      "ERP-00050",
+      "ERP-00062",
+      "ERP-00074",
+      "ERP-00086",
+      "ERP-00098",
+      "ERP-00110",
+      "ERP-00122",
+      "ERP-00134",
+      "ERP-00146",
+      "ERP-00158",
+      "ERP-00170",
+      "ERP-00182",
+      "ERP-00194",
+      "ERP-00206",
+      "ERP-00236",
+      "ERP-00255",
+      "ERP-00257",
+      "ERP-00285",
+      "ERP-00287",
+      "ERP-00301",
+      "ERP-00308"
+     ]
+    },
+    {
+     "description": "pvc insulation tape 30m",
+     "count": 1,
+     "records": [
+      "ERP-00271"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00271"
+   ]
+  },
+  {
+   "code": "MAT-1003",
+   "tie": false,
+   "classes": [
+    {
+     "description": "copper cable 2.5sqmm",
+     "count": 27,
+     "records": [
+      "ERP-00003",
+      "ERP-00015",
+      "ERP-00027",
+      "ERP-00039",
+      "ERP-00051",
+      "ERP-00063",
+      "ERP-00075",
+      "ERP-00087",
+      "ERP-00099",
+      "ERP-00111",
+      "ERP-00123",
+      "ERP-00135",
+      "ERP-00147",
+      "ERP-00159",
+      "ERP-00171",
+      "ERP-00183",
+      "ERP-00195",
+      "ERP-00207",
+      "ERP-00212",
+      "ERP-00218",
+      "ERP-00224",
+      "ERP-00230",
+      "ERP-00237",
+      "ERP-00258",
+      "ERP-00288",
+      "ERP-00302",
+      "ERP-00309"
+     ]
+    },
+    {
+     "description": "electric motor 7.5hp",
+     "count": 1,
+     "records": [
+      "ERP-00272"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00272"
+   ]
+  },
+  {
+   "code": "MAT-1004",
+   "tie": false,
+   "classes": [
+    {
+     "description": "hydraulic hose 1/2inch",
+     "count": 23,
+     "records": [
+      "ERP-00004",
+      "ERP-00016",
+      "ERP-00028",
+      "ERP-00040",
+      "ERP-00052",
+      "ERP-00064",
+      "ERP-00076",
+      "ERP-00088",
+      "ERP-00100",
+      "ERP-00112",
+      "ERP-00124",
+      "ERP-00136",
+      "ERP-00148",
+      "ERP-00160",
+      "ERP-00172",
+      "ERP-00184",
+      "ERP-00196",
+      "ERP-00208",
+      "ERP-00238",
+      "ERP-00259",
+      "ERP-00289",
+      "ERP-00303",
+      "ERP-00310"
+     ]
+    },
+    {
+     "description": "gear oil ep 140",
+     "count": 1,
+     "records": [
+      "ERP-00273"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00273"
+   ]
+  },
+  {
+   "code": "MAT-1005",
+   "tie": false,
+   "classes": [
+    {
+     "description": "industrial safety helmet",
+     "count": 27,
+     "records": [
+      "ERP-00005",
+      "ERP-00017",
+      "ERP-00029",
+      "ERP-00041",
+      "ERP-00053",
+      "ERP-00065",
+      "ERP-00077",
+      "ERP-00089",
+      "ERP-00101",
+      "ERP-00113",
+      "ERP-00125",
+      "ERP-00137",
+      "ERP-00149",
+      "ERP-00161",
+      "ERP-00173",
+      "ERP-00185",
+      "ERP-00197",
+      "ERP-00209",
+      "ERP-00213",
+      "ERP-00219",
+      "ERP-00225",
+      "ERP-00239",
+      "ERP-00246",
+      "ERP-00260",
+      "ERP-00276",
+      "ERP-00290",
+      "ERP-00304"
+     ]
+    },
+    {
+     "description": "packaging carton 14x12x10",
+     "count": 1,
+     "records": [
+      "ERP-00274"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00274"
+   ]
+  },
+  {
+   "code": "MAT-1006",
+   "tie": false,
+   "classes": [
+    {
+     "description": "pvc insulation tape 20m",
+     "count": 24,
+     "records": [
+      "ERP-00006",
+      "ERP-00018",
+      "ERP-00030",
+      "ERP-00042",
+      "ERP-00054",
+      "ERP-00066",
+      "ERP-00078",
+      "ERP-00090",
+      "ERP-00102",
+      "ERP-00114",
+      "ERP-00126",
+      "ERP-00138",
+      "ERP-00150",
+      "ERP-00162",
+      "ERP-00174",
+      "ERP-00186",
+      "ERP-00198",
+      "ERP-00210",
+      "ERP-00240",
+      "ERP-00247",
+      "ERP-00261",
+      "ERP-00277",
+      "ERP-00291",
+      "ERP-00305"
+     ]
+    },
+    {
+     "description": "welding electrode 4.0mm",
+     "count": 1,
+     "records": [
+      "ERP-00275"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00275"
+   ]
+  },
+  {
+   "code": "MAT-1009",
+   "tie": false,
+   "classes": [
+    {
+     "description": "packaging carton 12x10x8",
+     "count": 27,
+     "records": [
+      "ERP-00009",
+      "ERP-00021",
+      "ERP-00033",
+      "ERP-00045",
+      "ERP-00057",
+      "ERP-00069",
+      "ERP-00081",
+      "ERP-00093",
+      "ERP-00105",
+      "ERP-00117",
+      "ERP-00129",
+      "ERP-00141",
+      "ERP-00153",
+      "ERP-00165",
+      "ERP-00177",
+      "ERP-00189",
+      "ERP-00201",
+      "ERP-00215",
+      "ERP-00221",
+      "ERP-00227",
+      "ERP-00231",
+      "ERP-00243",
+      "ERP-00250",
+      "ERP-00264",
+      "ERP-00280",
+      "ERP-00294",
+      "ERP-00296"
+     ]
+    },
+    {
+     "description": "industrial bearing 6206",
+     "count": 1,
+     "records": [
+      "ERP-00266"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00266"
+   ]
+  },
+  {
+   "code": "MAT-1010",
+   "tie": false,
+   "classes": [
+    {
+     "description": "welding electrode 3.15mm",
+     "count": 24,
+     "records": [
+      "ERP-00010",
+      "ERP-00022",
+      "ERP-00034",
+      "ERP-00046",
+      "ERP-00058",
+      "ERP-00070",
+      "ERP-00082",
+      "ERP-00094",
+      "ERP-00106",
+      "ERP-00118",
+      "ERP-00130",
+      "ERP-00142",
+      "ERP-00154",
+      "ERP-00166",
+      "ERP-00178",
+      "ERP-00190",
+      "ERP-00202",
+      "ERP-00232",
+      "ERP-00244",
+      "ERP-00251",
+      "ERP-00265",
+      "ERP-00281",
+      "ERP-00295",
+      "ERP-00297"
+     ]
+    },
+    {
+     "description": "stainless steel bolt m12",
+     "count": 1,
+     "records": [
+      "ERP-00267"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00267"
+   ]
+  },
+  {
+   "code": "MAT-1011",
+   "tie": false,
+   "classes": [
+    {
+     "description": "mild steel plate 6mm",
+     "count": 25,
+     "records": [
+      "ERP-00011",
+      "ERP-00023",
+      "ERP-00035",
+      "ERP-00047",
+      "ERP-00059",
+      "ERP-00071",
+      "ERP-00083",
+      "ERP-00095",
+      "ERP-00107",
+      "ERP-00119",
+      "ERP-00131",
+      "ERP-00143",
+      "ERP-00155",
+      "ERP-00167",
+      "ERP-00179",
+      "ERP-00191",
+      "ERP-00203",
+      "ERP-00216",
+      "ERP-00222",
+      "ERP-00228",
+      "ERP-00233",
+      "ERP-00245",
+      "ERP-00252",
+      "ERP-00282",
+      "ERP-00298"
+     ]
+    },
+    {
+     "description": "copper cable 4sqmm",
+     "count": 1,
+     "records": [
+      "ERP-00268"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00268"
+   ]
+  },
+  {
+   "code": "MAT-1012",
+   "tie": false,
+   "classes": [
+    {
+     "description": "industrial lubricant iso 68",
+     "count": 22,
+     "records": [
+      "ERP-00012",
+      "ERP-00024",
+      "ERP-00036",
+      "ERP-00048",
+      "ERP-00060",
+      "ERP-00072",
+      "ERP-00084",
+      "ERP-00096",
+      "ERP-00108",
+      "ERP-00120",
+      "ERP-00132",
+      "ERP-00144",
+      "ERP-00156",
+      "ERP-00168",
+      "ERP-00180",
+      "ERP-00192",
+      "ERP-00204",
+      "ERP-00234",
+      "ERP-00253",
+      "ERP-00283",
+      "ERP-00299",
+      "ERP-00306"
+     ]
+    },
+    {
+     "description": "hydraulic hose 3/4inch",
+     "count": 1,
+     "records": [
+      "ERP-00269"
+     ]
+    }
+   ],
+   "minority_records": [
+    "ERP-00269"
+   ]
+  }
+ ],
+ "missing": {
+  "expected_roles": [
+   "entity_type",
+   "name",
+   "gstin",
+   "vendor_code",
+   "item_code",
+   "item_desc",
+   "uom",
+   "quantity",
+   "unit_price",
+   "tax_rate",
+   "email",
+   "phone",
+   "address",
+   "city",
+   "state",
+   "postal",
+   "created",
+   "modified",
+   "payment_terms",
+   "currency"
+  ],
+  "populated_ratio": {
+   "entity_type": 1.0,
+   "name": 0.9967741935483871,
+   "gstin": 0.9935483870967742,
+   "vendor_code": 1.0,
+   "item_code": 0.9967741935483871,
+   "item_desc": 0.9967741935483871,
+   "uom": 1.0,
+   "quantity": 1.0,
+   "unit_price": 1.0,
+   "tax_rate": 1.0,
+   "email": 0.9967741935483871,
+   "phone": 0.9967741935483871,
+   "address": 0.9935483870967742,
+   "city": 1.0,
+   "state": 1.0,
+   "postal": 1.0,
+   "created": 0.9967741935483871,
+   "modified": 0.9967741935483871,
+   "payment_terms": 1.0,
+   "currency": 1.0
+  },
+  "records": {
+   "ERP-00276": [
+    "GSTIN"
+   ],
+   "ERP-00279": [
+    "Item_Description"
+   ],
+   "ERP-00280": [
+    "Email"
+   ],
+   "ERP-00281": [
+    "Phone"
+   ],
+   "ERP-00284": [
+    "Creation_Date"
+   ],
+   "ERP-00278": [
+    "Item_Code"
+   ],
+   "ERP-00282": [
+    "Address"
+   ],
+   "ERP-00285": [
+    "GSTIN",
+    "Address"
+   ],
+   "ERP-00283": [
+    "Modification_Date"
+   ],
+   "ERP-00277": [
+    "Company_Name"
+   ]
+  }
+ },
+ "invalid": {
+  "records": {
+   "ERP-00290": [
+    {
+     "rule": "postal_format_in",
+     "field": "Postal_Code",
+     "value": "ABC123"
+    }
+   ],
+   "ERP-00286": [
+    {
+     "rule": "gstin_structure",
+     "field": "GSTIN",
+     "value": "21ABCDE1234"
+    }
+   ],
+   "ERP-00291": [
+    {
+     "rule": "quantity_range",
+     "field": "Quantity",
+     "value": "-25"
+    }
+   ],
+   "ERP-00288": [
+    {
+     "rule": "email_format",
+     "field": "Email",
+     "value": "not-an-email"
+    }
+   ],
+   "ERP-00289": [
+    {
+     "rule": "phone_format_in",
+     "field": "Phone",
+     "value": "12345"
+    }
+   ],
+   "ERP-00295": [
+    {
+     "rule": "gstin_structure",
+     "field": "GSTIN",
+     "value": "21ABCDE1234F1Z@"
+    }
+   ],
+   "ERP-00287": [
+    {
+     "rule": "gstin_structure",
+     "field": "GSTIN",
+     "value": "XXABCDE1234F1Z9"
+    }
+   ],
+   "ERP-00292": [
+    {
+     "rule": "price_range",
+     "field": "Unit_Price",
+     "value": "-999"
+    }
+   ],
+   "ERP-00293": [
+    {
+     "rule": "date_parse",
+     "field": "Creation_Date",
+     "value": "2026-99-99"
+    }
+   ],
+   "ERP-00294": [
+    {
+     "rule": "date_parse",
+     "field": "Modification_Date",
+     "value": "not-a-date"
+    }
+   ]
+  }
+ },
+ "temporal": {
+  "modified_before_created": [
+   "ERP-00308",
+   "ERP-00306",
+   "ERP-00307",
+   "ERP-00309",
+   "ERP-00310"
+  ],
+  "future_created": [],
+  "future_modified": []
+ },
+ "stale_table": [
+  {
+   "reference_date": "2026-04-18",
+   "threshold_years": 1,
+   "threshold_days": 365.25,
+   "count": 236,
+   "records": [
+    "ERP-00001",
+    "ERP-00002",
+    "ERP-00003",
+    "ERP-00004",
+    "ERP-00008",
+    "ERP-00011",
+    "ERP-00012",
+    "ERP-00013",
+    "ERP-00014",
+    "ERP-00015",
+    "ERP-00016",
+    "ERP-00017",
+    "ERP-00018",
+    "ERP-00019",
+    "ERP-00020",
+    "ERP-00021",
+    "ERP-00023",
+    "ERP-00024",
+    "ERP-00026",
+    "ERP-00027",
+    "ERP-00028",
+    "ERP-00029",
+    "ERP-00030",
+    "ERP-00031",
+    "ERP-00032",
+    "ERP-00033",
+    "ERP-00034",
+    "ERP-00035",
+    "ERP-00037",
+    "ERP-00038",
+    "ERP-00039",
+    "ERP-00040",
+    "ERP-00041",
+    "ERP-00042",
+    "ERP-00044",
+    "ERP-00045",
+    "ERP-00047",
+    "ERP-00049",
+    "ERP-00050",
+    "ERP-00051",
+    "ERP-00052",
+    "ERP-00054",
+    "ERP-00055",
+    "ERP-00056",
+    "ERP-00058",
+    "ERP-00059",
+    "ERP-00060",
+    "ERP-00061",
+    "ERP-00062",
+    "ERP-00063",
+    "ERP-00064",
+    "ERP-00066",
+    "ERP-00067",
+    "ERP-00068",
+    "ERP-00069",
+    "ERP-00070",
+    "ERP-00072",
+    "ERP-00074",
+    "ERP-00075",
+    "ERP-00076",
+    "ERP-00078",
+    "ERP-00079",
+    "ERP-00081",
+    "ERP-00082",
+    "ERP-00083",
+    "ERP-00085",
+    "ERP-00086",
+    "ERP-00089",
+    "ERP-00091",
+    "ERP-00092",
+    "ERP-00093",
+    "ERP-00095",
+    "ERP-00097",
+    "ERP-00098",
+    "ERP-00099",
+    "ERP-00101",
+    "ERP-00103",
+    "ERP-00104",
+    "ERP-00105",
+    "ERP-00106",
+    "ERP-00108",
+    "ERP-00109",
+    "ERP-00110",
+    "ERP-00111",
+    "ERP-00112",
+    "ERP-00113",
+    "ERP-00114",
+    "ERP-00115",
+    "ERP-00117",
+    "ERP-00118",
+    "ERP-00119",
+    "ERP-00120",
+    "ERP-00121",
+    "ERP-00122",
+    "ERP-00123",
+    "ERP-00125",
+    "ERP-00126",
+    "ERP-00127",
+    "ERP-00128",
+    "ERP-00129",
+    "ERP-00130",
+    "ERP-00132",
+    "ERP-00133",
+    "ERP-00136",
+    "ERP-00137",
+    "ERP-00138",
+    "ERP-00141",
+    "ERP-00143",
+    "ERP-00144",
+    "ERP-00145",
+    "ERP-00146",
+    "ERP-00149",
+    "ERP-00150",
+    "ERP-00151",
+    "ERP-00153",
+    "ERP-00154",
+    "ERP-00155",
+    "ERP-00156",
+    "ERP-00157",
+    "ERP-00159",
+    "ERP-00160",
+    "ERP-00163",
+    "ERP-00164",
+    "ERP-00165",
+    "ERP-00166",
+    "ERP-00168",
+    "ERP-00169",
+    "ERP-00172",
+    "ERP-00174",
+    "ERP-00175",
+    "ERP-00176",
+    "ERP-00177",
+    "ERP-00179",
+    "ERP-00180",
+    "ERP-00181",
+    "ERP-00182",
+    "ERP-00183",
+    "ERP-00185",
+    "ERP-00186",
+    "ERP-00187",
+    "ERP-00189",
+    "ERP-00190",
+    "ERP-00191",
+    "ERP-00192",
+    "ERP-00193",
+    "ERP-00194",
+    "ERP-00195",
+    "ERP-00196",
+    "ERP-00197",
+    "ERP-00198",
+    "ERP-00200",
+    "ERP-00201",
+    "ERP-00202",
+    "ERP-00203",
+    "ERP-00204",
+    "ERP-00205",
+    "ERP-00206",
+    "ERP-00208",
+    "ERP-00209",
+    "ERP-00210",
+    "ERP-00211",
+    "ERP-00212",
+    "ERP-00216",
+    "ERP-00217",
+    "ERP-00218",
+    "ERP-00219",
+    "ERP-00220",
+    "ERP-00221",
+    "ERP-00222",
+    "ERP-00224",
+    "ERP-00225",
+    "ERP-00226",
+    "ERP-00227",
+    "ERP-00228",
+    "ERP-00229",
+    "ERP-00230",
+    "ERP-00231",
+    "ERP-00233",
+    "ERP-00234",
+    "ERP-00236",
+    "ERP-00237",
+    "ERP-00238",
+    "ERP-00239",
+    "ERP-00240",
+    "ERP-00241",
+    "ERP-00242",
+    "ERP-00243",
+    "ERP-00244",
+    "ERP-00245",
+    "ERP-00246",
+    "ERP-00247",
+    "ERP-00249",
+    "ERP-00250",
+    "ERP-00252",
+    "ERP-00254",
+    "ERP-00255",
+    "ERP-00256",
+    "ERP-00257",
+    "ERP-00258",
+    "ERP-00259",
+    "ERP-00261",
+    "ERP-00262",
+    "ERP-00263",
+    "ERP-00264",
+    "ERP-00265",
+    "ERP-00266",
+    "ERP-00267",
+    "ERP-00268",
+    "ERP-00270",
+    "ERP-00271",
+    "ERP-00274",
+    "ERP-00276",
+    "ERP-00278",
+    "ERP-00279",
+    "ERP-00280",
+    "ERP-00281",
+    "ERP-00284",
+    "ERP-00285",
+    "ERP-00286",
+    "ERP-00287",
+    "ERP-00288",
+    "ERP-00290",
+    "ERP-00291",
+    "ERP-00292",
+    "ERP-00293",
+    "ERP-00295",
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305"
+   ]
+  },
+  {
+   "reference_date": "2026-04-18",
+   "threshold_years": 2,
+   "threshold_days": 730.5,
+   "count": 104,
+   "records": [
+    "ERP-00003",
+    "ERP-00008",
+    "ERP-00013",
+    "ERP-00016",
+    "ERP-00017",
+    "ERP-00023",
+    "ERP-00027",
+    "ERP-00028",
+    "ERP-00031",
+    "ERP-00033",
+    "ERP-00035",
+    "ERP-00037",
+    "ERP-00038",
+    "ERP-00041",
+    "ERP-00044",
+    "ERP-00047",
+    "ERP-00049",
+    "ERP-00052",
+    "ERP-00056",
+    "ERP-00063",
+    "ERP-00066",
+    "ERP-00067",
+    "ERP-00072",
+    "ERP-00078",
+    "ERP-00081",
+    "ERP-00091",
+    "ERP-00101",
+    "ERP-00104",
+    "ERP-00105",
+    "ERP-00106",
+    "ERP-00109",
+    "ERP-00111",
+    "ERP-00112",
+    "ERP-00120",
+    "ERP-00126",
+    "ERP-00127",
+    "ERP-00128",
+    "ERP-00132",
+    "ERP-00137",
+    "ERP-00138",
+    "ERP-00145",
+    "ERP-00151",
+    "ERP-00155",
+    "ERP-00157",
+    "ERP-00166",
+    "ERP-00172",
+    "ERP-00174",
+    "ERP-00175",
+    "ERP-00182",
+    "ERP-00185",
+    "ERP-00186",
+    "ERP-00187",
+    "ERP-00189",
+    "ERP-00190",
+    "ERP-00192",
+    "ERP-00197",
+    "ERP-00198",
+    "ERP-00200",
+    "ERP-00201",
+    "ERP-00202",
+    "ERP-00204",
+    "ERP-00205",
+    "ERP-00209",
+    "ERP-00212",
+    "ERP-00217",
+    "ERP-00219",
+    "ERP-00222",
+    "ERP-00224",
+    "ERP-00226",
+    "ERP-00227",
+    "ERP-00228",
+    "ERP-00229",
+    "ERP-00233",
+    "ERP-00237",
+    "ERP-00238",
+    "ERP-00241",
+    "ERP-00243",
+    "ERP-00245",
+    "ERP-00246",
+    "ERP-00249",
+    "ERP-00252",
+    "ERP-00254",
+    "ERP-00258",
+    "ERP-00261",
+    "ERP-00262",
+    "ERP-00266",
+    "ERP-00276",
+    "ERP-00279",
+    "ERP-00280",
+    "ERP-00281",
+    "ERP-00284",
+    "ERP-00291",
+    "ERP-00292",
+    "ERP-00293",
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305"
+   ]
+  },
+  {
+   "reference_date": "2026-04-18",
+   "threshold_years": 3,
+   "threshold_days": 1095.75,
+   "count": 10,
+   "records": [
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305"
+   ]
+  },
+  {
+   "reference_date": "2026-04-18",
+   "threshold_years": 4,
+   "threshold_days": 1461.0,
+   "count": 10,
+   "records": [
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305"
+   ]
+  },
+  {
+   "reference_date": "2026-04-18",
+   "threshold_years": 5,
+   "threshold_days": 1826.25,
+   "count": 10,
+   "records": [
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305"
+   ]
+  },
+  {
+   "reference_date": "2026-09-24",
+   "threshold_years": 1,
+   "threshold_days": 365.25,
+   "count": 276,
+   "records": [
+    "ERP-00001",
+    "ERP-00002",
+    "ERP-00003",
+    "ERP-00004",
+    "ERP-00005",
+    "ERP-00006",
+    "ERP-00008",
+    "ERP-00010",
+    "ERP-00011",
+    "ERP-00012",
+    "ERP-00013",
+    "ERP-00014",
+    "ERP-00015",
+    "ERP-00016",
+    "ERP-00017",
+    "ERP-00018",
+    "ERP-00019",
+    "ERP-00020",
+    "ERP-00021",
+    "ERP-00022",
+    "ERP-00023",
+    "ERP-00024",
+    "ERP-00025",
+    "ERP-00026",
+    "ERP-00027",
+    "ERP-00028",
+    "ERP-00029",
+    "ERP-00030",
+    "ERP-00031",
+    "ERP-00032",
+    "ERP-00033",
+    "ERP-00034",
+    "ERP-00035",
+    "ERP-00036",
+    "ERP-00037",
+    "ERP-00038",
+    "ERP-00039",
+    "ERP-00040",
+    "ERP-00041",
+    "ERP-00042",
+    "ERP-00044",
+    "ERP-00045",
+    "ERP-00046",
+    "ERP-00047",
+    "ERP-00048",
+    "ERP-00049",
+    "ERP-00050",
+    "ERP-00051",
+    "ERP-00052",
+    "ERP-00054",
+    "ERP-00055",
+    "ERP-00056",
+    "ERP-00057",
+    "ERP-00058",
+    "ERP-00059",
+    "ERP-00060",
+    "ERP-00061",
+    "ERP-00062",
+    "ERP-00063",
+    "ERP-00064",
+    "ERP-00065",
+    "ERP-00066",
+    "ERP-00067",
+    "ERP-00068",
+    "ERP-00069",
+    "ERP-00070",
+    "ERP-00071",
+    "ERP-00072",
+    "ERP-00074",
+    "ERP-00075",
+    "ERP-00076",
+    "ERP-00077",
+    "ERP-00078",
+    "ERP-00079",
+    "ERP-00080",
+    "ERP-00081",
+    "ERP-00082",
+    "ERP-00083",
+    "ERP-00085",
+    "ERP-00086",
+    "ERP-00089",
+    "ERP-00090",
+    "ERP-00091",
+    "ERP-00092",
+    "ERP-00093",
+    "ERP-00095",
+    "ERP-00096",
+    "ERP-00097",
+    "ERP-00098",
+    "ERP-00099",
+    "ERP-00101",
+    "ERP-00102",
+    "ERP-00103",
+    "ERP-00104",
+    "ERP-00105",
+    "ERP-00106",
+    "ERP-00108",
+    "ERP-00109",
+    "ERP-00110",
+    "ERP-00111",
+    "ERP-00112",
+    "ERP-00113",
+    "ERP-00114",
+    "ERP-00115",
+    "ERP-00117",
+    "ERP-00118",
+    "ERP-00119",
+    "ERP-00120",
+    "ERP-00121",
+    "ERP-00122",
+    "ERP-00123",
+    "ERP-00125",
+    "ERP-00126",
+    "ERP-00127",
+    "ERP-00128",
+    "ERP-00129",
+    "ERP-00130",
+    "ERP-00131",
+    "ERP-00132",
+    "ERP-00133",
+    "ERP-00136",
+    "ERP-00137",
+    "ERP-00138",
+    "ERP-00140",
+    "ERP-00141",
+    "ERP-00142",
+    "ERP-00143",
+    "ERP-00144",
+    "ERP-00145",
+    "ERP-00146",
+    "ERP-00147",
+    "ERP-00148",
+    "ERP-00149",
+    "ERP-00150",
+    "ERP-00151",
+    "ERP-00152",
+    "ERP-00153",
+    "ERP-00154",
+    "ERP-00155",
+    "ERP-00156",
+    "ERP-00157",
+    "ERP-00158",
+    "ERP-00159",
+    "ERP-00160",
+    "ERP-00163",
+    "ERP-00164",
+    "ERP-00165",
+    "ERP-00166",
+    "ERP-00167",
+    "ERP-00168",
+    "ERP-00169",
+    "ERP-00172",
+    "ERP-00173",
+    "ERP-00174",
+    "ERP-00175",
+    "ERP-00176",
+    "ERP-00177",
+    "ERP-00179",
+    "ERP-00180",
+    "ERP-00181",
+    "ERP-00182",
+    "ERP-00183",
+    "ERP-00185",
+    "ERP-00186",
+    "ERP-00187",
+    "ERP-00189",
+    "ERP-00190",
+    "ERP-00191",
+    "ERP-00192",
+    "ERP-00193",
+    "ERP-00194",
+    "ERP-00195",
+    "ERP-00196",
+    "ERP-00197",
+    "ERP-00198",
+    "ERP-00200",
+    "ERP-00201",
+    "ERP-00202",
+    "ERP-00203",
+    "ERP-00204",
+    "ERP-00205",
+    "ERP-00206",
+    "ERP-00207",
+    "ERP-00208",
+    "ERP-00209",
+    "ERP-00210",
+    "ERP-00211",
+    "ERP-00212",
+    "ERP-00213",
+    "ERP-00216",
+    "ERP-00217",
+    "ERP-00218",
+    "ERP-00219",
+    "ERP-00220",
+    "ERP-00221",
+    "ERP-00222",
+    "ERP-00223",
+    "ERP-00224",
+    "ERP-00225",
+    "ERP-00226",
+    "ERP-00227",
+    "ERP-00228",
+    "ERP-00229",
+    "ERP-00230",
+    "ERP-00231",
+    "ERP-00232",
+    "ERP-00233",
+    "ERP-00234",
+    "ERP-00235",
+    "ERP-00236",
+    "ERP-00237",
+    "ERP-00238",
+    "ERP-00239",
+    "ERP-00240",
+    "ERP-00241",
+    "ERP-00242",
+    "ERP-00243",
+    "ERP-00244",
+    "ERP-00245",
+    "ERP-00246",
+    "ERP-00247",
+    "ERP-00249",
+    "ERP-00250",
+    "ERP-00251",
+    "ERP-00252",
+    "ERP-00253",
+    "ERP-00254",
+    "ERP-00255",
+    "ERP-00256",
+    "ERP-00257",
+    "ERP-00258",
+    "ERP-00259",
+    "ERP-00260",
+    "ERP-00261",
+    "ERP-00262",
+    "ERP-00263",
+    "ERP-00264",
+    "ERP-00265",
+    "ERP-00266",
+    "ERP-00267",
+    "ERP-00268",
+    "ERP-00270",
+    "ERP-00271",
+    "ERP-00274",
+    "ERP-00275",
+    "ERP-00276",
+    "ERP-00277",
+    "ERP-00278",
+    "ERP-00279",
+    "ERP-00280",
+    "ERP-00281",
+    "ERP-00284",
+    "ERP-00285",
+    "ERP-00286",
+    "ERP-00287",
+    "ERP-00288",
+    "ERP-00290",
+    "ERP-00291",
+    "ERP-00292",
+    "ERP-00293",
+    "ERP-00295",
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305",
+    "ERP-00306",
+    "ERP-00307",
+    "ERP-00308",
+    "ERP-00309",
+    "ERP-00310"
+   ]
+  },
+  {
+   "reference_date": "2026-09-24",
+   "threshold_years": 2,
+   "threshold_days": 730.5,
+   "count": 163,
+   "records": [
+    "ERP-00003",
+    "ERP-00008",
+    "ERP-00011",
+    "ERP-00013",
+    "ERP-00015",
+    "ERP-00016",
+    "ERP-00017",
+    "ERP-00023",
+    "ERP-00024",
+    "ERP-00026",
+    "ERP-00027",
+    "ERP-00028",
+    "ERP-00029",
+    "ERP-00030",
+    "ERP-00031",
+    "ERP-00033",
+    "ERP-00034",
+    "ERP-00035",
+    "ERP-00037",
+    "ERP-00038",
+    "ERP-00040",
+    "ERP-00041",
+    "ERP-00042",
+    "ERP-00044",
+    "ERP-00047",
+    "ERP-00049",
+    "ERP-00050",
+    "ERP-00051",
+    "ERP-00052",
+    "ERP-00056",
+    "ERP-00059",
+    "ERP-00060",
+    "ERP-00061",
+    "ERP-00063",
+    "ERP-00064",
+    "ERP-00066",
+    "ERP-00067",
+    "ERP-00068",
+    "ERP-00072",
+    "ERP-00078",
+    "ERP-00081",
+    "ERP-00083",
+    "ERP-00085",
+    "ERP-00086",
+    "ERP-00091",
+    "ERP-00097",
+    "ERP-00101",
+    "ERP-00103",
+    "ERP-00104",
+    "ERP-00105",
+    "ERP-00106",
+    "ERP-00108",
+    "ERP-00109",
+    "ERP-00111",
+    "ERP-00112",
+    "ERP-00113",
+    "ERP-00115",
+    "ERP-00117",
+    "ERP-00118",
+    "ERP-00120",
+    "ERP-00121",
+    "ERP-00123",
+    "ERP-00126",
+    "ERP-00127",
+    "ERP-00128",
+    "ERP-00129",
+    "ERP-00130",
+    "ERP-00132",
+    "ERP-00133",
+    "ERP-00137",
+    "ERP-00138",
+    "ERP-00144",
+    "ERP-00145",
+    "ERP-00146",
+    "ERP-00151",
+    "ERP-00154",
+    "ERP-00155",
+    "ERP-00157",
+    "ERP-00159",
+    "ERP-00163",
+    "ERP-00166",
+    "ERP-00172",
+    "ERP-00174",
+    "ERP-00175",
+    "ERP-00177",
+    "ERP-00182",
+    "ERP-00185",
+    "ERP-00186",
+    "ERP-00187",
+    "ERP-00189",
+    "ERP-00190",
+    "ERP-00192",
+    "ERP-00195",
+    "ERP-00196",
+    "ERP-00197",
+    "ERP-00198",
+    "ERP-00200",
+    "ERP-00201",
+    "ERP-00202",
+    "ERP-00204",
+    "ERP-00205",
+    "ERP-00209",
+    "ERP-00212",
+    "ERP-00216",
+    "ERP-00217",
+    "ERP-00218",
+    "ERP-00219",
+    "ERP-00222",
+    "ERP-00224",
+    "ERP-00225",
+    "ERP-00226",
+    "ERP-00227",
+    "ERP-00228",
+    "ERP-00229",
+    "ERP-00233",
+    "ERP-00234",
+    "ERP-00236",
+    "ERP-00237",
+    "ERP-00238",
+    "ERP-00239",
+    "ERP-00240",
+    "ERP-00241",
+    "ERP-00243",
+    "ERP-00244",
+    "ERP-00245",
+    "ERP-00246",
+    "ERP-00247",
+    "ERP-00249",
+    "ERP-00252",
+    "ERP-00254",
+    "ERP-00255",
+    "ERP-00256",
+    "ERP-00258",
+    "ERP-00259",
+    "ERP-00261",
+    "ERP-00262",
+    "ERP-00263",
+    "ERP-00266",
+    "ERP-00268",
+    "ERP-00270",
+    "ERP-00271",
+    "ERP-00276",
+    "ERP-00278",
+    "ERP-00279",
+    "ERP-00280",
+    "ERP-00281",
+    "ERP-00284",
+    "ERP-00286",
+    "ERP-00288",
+    "ERP-00291",
+    "ERP-00292",
+    "ERP-00293",
+    "ERP-00295",
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305"
+   ]
+  },
+  {
+   "reference_date": "2026-09-24",
+   "threshold_years": 3,
+   "threshold_days": 1095.75,
+   "count": 23,
+   "records": [
+    "ERP-00035",
+    "ERP-00091",
+    "ERP-00132",
+    "ERP-00137",
+    "ERP-00155",
+    "ERP-00174",
+    "ERP-00185",
+    "ERP-00186",
+    "ERP-00189",
+    "ERP-00200",
+    "ERP-00204",
+    "ERP-00228",
+    "ERP-00245",
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305"
+   ]
+  },
+  {
+   "reference_date": "2026-09-24",
+   "threshold_years": 4,
+   "threshold_days": 1461.0,
+   "count": 10,
+   "records": [
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305"
+   ]
+  },
+  {
+   "reference_date": "2026-09-24",
+   "threshold_years": 5,
+   "threshold_days": 1826.25,
+   "count": 10,
+   "records": [
+    "ERP-00296",
+    "ERP-00297",
+    "ERP-00298",
+    "ERP-00299",
+    "ERP-00300",
+    "ERP-00301",
+    "ERP-00302",
+    "ERP-00303",
+    "ERP-00304",
+    "ERP-00305"
+   ]
+  }
+ ],
+ "summary": {
+  "entity_clusters": 82,
+  "records_in_clusters": 172,
+  "redundant_records": 90,
+  "cluster_sizes": {
+   "2": 74,
+   "3": 8
+  },
+  "pair_dup_types": {
+   "exact_business_duplicate": 28,
+   "normalized_duplicate": 23,
+   "fuzzy_name_variant": 2,
+   "attribute_variant": 26,
+   "audit_date_variant": 19
+  },
+  "conflict_groups": {
+   "gstin_shared_identity": 10
+  },
+  "fuzzy_candidates": 0,
+  "ambiguous_pairs": 0,
+  "shared_contact_observations": 0,
+  "item_conflict_groups": 10,
+  "item_conflict_minority_records": 10,
+  "missing_records": 10,
+  "invalid_records": 10,
+  "temporal": 5,
+  "future": 0,
+  "refused_unions": 0
+ }
+}

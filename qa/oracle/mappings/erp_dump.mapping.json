@@ -1,0 +1,3 @@
+{"columns":{"row_id":"Record_ID","entity_type":"Entity_Type","name":"Company_Name","gstin":"GSTIN","vendor_code":"Vendor_Code","item_code":"Item_Code","item_desc":"Item_Description","uom":"UOM","quantity":"Quantity","unit_price":"Unit_Price","tax_rate":"Tax_Rate","email":"Email","phone":"Phone","address":"Address","city":"City","state":"State","postal":"Postal_Code","created":"Creation_Date","modified":"Modification_Date","payment_terms":"Payment_Terms","currency":"Currency"},
+ "date_formats":["%Y-%m-%d"],
+ "semantics":{"table_type":"master_entity","note":"ERP_Dump treated as master_entity per user decision 6; item/qty/price are attributes"}}

@@ -1,0 +1,608 @@
+{
+ "engine_under_test": {
+  "ingest": "v1",
+  "semantic": "v1",
+  "rules": "v1",
+  "identity": "v1",
+  "semantic_profiler": "legacy_v0",
+  "matching": "legacy_v0",
+  "rules_scoring": "legacy_v0"
+ },
+ "total": 118,
+ "pass": 106,
+ "fail": 1,
+ "todo": 11,
+ "skip": 0,
+ "tests": [
+  {
+   "name": "RT-01 [material_master] no column is assigned a role its header/content contradicts (must_not_map)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-02 [material_master] key business columns map to the expected semantic roles (must_map)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-03 [material_master] duplicate header cells stay distinct columns (no silent collapse / phantom populated column)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-01 [service_entry] no column is assigned a role its header/content contradicts (must_not_map)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-02 [service_entry] key business columns map to the expected semantic roles (must_map)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-03 [service_entry] duplicate header cells stay distinct columns (no silent collapse / phantom populated column)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-04 [service_entry] header/content conflicts are flagged for review, never silently assigned",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-05 [hold-out] unseen-but-conventional headers map correctly (>= 85%, pre-registered bar)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-06 calendar dates are identical under Asia/Kolkata, UTC and America/New_York (timezone matrix, all datasets)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-07 no unbounded array spread into push/Math.max/min (stack-overflow class, audit A12)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-08 executable production code contains no dataset-specific literals (anti-overfitting guard; comments ignored)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-09 five different entities sharing city + street pattern (real ERP_Dump rows) are NOT clustered",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-10 numeric-suffix names with different hard IDs (\"... 05\" vs \"... 06\") are NOT auto-clustered",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-11 same vendor code + one-typo name, no other corroboration -> duplicate cluster (hard-ID agreement is evidence)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-12 same GSTIN but unrelated names and vendor codes -> conflict raised, NOT merged (guard)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-13 record with missing name but agreeing GSTIN + vendor code joins its entity cluster",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-14 malformed GSTIN is a validity issue, not \"conflicting hard evidence\" (record still matches by vendor code + name)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-15 exact master duplicates (differ only in row id) are surfaced in the duplicate KPI, and the row id is never evidence or conflict",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-16 repeated Item_Code across otherwise-unique master rows is NOT a uniqueness defect",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-17 transaction table: identical lines on DIFFERENT invoice numbers are not duplicates (guard)",
+   "status": "FAIL",
+   "reason": ""
+  },
+  {
+   "name": "RT-18 an analysis can be re-run on the same dataset without re-uploading",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-19 exports preserve lineage: source file, sheet, row number and business keys (not raw UUIDs only)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): entity clusters: record-level precision & recall >= bar",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): entity clusters: pair-level precision & recall >= bar",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): no cluster contains two different valid GSTINs (hard invariant)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): fuzzy candidates are never auto-clustered",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): every oracle conflict type is detected and each group is reported exactly once",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): item-code conflicts: all codes found, none spurious, minority records identified",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): missing data: exact record set and fields",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): invalid data: exact record set (format & range rules)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): temporal anomalies (modified<created) and future dates: exact",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): stale records are consistent with the engine's own configured threshold and reference date",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): repeated item/material codes never raise duplicate-identifier issues",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:ERP_Dump (master_entity): consistency score reflects conflicts (sensitivity floor)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): entity clusters: record-level precision & recall >= bar",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): entity clusters: pair-level precision & recall >= bar",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): no cluster contains two different valid GSTINs (hard invariant)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): fuzzy candidates are never auto-clustered",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): every oracle conflict type is detected and each group is reported exactly once",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): item-code conflicts: all codes found, none spurious, minority records identified",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): missing data: exact record set and fields",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): invalid data: exact record set (format & range rules)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): temporal anomalies (modified<created) and future dates: exact",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): stale records are consistent with the engine's own configured threshold and reference date",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): repeated item/material codes never raise duplicate-identifier issues",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "GOLD:hold-out (master_entity, unseen headers): consistency score reflects conflicts (sensitivity floor)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-20 [material_master] analysis completes",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-21 [material_master] 100%-empty columns generate no record-level issues",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-22 [material_master] no (column, rule) pair fails on >=90% of populated values (that signals a mis-applied rule, not bad data)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-20 [service_entry] analysis completes",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-21 [service_entry] 100%-empty columns generate no record-level issues",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-22 [service_entry] no (column, rule) pair fails on >=90% of populated values (that signals a mis-applied rule, not bad data)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-23 [material_master] the exact-description duplicate groups (independent baseline) surface as duplicate/material-match candidates",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-24 [service_entry] unique document keys (Entry Sheet) never reported as duplicates (guard)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-25 every analysis run records the engine version that produced it (legacy runs must be identifiable)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-26 records retain source sheet, and normalized values alongside raw values",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-27 dataset semantic interpretation (type, confidence, business key, important fields) is visible BEFORE analysis",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-28 low-confidence interpretation yields \"review required before analysis\" instead of silently proceeding",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-30 GSTIN checksum/state/PIN packs are OFF by default and switchable per dataset, run and rule",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-31 \"why were these two records (not) duplicates?\" is answerable from the application with per-field evidence",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-32 requiredness is labelled Required/Expected/Optional/Unknown; a 95%-populated field is never labelled Required without confirmation",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-33 legacy runs display \"analyzed with legacy engine\" and are never silently re-interpreted",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-34 scale gate: master shape, 2,000 rows completes without crash",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-34 scale gate: txn shape, 2,000 rows completes without crash",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-35 [material_master] every duplicate-header column is profiled from ITS OWN cells and its CONTENT survives parsing (an empty twin stays empty; different columns stay different)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-36 [service_entry] every duplicate-header column is profiled from ITS OWN cells and its CONTENT survives parsing (an empty twin stays empty; different columns stay different)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-37 a row identifier named Record_ID is never business evidence: it cannot appear in cluster factors, cluster conflicts or conflict groups",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-38 (reverse GST) the SAME entity (same vendor code, name, phone and e-mail) carrying two DIFFERENT valid GSTINs is a strong identity conflict, listed as a conflict a user can review",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-39 (vendor-code identity) one vendor code shared by two UNRELATED entities is an identity conflict, not silently ignored or merged",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-40 range / format rules: PIN code, quantity, price and tax-rate values that are impossible are flagged",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-42 exports carry the BUSINESS KEY (e.g. vendor code) and the source row id, not only internal UUIDs",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-44 (decision 1) same GSTIN + same name + DIFFERENT vendor codes = same business entity (entity match), reviewable, and NOT reported as a hard conflict",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-41 test-isolation guard: no backend test can touch the real application database or storage (runs backend/tests/testIsolation.test.js)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-43 production source (including comments) contains no references to test fixtures or dataset-specific identifiers",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-45 (decision 2) a 100%-empty REQUIRED column yields ONE dataset-level \"required field missing\" issue; UI distinguishes Required missing / Expected sparse / Optional not populated",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-46 (decision 3) default stale threshold is 4 years; threshold (1/2/3/4/5/custom) and reference date are shown with every result and frozen per run",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-47 (decision 3) record detail / any read path derives age and staleness from the run's frozen reference date, never from the server clock at request time (legacy GET /api/records/:id violates this)",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-48 (decision 1) entity-match evidence view shows GSTIN same / name same-or-compatible / vendor code different, subtype identity_match_vendor_code_variant, decision same entity, no silent merge",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-49 startup detects the legacy database, takes a verified backup FIRST, and the backup equals the original",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-50 every legacy table is byte-for-byte unchanged after migration (row counts and content hashes)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-51 every shipped migration is recorded (baseline adopted first) and the new schema exists",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-52 legacy runs are stamped legacy_v0 with their original config kept and NOTHING fabricated (no reference date, threshold, config hash)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-53 every API response the ORIGINAL server produced is still produced, value for value (new fields are additive only)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-54 [S6] the REAL pipeline (not the legacy engine) analyses new data even on a database migrated from the pre-framework server, and leaves the old legacy_v0 runs byte-for-byte untouched",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-55 a restart is a no-op: nothing re-adopted, nothing re-applied, no second backup; db:status reports up to date",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-56 physical columns and full-column facts equal the independent truth (all four datasets)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-57 [material_master] 308 physical columns stay 308; 225 empty columns are empty; every duplicate-header group stays distinguishable",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-58 [service_entry] 52 physical columns stay 52; the three Item columns are distinct; Entry Sheet / Purchasing Document / Created By / Changed By stay RAW text",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-59 every date cell is calendar-date correct (persisted canonical value == workbook cell / independent parse)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-60 date TYPES and text-date handling: parsed / invalid / needs_configuration are counted exactly as the independent classification; nothing is guessed or converted",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-61 source lineage and Record_ID separation",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-62 re-ingestion identity on the real files: same content = same source, no new rows; a different profile is a different source; runs can share a source",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-63 the ingest layer contains no timezone-sensitive JS (Date, toISOString, Date.parse, getTimezoneOffset, locale formatting) and no unbounded array spread",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-69 [S5] a fuzzy candidate never joins a cluster and never carries a score until a human confirms it (acceptance bar already asserted on the legacy engine by the GOLD suites)",
+   "status": "todo",
+   "reason": ""
+  },
+  {
+   "name": "RT-70 dataset type is evidence-based and correct on all four datasets",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-71 Material Master (real SAP export)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-72 Service Entry (real SAP export)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-73 ERP_Dump and hold-out against the ORACLE canonical field map (same rules, different headers, no fixture-specific code)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-74 persistence keeps every physical column and equals the pure classification",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-75 determinism and perturbation invariance",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-76 no dataset/file awareness; S4/S5 logic was not smuggled into S3",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-67 [S3 contract] no heuristic (populated %, header text) can ever make a field REQUIRED; only user / rule / SAP-domain sources can",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-68 [S3 contract] a schema mapping is auto-accepted only at HIGH confidence; medium/low always require a human decision",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-77 immutable configuration + versioning (real Material Master)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-80 [ERP_Dump] rules vs the independent oracle",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-80 [hold-out] rules vs the independent oracle",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-83 stale semantics vs the oracle's own stale table (configurable reference date and threshold)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-82 [material_master] no rule is mis-applied: no systematic-failure finding, no (column, rule) failing on >=90% of populated values, nothing on the fully empty columns",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-82 [service_entry] no rule is mis-applied: no systematic-failure finding, no (column, rule) failing on >=90% of populated values, nothing on the fully empty columns",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-81 requiredness discipline on all four real datasets",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-29 [S4] reference date and stale threshold are run-configurable; a changed setting changes ONLY the affected results",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-66 [S4] requiredness -> severity is versioned rule configuration",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-90 [ERP_Dump] identity vs the independent oracle",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-90 [hold-out] identity vs the independent oracle",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-97 [material master] material matching vs the independent baseline",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-98 [service entry] transaction semantics",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-99 [ERP_Dump] the S0 identity failures are resolved (each named defect asserted explicitly)",
+   "status": "pass",
+   "reason": ""
+  },
+  {
+   "name": "RT-99 [hold-out] the S0 identity failures are resolved (each named defect asserted explicitly)",
+   "status": "pass",
+   "reason": ""
+  }
+ ]
+}

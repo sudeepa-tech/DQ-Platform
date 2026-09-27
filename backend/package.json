@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-sqlite --test tests/*.test.js",
+    "start": "node --experimental-sqlite src/server.js",
+    "seed-sample": "node --experimental-sqlite scripts/generate-sample-data.js",
+    "db:status": "node --experimental-sqlite scripts/db-status.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "compression": "^1.8.2",
+    "cors": "^2.8.6",
+    "csv-parse": "^7.0.2",
+    "dayjs": "^1.11.23",
+    "dotenv": "^18.0.3",
+    "exceljs": "^4.4.0",
+    "express": "^4.22.3",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.12.1",
+    "multer": "^2.4.0",
+    "pdfkit": "^0.20.2",
+    "uuid": "^14.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "supertest": "^7.3.0"
+  }
+}

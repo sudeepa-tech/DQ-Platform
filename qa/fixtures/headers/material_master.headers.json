@@ -1,0 +1,4458 @@
+{
+ "file": "Material_Master_23_09_2026.xlsx",
+ "rows": 1000,
+ "columns": [
+  {
+   "index": 0,
+   "header": "Material",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1000,
+   "unique_ratio": 1.0,
+   "top_shapes": [
+    [
+     "99999999",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 1,
+   "header": "Created On",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "date": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 286,
+   "unique_ratio": 0.286,
+   "top_shapes": [
+    [
+     "9999-99-99 99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 2,
+   "header": "Created At Time",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "time": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 3,
+   "header": "Created By",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 3,
+   "unique_ratio": 0.003,
+   "top_shapes": [
+    [
+     "AAAAAAA99999",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 4,
+   "header": "Last Change",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 5,
+   "header": "Changed By",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 6,
+   "header": "Compl. maint. status",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "AAAAAAA",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 7,
+   "header": "Maintenance Status",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "AAAAAAA",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 8,
+   "header": "DF at client level",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 9,
+   "header": "Material Type",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 2,
+   "unique_ratio": 0.002,
+   "top_shapes": [
+    [
+     "AAAA",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 10,
+   "header": "Industry",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "A",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 11,
+   "header": "Material Group",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 16,
+   "unique_ratio": 0.016,
+   "top_shapes": [
+    [
+     "999999",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 12,
+   "header": "Old material number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 13,
+   "header": "Base Unit of Measure",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 20,
+   "unique_ratio": 0.02,
+   "top_shapes": [
+    [
+     "AA",
+     519
+    ],
+    [
+     "AA9",
+     252
+    ],
+    [
+     "A9",
+     144
+    ]
+   ]
+  },
+  {
+   "index": 14,
+   "header": "Order Unit",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 15,
+   "header": "Document",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 16,
+   "header": "Document Type",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 17,
+   "header": "Document Version",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 18,
+   "header": "Page Format",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 19,
+   "header": "Document Change No.",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 20,
+   "header": "Page Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 21,
+   "header": "Number Of Sheets",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 22,
+   "header": "Prod./insp. memo",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 23,
+   "header": "Page format",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 24,
+   "header": "Size/dimensions",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 25,
+   "header": "Basic material",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 26,
+   "header": "Industry Std Desc.",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 27,
+   "header": "Lab/Office",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 28,
+   "header": "Purchasing value key",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 29,
+   "header": "Gross Weight",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 30,
+   "header": "Net Weight",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 31,
+   "header": "Unit of Weight",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "AA",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 32,
+   "header": "Volume",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 33,
+   "header": "Volume Unit",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 34,
+   "header": "Container reqmts",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 35,
+   "header": "Storage conditions",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 36,
+   "header": "Temp. conditions",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 37,
+   "header": "Low-Level Code",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 38,
+   "header": "Transportation Group",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "A999",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 39,
+   "header": "Haz. material number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 40,
+   "header": "Division",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 41,
+   "header": "Competitor",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 42,
+   "header": "EAN Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 43,
+   "header": "Number of GR slips",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 44,
+   "header": "Procurement rule",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 45,
+   "header": "Source of supply",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 46,
+   "header": "Season",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 47,
+   "header": "Label type",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 48,
+   "header": "Label form",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 49,
+   "header": "Field deactivated",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 50,
+   "header": "EAN/UPC",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 51,
+   "header": "EAN category",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 52,
+   "header": "Length",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 53,
+   "header": "Width",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 54,
+   "header": "Height",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 55,
+   "header": "Unit of Dimension",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 56,
+   "header": "Product Hierarchy",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 57,
+   "header": "Stock Transfer Net Change Costing",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 58,
+   "header": "CAD Indicator",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 59,
+   "header": "QM in Procur. Active",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 60,
+   "header": "Allowed Packaging Weight",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 61,
+   "header": "Unit of weight",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 62,
+   "header": "Allowed Packaging Volume",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 63,
+   "header": "Volume unit",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 64,
+   "header": "Excess wt tolerance",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 65,
+   "header": "Excess volume tol.",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 66,
+   "header": "Variable Purchase Order Unit",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 67,
+   "header": "Revision Level Assgd",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 68,
+   "header": "Configurable Material",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 69,
+   "header": "Batch Management",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 70,
+   "header": "Packaging Mat. Type",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 71,
+   "header": "Maximum level",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 72,
+   "header": "Stackability factor",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 73,
+   "header": "Matl Grp Pack.Matls",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 74,
+   "header": "Authorization Group",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 75,
+   "header": "Valid From",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 76,
+   "header": "Valid To",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 77,
+   "header": "Season Year",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 78,
+   "header": "Price Band Category",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 79,
+   "header": "With empties BOM",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 80,
+   "header": "Ext. Material Group",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 81,
+   "header": "Cross-plant CM",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 82,
+   "header": "Material Category",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 83,
+   "header": "Co-Product",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 84,
+   "header": "Follow-up material",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 85,
+   "header": "Pricing Ref. Matl",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 86,
+   "header": "Cross-Plant Material Status",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 87,
+   "header": "Cross-Distribution-Chain Material Status",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 88,
+   "header": "Valid from",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 89,
+   "header": "Valid from",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 90,
+   "header": "Tax classification",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 91,
+   "header": "Catalog Profile",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 92,
+   "header": "Min. Rem. Shelf Life",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 93,
+   "header": "Total shelf life",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 94,
+   "header": "Storage percentage",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 95,
+   "header": "Content Unit",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 96,
+   "header": "Net Contents",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 97,
+   "header": "Comp. Price Unit",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 98,
+   "header": "Labeling matl grpg",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 99,
+   "header": "Gross Contents",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 100,
+   "header": "Conversion Method",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 101,
+   "header": "Internal object no.",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 102,
+   "header": "Environmentally rlvt",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 103,
+   "header": "Product allocation",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 104,
+   "header": "Pricing profile",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 105,
+   "header": "Qual.f.FreeGoodsDis.",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 106,
+   "header": "Manufacturer Part No.",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 107,
+   "header": "Manufacturer",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 108,
+   "header": "Int. material number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 109,
+   "header": "Mfr Part Profile",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 110,
+   "header": "Units of meas. usage",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 111,
+   "header": "Rollout",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 112,
+   "header": "DG indicator profile",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 113,
+   "header": "Highly viscous",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 114,
+   "header": "In bulk/liquid",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 115,
+   "header": "Serialization level",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 116,
+   "header": "Closed",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 117,
+   "header": "Appr.Batch Recd Req.",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 118,
+   "header": "Assign effect. vals",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 119,
+   "header": "Material completion level",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 120,
+   "header": "Period Ind. for SLED",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "A",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 121,
+   "header": "Rounding rule SLED",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 122,
+   "header": "Product Composition",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 123,
+   "header": "Gen. item cat. grp",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "AAAA",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 124,
+   "header": "Logistical variants",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 125,
+   "header": "Material is locked",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 126,
+   "header": "Indicator for relevance in CM",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 127,
+   "header": "Assortment List Type",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 128,
+   "header": "Expiration Date",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "A",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 129,
+   "header": "EAN Variant",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 130,
+   "header": "Generic Material",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 131,
+   "header": "Reference matl for packing",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 132,
+   "header": "GDS-Relevant",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 133,
+   "header": "Origin Acceptance",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 134,
+   "header": "Standard HU Type",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 135,
+   "header": "Pilferable",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 136,
+   "header": "Whse Stor. Condition",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 137,
+   "header": "WH Material Group",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 138,
+   "header": "Handling Indicator",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 139,
+   "header": "Relevant for HS",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 140,
+   "header": "Handling Unit Type",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 141,
+   "header": "Varb. Tare Weight",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 142,
+   "header": "Maximum Capacity",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 143,
+   "header": "Overcapacity Toler.",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 144,
+   "header": "Max. Pack. Length",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 145,
+   "header": "Max. Pack. Width",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 146,
+   "header": "Max. Pack. Height",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 147,
+   "header": "Unit of Measurement",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 148,
+   "header": "Cntry/Reg of Origin",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 149,
+   "header": "Material Freight Grp",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 150,
+   "header": "Quarant. Per.",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 151,
+   "header": "Quarantine Time Unit",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 152,
+   "header": "Quality Inspection Group",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 153,
+   "header": "Serial No. Profile",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 154,
+   "header": "Form Name",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 155,
+   "header": "Logistics Unit of Measure",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 156,
+   "header": "Material Is a CW Material",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 157,
+   "header": "CW Profile for CW Quantity",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 158,
+   "header": "Catch Weight Tolerance Group",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 159,
+   "header": "Adjustment Profile (Merchandise Distr.)",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 160,
+   "header": "Intellectual Property",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 161,
+   "header": "Variant Price Allowed",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 162,
+   "header": "Medium",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 163,
+   "header": "Commodity",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 164,
+   "header": "Cont. Non-Textile Parts of Animal Origin",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 165,
+   "header": "Textile Composition Maintenance Active",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 166,
+   "header": "Last Changed Time",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "time": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "99:99:99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 167,
+   "header": "Material",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 168,
+   "header": "Chemical Compliance Relevance Indicator",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "Aaa Aaaaaaa",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 169,
+   "header": "Category of a Logistical Material",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 170,
+   "header": "Material Number of Sales Material",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 171,
+   "header": "Identification Tag Type",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 172,
+   "header": "Product OID",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 173,
+   "header": "Silent data migration status",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "99",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 174,
+   "header": "Segmentation Structure",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 175,
+   "header": "Segmentation Strategy",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 176,
+   "header": "Segmentation Status",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 177,
+   "header": "Segmentation Strategy Scope",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 178,
+   "header": "Segmentation Relevant",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 179,
+   "header": "ANP Code",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 180,
+   "header": "Protected Species Management Code",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 181,
+   "header": "Fashion Attribute 1",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 182,
+   "header": "Fashion Attribute 2",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 183,
+   "header": "Fashion Attribute 3",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 184,
+   "header": "Season Usage",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 185,
+   "header": "Season Active in Inventory Management",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 186,
+   "header": "Material Conv. ID",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 187,
+   "header": "Dummy Field",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 188,
+   "header": "Product",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "999999999999999999999999",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 189,
+   "header": "Product ID",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 190,
+   "header": "Maturation Time",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 191,
+   "header": "Reqd Min. Shelf Life",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 192,
+   "header": "Reqd Max. Shelf Life",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 193,
+   "header": "Preferred Unit of Measure",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 194,
+   "header": "Reference Product for Package Building",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 195,
+   "header": "Product Shape",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 196,
+   "header": "Product Orientation Profile",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 197,
+   "header": "Overhang Threshold [%]",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 198,
+   "header": "Bridge Threshold [%]",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 199,
+   "header": "Maximum Slope for Bridges [\u00b0]",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 200,
+   "header": "Absolute Height Threshold",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 201,
+   "header": "UoM of Absolute Height Threshold",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 202,
+   "header": "Product for Kit-to-Order",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 203,
+   "header": "Procure to Order",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 204,
+   "header": "Push Deployment from Supplier",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 205,
+   "header": "Inventory Balancing Not Allowed",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 206,
+   "header": "Global Stock on Entry Location DRP",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 207,
+   "header": "Excl. from Express Shipm.",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 208,
+   "header": "New Product",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 209,
+   "header": "Production Start Date",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 210,
+   "header": "Production End Date",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 211,
+   "header": "Inventory Planning Mode",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 212,
+   "header": "Product is Classified",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 213,
+   "header": "Material Is Activated for CW",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 214,
+   "header": "Valuation UoM",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 215,
+   "header": "CW Tolerance Group",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 216,
+   "header": "Fixed Tare",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 217,
+   "header": "Ref.Unit of Measure TARE Calculation",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 218,
+   "header": "Loading Units",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 219,
+   "header": "Loading Unit Group",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 220,
+   "header": "Structure Category",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 221,
+   "header": "Tolerance Type ID",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 222,
+   "header": "Counting Group",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 223,
+   "header": "DSD Grouping",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 224,
+   "header": "Cable Diameter",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 225,
+   "header": "Unit for Dimensions",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 226,
+   "header": "Cable Diameter Allowance in Percent",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 227,
+   "header": "Bending Factor",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 228,
+   "header": "Inner Width",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 229,
+   "header": "Outer Diameter",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 230,
+   "header": "Core Diameter",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 231,
+   "header": "Load Capacity",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 232,
+   "header": "R-O Flange Thick.",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 233,
+   "header": "R-O Flange Height",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 234,
+   "header": "Coil Delivery",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 235,
+   "header": "Run-Out Flange",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 236,
+   "header": "No. Vertical Layers",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 237,
+   "header": "Smallest Permitted Clearance",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 238,
+   "header": "Serialization Type",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 239,
+   "header": "Synchronization Active",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 240,
+   "header": "Last Synchronization Time",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 241,
+   "header": "Indicator Changed Since Integration",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 242,
+   "header": "Profile Relevant Country/Region",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 243,
+   "header": "Product Category",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 244,
+   "header": "Tilting Allowed",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 245,
+   "header": "No Stacking",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 246,
+   "header": "Only Bottom Layer",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 247,
+   "header": "Only Top Layer",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 248,
+   "header": "Stacking Factor",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 249,
+   "header": "Load without PKM",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 250,
+   "header": "PKM Overhang Depth",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 251,
+   "header": "PKM Overhang Width",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 252,
+   "header": "Max. Stacking Height",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 253,
+   "header": "Min. Stacking Height",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 254,
+   "header": "Max.StackH Tolerance",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 255,
+   "header": "No. Mat / Closed PKM",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 256,
+   "header": "VSO Unit of Measure",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 257,
+   "header": "Closed PKM Required",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 258,
+   "header": "Packaging Code",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 259,
+   "header": "DG Packaging Status",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 260,
+   "header": "Duration of Work",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9.9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 261,
+   "header": "Unit",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 262,
+   "header": "Service Profile",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 263,
+   "header": "Response Prof.",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 264,
+   "header": "Billing Cycle",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 265,
+   "header": "Billing Cycle Determination Rule ID",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 266,
+   "header": "Assignment Schema",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 267,
+   "header": "Contract Auto Renewal Indicator",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 268,
+   "header": "Material Condition Mgmt",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 269,
+   "header": "Return Code",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 270,
+   "header": "Return to Logistics Level",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 271,
+   "header": "NATO Item ID Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 272,
+   "header": "Interchangeability Code for Ammunition",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 273,
+   "header": "RIC ID",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "number": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 274,
+   "header": "Sensitivity for Characteristics",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 275,
+   "header": "Long Manufacturer Part Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 276,
+   "header": "Overlength Part Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 277,
+   "header": "Spare Part Class Code",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 278,
+   "header": "Variable ObjectID",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "999999999999999999999999",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 279,
+   "header": "MS Book Part Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 280,
+   "header": "Tolerance Type",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 281,
+   "header": "SU Batch Default Value",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 282,
+   "header": "Goods Rcpt to Posted Single-Unit Bch",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 283,
+   "header": "Form-Fit-Function class",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 284,
+   "header": "Supersession chain number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 285,
+   "header": "Creation Status",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 286,
+   "header": "Int. Char. Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 287,
+   "header": "Int. Char. Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 288,
+   "header": "Int. Char. Number",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 289,
+   "header": "Color",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 290,
+   "header": "Main Size",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 291,
+   "header": "Second Size",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 292,
+   "header": "Free Charact. Value",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 293,
+   "header": "Care Code",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 294,
+   "header": "Brand",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 295,
+   "header": "Component 1",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 296,
+   "header": "Percentage Share 1",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 297,
+   "header": "Component 2",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 298,
+   "header": "Percentage Share 2",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 299,
+   "header": "Component 3",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 300,
+   "header": "Percentage Share 3",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 301,
+   "header": "Component 4",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 302,
+   "header": "Percentage Share 4",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 303,
+   "header": "Component 5",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 304,
+   "header": "Percentage Share 5",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 1,
+   "unique_ratio": 0.001,
+   "top_shapes": [
+    [
+     "9",
+     1000
+    ]
+   ]
+  },
+  {
+   "index": 305,
+   "header": "Fashion Grade",
+   "populated_ratio": 0.0,
+   "state": "empty",
+   "excel_kinds": {
+    "empty": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 0,
+   "unique_ratio": 0,
+   "top_shapes": []
+  },
+  {
+   "index": 306,
+   "header": "Material Description",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 994,
+   "unique_ratio": 0.994,
+   "top_shapes": [
+    [
+     "AAAA AAAAA AAAAAA AAAA, ",
+     28
+    ],
+    [
+     "AAAAA AAAA AAAAAAA, 9999",
+     14
+    ],
+    [
+     "AAAAA AAAAAA 9999A9999AA",
+     12
+    ]
+   ]
+  },
+  {
+   "index": 307,
+   "header": "Material description",
+   "populated_ratio": 1.0,
+   "state": "populated",
+   "excel_kinds": {
+    "text": 1000
+   },
+   "text_dd_mm_yyyy": 0,
+   "distinct": 994,
+   "unique_ratio": 0.994,
+   "top_shapes": [
+    [
+     "AAAA AAAAA AAAAAA AAAA, ",
+     28
+    ],
+    [
+     "AAAAA AAAA AAAAAAA, 9999",
+     14
+    ],
+    [
+     "AAAAA AAAAAA 9999A9999AA",
+     12
+    ]
+   ]
+  }
+ ],
+ "duplicate_headers_case_insensitive": [
+  "material",
+  "page format",
+  "unit of weight",
+  "volume unit",
+  "valid from",
+  "int. char. number",
+  "material description"
+ ]
+}

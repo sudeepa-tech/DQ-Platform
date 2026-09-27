@@ -1,0 +1,441 @@
+{
+ "summary": {
+  "control": "PASS (suite green without mutation)",
+  "mutants": 43,
+  "killed": 42,
+  "equivalent": [
+   "M11: fit < 0.2 already caps the score at ~0.39, below the 0.45 assignment threshold; the 0.5x penalty changes no role decision"
+  ],
+  "survived": [],
+  "invalid": []
+ },
+ "results": [
+  {
+   "id": "CONTROL",
+   "status": "SURVIVED",
+   "killed_by": [],
+   "n_failing": 0,
+   "why": "no mutation: the suite must pass"
+  },
+  {
+   "id": "M01",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ROLE SAFETY: capacities / loads / allocations are never addresses; unrelated business text",
+    "backend: EMPTY columns: header alone never assigns a high-risk role unless the header is exact; con"
+   ],
+   "n_failing": 2,
+   "why": "header coverage discount removed (unexplained words no longer weaken a role)"
+  },
+  {
+   "id": "M02",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ADVERSARIAL header/content: a person header over DATES, a date-word header over prices, \"o"
+   ],
+   "n_failing": 1,
+   "why": "date roles allowed even when the header says \"by\""
+  },
+  {
+   "id": "M03",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ADVERSARIAL header/content: a person header over DATES, a date-word header over prices, \"o"
+   ],
+   "n_failing": 1,
+   "why": "\"on\" always a date marker"
+  },
+  {
+   "id": "M04",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ADVERSARIAL header/content: a person header over DATES, a date-word header over prices, \"o"
+   ],
+   "n_failing": 1,
+   "why": "\"number of X\" may become an identifier"
+  },
+  {
+   "id": "M05",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ROLE SAFETY: document numbers that look like phone numbers are not phones (Entry Sheet / P",
+    "backend: AMBIGUITY: a bare Number / ID / Code / Date / Name keeps every reading as an alternative, ",
+    "backend: generalises to headers it has never seen (synonyms, abbreviations, punctuation, case, came"
+   ],
+   "n_failing": 8,
+   "why": "abbreviation \"No.\" not expanded"
+  },
+  {
+   "id": "M06",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: header analysis uses whole words, never substrings (Intellectual Property is not a phone; "
+   ],
+   "n_failing": 1,
+   "why": "camelCase splitter tears UoM apart"
+  },
+  {
+   "id": "M07",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ADVERSARIAL header/content: a person header over DATES, a date-word header over prices, \"o"
+   ],
+   "n_failing": 1,
+   "why": "a header that says \"date\" may be a non-date role"
+  },
+  {
+   "id": "M08",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ROLE SAFETY: document numbers that look like phone numbers are not phones (Entry Sheet / P",
+    "backend: REVIEW rules stand on their own: ambiguous wording, close runner-up (configurable margin),"
+   ],
+   "n_failing": 2,
+   "why": "plain 10-digit numbers count as phone content"
+  },
+  {
+   "id": "M09",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: tests/schemaReview.test.js",
+    "backend: tests/semantic.test.js",
+    "qa: qa/regression/rt13_semantic_layer.test.js"
+   ],
+   "n_failing": 3,
+   "why": "empty-column high-risk gate removed"
+  },
+  {
+   "id": "M10",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: identifiers that REPEAT are still identifiers (a catalog of item codes over many lines); o",
+    "qa: [erp_dump] every mapped oracle field gets its expected role",
+    "qa: [holdout] every mapped oracle field gets its expected role"
+   ],
+   "n_failing": 4,
+   "why": "near-constant heuristic reverted to the ratio bug"
+  },
+  {
+   "id": "M11",
+   "status": "SURVIVED",
+   "killed_by": [],
+   "n_failing": 0,
+   "why": "header/content veto penalty removed"
+  },
+  {
+   "id": "M12",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: roles of SELF-IDENTIFYING content are found without helpful headers, but capped (content a"
+   ],
+   "n_failing": 1,
+   "why": "content-only cap removed"
+  },
+  {
+   "id": "M13",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: SCALE: above the profiler's distinct-tracking cap (20,000) uniqueness stays exact, so a un",
+    "backend: REVIEW rules stand on their own: ambiguous wording, close runner-up (configurable margin),",
+    "qa: Material is the material_id; every other column with the header \"Material\" is a separate p"
+   ],
+   "n_failing": 4,
+   "why": "header+content corroboration bonus removed"
+  },
+  {
+   "id": "M14",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: SUGGEST stores a versioned DRAFT mapping: every physical column is mapped exactly once, du",
+    "backend: DUPLICATE identity columns: the populated column is primary; an empty twin stays a separat",
+    "backend: PRIMARY column of a role: a populated column is preferred over an empty twin even when its"
+   ],
+   "n_failing": 5,
+   "why": "empty duplicate twin keeps the identity role"
+  },
+  {
+   "id": "M15",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REVIEW rules stand on their own: ambiguous wording, close runner-up (configurable margin),"
+   ],
+   "n_failing": 1,
+   "why": "ambiguous header wording no longer forces review"
+  },
+  {
+   "id": "M16",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: MEDIUM/LOW confidence on high-impact roles always needs review; auto-accept only at HIGH t"
+   ],
+   "n_failing": 1,
+   "why": "medium confidence on high-impact roles no longer needs review"
+  },
+  {
+   "id": "M17",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REVIEW rules stand on their own: ambiguous wording, close runner-up (configurable margin),"
+   ],
+   "n_failing": 1,
+   "why": "close competing roles no longer force review"
+  },
+  {
+   "id": "M18",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: PRIMARY column of a role: a populated column is preferred over an empty twin even when its"
+   ],
+   "n_failing": 1,
+   "why": "primary identity column chosen without regard to being populated"
+  },
+  {
+   "id": "M19",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ADVERSARIAL header/content: a person header over DATES, a date-word header over prices, \"o"
+   ],
+   "n_failing": 1,
+   "why": "audit user content may be dates"
+  },
+  {
+   "id": "M20",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DATASET TYPE: thin or split evidence is mixed_unknown and needs review; the classifier nev",
+    "backend: CONFIG: versioned, hashed, immutable defaults; overrides change the hash; thresholds live "
+   ],
+   "n_failing": 2,
+   "why": "thin evidence still yields a confident type"
+  },
+  {
+   "id": "M21",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DATASET TYPE: thin or split evidence is mixed_unknown and needs review; the classifier nev"
+   ],
+   "n_failing": 1,
+   "why": "split evidence still picks a winner"
+  },
+  {
+   "id": "M22",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DATASET TYPE: thin or split evidence is mixed_unknown and needs review; the classifier nev"
+   ],
+   "n_failing": 1,
+   "why": "user override not recorded as user"
+  },
+  {
+   "id": "M23",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: OVERRIDE (draft): role / requiredness / include / note are validated, recorded with proven",
+    "backend: REVISE creates a new draft version (parent recorded); the locked parent is untouched",
+    "backend: RUN CONFIGURATION: only confirmed mappings snapshot; the snapshot carries roles, requiredn"
+   ],
+   "n_failing": 13,
+   "why": "the 95% heuristic proves REQUIRED"
+  },
+  {
+   "id": "M24",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REQUIREDNESS: a heuristic can only ever say EXPECTED; only a user or a versioned rule can ",
+    "backend: S4 DUPLICATE non-critical roles: the requiredness default goes to the column that is subst"
+   ],
+   "n_failing": 2,
+   "why": "secondary columns of a role become required too"
+  },
+  {
+   "id": "M25",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REQUIREDNESS: a heuristic can only ever say EXPECTED; only a user or a versioned rule can "
+   ],
+   "n_failing": 1,
+   "why": "empty required column reported per row"
+  },
+  {
+   "id": "M26",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REQUIREDNESS: a heuristic can only ever say EXPECTED; only a user or a versioned rule can ",
+    "qa: the empty columns do NOT become record-level completeness defects: none has record scope; ",
+    "qa: RT-71 Material Master (real SAP export)"
+   ],
+   "n_failing": 3,
+   "why": "optional gaps become defects"
+  },
+  {
+   "id": "M27",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: OVERRIDE (draft): role / requiredness / include / note are validated, recorded with proven",
+    "backend: REVISE creates a new draft version (parent recorded); the locked parent is untouched",
+    "backend: CHANGING requiredness/mapping creates a NEW mapping version and a NEW configuration - the "
+   ],
+   "n_failing": 7,
+   "why": "user requiredness decisions ignored"
+  },
+  {
+   "id": "M28",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATION PROFILES attach by ROLE (never by header substring), only for trusted mappings;"
+   ],
+   "n_failing": 1,
+   "why": "validators attached to unreviewed low-confidence mappings"
+  },
+  {
+   "id": "M29",
+   "status": "KILLED",
+   "killed_by": [
+    "qa: [service_entry] auto_accepted => high tier and no review flag; medium/low/flagged => sugge",
+    "qa: [material_master] auto_accepted => high tier and no review flag; medium/low/flagged => sug",
+    "qa: RT-68 [S3 contract] a schema mapping is auto-accepted only at HIGH confidence; medium/low "
+   ],
+   "n_failing": 5,
+   "why": "confirm not gated on unresolved review items"
+  },
+  {
+   "id": "M30",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: LOCKED means locked: neither the service nor raw SQL can change a confirmed mapping versio",
+    "qa: lock -> config snapshot -> revise + change requiredness -> NEW mapping version and NEW con",
+    "qa: RT-77 immutable configuration + versioning (real Material Master)"
+   ],
+   "n_failing": 3,
+   "why": "database lets locked column mappings be edited"
+  },
+  {
+   "id": "M31",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: RUN CONFIGURATION: only confirmed mappings snapshot; the snapshot carries roles, requiredn",
+    "backend: CHANGING requiredness/mapping creates a NEW mapping version and a NEW configuration - the ",
+    "backend: RE-RUN PLANNING from a completed run: changes become new mapping/config versions with line"
+   ],
+   "n_failing": 4,
+   "why": "configuration built from an unconfirmed mapping"
+  },
+  {
+   "id": "M32",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: API: taxonomy, read model, suggest, override, gated confirm, revise"
+   ],
+   "n_failing": 1,
+   "why": "revised version breaks suggest idempotency"
+  },
+  {
+   "id": "M33",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REVISE creates a new draft version (parent recorded); the locked parent is untouched",
+    "backend: CHANGING requiredness/mapping creates a NEW mapping version and a NEW configuration - the ",
+    "backend: API: taxonomy, read model, suggest, override, gated confirm, revise"
+   ],
+   "n_failing": 3,
+   "why": "revision lineage (parent version) not recorded"
+  },
+  {
+   "id": "M34",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: SUGGEST is idempotent for unchanged inputs; force creates a new version",
+    "backend: REVISE creates a new draft version (parent recorded); the locked parent is untouched",
+    "backend: CHANGING requiredness/mapping creates a NEW mapping version and a NEW configuration - the "
+   ],
+   "n_failing": 4,
+   "why": "suggest not idempotent"
+  },
+  {
+   "id": "M35",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: RUN CONFIGURATION: only confirmed mappings snapshot; the snapshot carries roles, requiredn",
+    "backend: CHANGING requiredness/mapping creates a NEW mapping version and a NEW configuration - the ",
+    "backend: API: gated confirm reports what is unresolved; configs are created once and reused; plan-r"
+   ],
+   "n_failing": 3,
+   "why": "identical configuration not reused"
+  },
+  {
+   "id": "M36",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: API: authentication and organization scoping"
+   ],
+   "n_failing": 1,
+   "why": "source ownership not checked against the organization"
+  },
+  {
+   "id": "M37",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: RE-RUN PLANNING from a completed run: changes become new mapping/config versions with line"
+   ],
+   "n_failing": 1,
+   "why": "re-run lineage not recorded in the new configuration"
+  },
+  {
+   "id": "M38",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ROLE SAFETY: document numbers that look like phone numbers are not phones (Entry Sheet / P"
+   ],
+   "n_failing": 1,
+   "why": "every all-digit string counts as a mobile number"
+  },
+  {
+   "id": "M39",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REQUIREDNESS: a heuristic can only ever say EXPECTED; only a user or a versioned rule can ",
+    "backend: CONFIG: versioned, hashed, immutable defaults; overrides change the hash; thresholds live "
+   ],
+   "n_failing": 2,
+   "why": "expectedness threshold loosened to 50%"
+  },
+  {
+   "id": "M40",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: OVERRIDE (draft): role / requiredness / include / note are validated, recorded with proven"
+   ],
+   "n_failing": 1,
+   "why": "user override loses the classifier proposal and the overridden flag"
+  },
+  {
+   "id": "M41",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ROLE SAFETY: document numbers that look like phone numbers are not phones (Entry Sheet / P",
+    "backend: ROLE SAFETY: a person-responsible header over date values is a header/content conflict: no",
+    "backend: ADVERSARIAL header/content: a person header over DATES, a date-word header over prices, \"o"
+   ],
+   "n_failing": 5,
+   "why": "header/content conflicts no longer detected or explained"
+  },
+  {
+   "id": "M42",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REVIEW rules stand on their own: ambiguous wording, close runner-up (configurable margin),"
+   ],
+   "n_failing": 1,
+   "why": "high-risk role assigned on weak (<50%) content fit"
+  },
+  {
+   "id": "M43",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: SCALE: above the profiler's distinct-tracking cap (20,000) uniqueness stays exact, so a un"
+   ],
+   "n_failing": 1,
+   "why": "above the tracking cap a unique column looks repetitive (exact ingest count ignored)"
+  }
+ ]
+}

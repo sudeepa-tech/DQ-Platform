@@ -1,0 +1,472 @@
+{
+ "label": "erp_dump",
+ "data": "ERP_DQ_Authenticity_Test_Dump.xlsx",
+ "run": {
+  "datasetId": "e6efa4ba-315d-4196-aa63-a4959d8309e9",
+  "runId": "efb8f11b-38f1-4e1f-a800-e3f3d66e78ba",
+  "analyzeStatus": 202,
+  "status": "complete",
+  "error": null,
+  "seconds": 1.614,
+  "peakRssMB": 145,
+  "maxApiStallMs": 1480,
+  "uploadStatus": 202
+ },
+ "dashboard": {
+  "summary": {
+   "records_analyzed": 310,
+   "files_analyzed": 1,
+   "health_score": 70,
+   "critical_issues": 2,
+   "total_issues": 534,
+   "records_with_any_issue": 310,
+   "pct_records_requiring_attention": 100,
+   "potential_duplicate_records": 237,
+   "exact_repeat_records": 333,
+   "incomplete_records": 7,
+   "invalid_records": 7,
+   "conflicts": 40,
+   "stale_records": 23
+  },
+  "health": {
+   "overall": 70,
+   "dims": {
+    "completeness": 99,
+    "validity": 99,
+    "uniqueness": 44,
+    "consistency": 99,
+    "freshness": 97,
+    "conflict_penalty_applied": 15
+   }
+  },
+  "issues_by_category": [
+   {
+    "category": "completeness",
+    "c": 8
+   },
+   {
+    "category": "consistency",
+    "c": 5
+   },
+   {
+    "category": "freshness",
+    "c": 23
+   },
+   {
+    "category": "uniqueness",
+    "c": 491
+   },
+   {
+    "category": "validity",
+    "c": 7
+   }
+  ],
+  "top_issue_types": [
+   {
+    "issue_type": "duplicate_identifier",
+    "category": "uniqueness",
+    "severity": "medium",
+    "c": 491
+   },
+   {
+    "issue_type": "stale_record",
+    "category": "freshness",
+    "severity": "medium",
+    "c": 23
+   },
+   {
+    "issue_type": "missing_field",
+    "category": "completeness",
+    "severity": "medium",
+    "c": 6
+   },
+   {
+    "issue_type": "modified_before_created",
+    "category": "consistency",
+    "severity": "high",
+    "c": 5
+   },
+   {
+    "issue_type": "invalid_gstin",
+    "category": "validity",
+    "severity": "high",
+    "c": 3
+   },
+   {
+    "issue_type": "missing_primary_identifier",
+    "category": "completeness",
+    "severity": "critical",
+    "c": 2
+   },
+   {
+    "issue_type": "invalid_date",
+    "category": "validity",
+    "severity": "low",
+    "c": 2
+   },
+   {
+    "issue_type": "invalid_phone",
+    "category": "validity",
+    "severity": "low",
+    "c": 1
+   }
+  ],
+  "age_distribution": [
+   {
+    "bucket": "1-3 years",
+    "c": 253
+   },
+   {
+    "bucket": "3-5 years",
+    "c": 13
+   },
+   {
+    "bucket": "5+ years",
+    "c": 10
+   },
+   {
+    "bucket": "< 1 year",
+    "c": 32
+   },
+   {
+    "bucket": "unknown",
+    "c": 2
+   }
+  ]
+ },
+ "roles": [
+  {
+   "column": "Record_ID",
+   "type": "string",
+   "role": "identifier",
+   "null_pct": 0
+  },
+  {
+   "column": "Entity_Type",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Company_Name",
+   "type": "string",
+   "role": "name",
+   "null_pct": 0.003
+  },
+  {
+   "column": "GSTIN",
+   "type": "string",
+   "role": "gstin",
+   "null_pct": 0.006
+  },
+  {
+   "column": "Vendor_Code",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Item_Code",
+   "type": "string",
+   "role": "item_code",
+   "null_pct": 0.003
+  },
+  {
+   "column": "Item_Description",
+   "type": "string",
+   "role": "item_desc",
+   "null_pct": 0.003
+  },
+  {
+   "column": "UOM",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Quantity",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Unit_Price",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Tax_Rate",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Email",
+   "type": "string",
+   "role": "email",
+   "null_pct": 0.003
+  },
+  {
+   "column": "Phone",
+   "type": "number",
+   "role": "phone",
+   "null_pct": 0.003
+  },
+  {
+   "column": "Address",
+   "type": "string",
+   "role": "address",
+   "null_pct": 0.006
+  },
+  {
+   "column": "City",
+   "type": "string",
+   "role": "address",
+   "null_pct": 0
+  },
+  {
+   "column": "State",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Postal_Code",
+   "type": "number",
+   "role": "numeric",
+   "null_pct": 0
+  },
+  {
+   "column": "Creation_Date",
+   "type": "date",
+   "role": "created_date",
+   "null_pct": 0.003
+  },
+  {
+   "column": "Modification_Date",
+   "type": "date",
+   "role": "modified_date",
+   "null_pct": 0.003
+  },
+  {
+   "column": "Payment_Terms",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  },
+  {
+   "column": "Currency",
+   "type": "string",
+   "role": "categorical",
+   "null_pct": 0
+  }
+ ],
+ "role_counts": {
+  "identifier": 1,
+  "categorical": 6,
+  "name": 1,
+  "gstin": 1,
+  "item_code": 1,
+  "item_desc": 1,
+  "numeric": 4,
+  "email": 1,
+  "phone": 1,
+  "address": 2,
+  "created_date": 1,
+  "modified_date": 1
+ },
+ "vs_truth": {
+  "engine": "legacy_v0",
+  "records": 310,
+  "entity": {
+   "truth": {
+    "clusters": 82,
+    "records": 172
+   },
+   "app": {
+    "clusters": 81,
+    "records": 271,
+    "sizes": {
+     "2": 35,
+     "3": 17,
+     "4": 13,
+     "5": 7,
+     "6": 3,
+     "7": 3,
+     "8": 3
+    }
+   },
+   "record": {
+    "tp": 171,
+    "fp": 100,
+    "fn": 1,
+    "precision": 0.631,
+    "recall": 0.994,
+    "fp_ids": [
+     "ERP-00065",
+     "ERP-00002",
+     "ERP-00010",
+     "ERP-00038",
+     "ERP-00058",
+     "ERP-00061",
+     "ERP-00165",
+     "ERP-00185",
+     "ERP-00135",
+     "ERP-00195",
+     "ERP-00067",
+     "ERP-00076"
+    ],
+    "fn_ids": [
+     "ERP-00277"
+    ]
+   },
+   "pair": {
+    "tp": 97,
+    "fp": 329,
+    "fn": 1,
+    "precision": 0.228,
+    "recall": 0.99
+   },
+   "clusters_exactly_correct": 20,
+   "clusters_impure": 61,
+   "clusters_with_two_valid_gstins": 61,
+   "fuzzy_candidates_auto_clustered": 0
+  },
+  "conflicts": {
+   "truth_groups_by_type": {
+    "gstin_shared_identity": 10
+   },
+   "app_conflict_rows_identity_or_contact": 30,
+   "app_distinct_member_sets": 10,
+   "rows_per_distinct_group": 3,
+   "found_gstin_shared_identity": "10/10",
+   "gst_rows": 10,
+   "gst_distinct_sets": 10,
+   "extra_groups_not_in_truth": 0
+  },
+  "item": {
+   "truth_codes": 10,
+   "app_codes": 10,
+   "codes_found": 10,
+   "codes_missing": [],
+   "codes_extra": [],
+   "records_flagged_by_conflicts": 263,
+   "minority_truth_records": 10,
+   "minority_recall": 1,
+   "flagged_precision_vs_minority": 0.038
+  },
+  "issues": {
+   "missing": {
+    "expected": 10,
+    "detected": 7,
+    "tp": 7,
+    "fp": 0,
+    "fn": 3,
+    "fn_ids": [
+     "ERP-00284",
+     "ERP-00282",
+     "ERP-00283"
+    ],
+    "fp_ids": [],
+    "by_field_detected": {
+     "GSTIN": "2/2",
+     "Item_Description": "1/1",
+     "Email": "1/1",
+     "Phone": "1/1",
+     "Creation_Date": "0/1",
+     "Item_Code": "1/1",
+     "Address": "0/2",
+     "Modification_Date": "0/1",
+     "Company_Name": "1/1"
+    }
+   },
+   "invalid": {
+    "expected": 10,
+    "detected": 7,
+    "tp": 7,
+    "fp": 0,
+    "fn": 3,
+    "fn_ids": [
+     "ERP-00290",
+     "ERP-00291",
+     "ERP-00292"
+    ],
+    "fp_ids": [],
+    "by_field_detected": {
+     "Postal_Code": "0/1",
+     "GSTIN": "3/3",
+     "Quantity": "0/1",
+     "Email": "1/1",
+     "Phone": "1/1",
+     "Unit_Price": "0/1",
+     "Creation_Date": "1/1",
+     "Modification_Date": "1/1"
+    }
+   },
+   "temporal": {
+    "expected": 5,
+    "detected": 5,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0,
+    "fn_ids": [],
+    "fp_ids": []
+   },
+   "future": {
+    "expected": 0,
+    "detected": 0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "fn_ids": [],
+    "fp_ids": []
+   },
+   "stale": {
+    "reference_date": "2026-09-24",
+    "threshold_years": 3,
+    "expected": 23,
+    "detected": 23,
+    "tp": 23,
+    "fp": 0,
+    "fn": 0,
+    "fn_ids": [],
+    "fp_ids": []
+   },
+   "stale_sensitivity_truth": [
+    "2026-04-18@1y=236",
+    "2026-04-18@2y=104",
+    "2026-04-18@3y=10",
+    "2026-04-18@4y=10",
+    "2026-04-18@5y=10",
+    "2026-09-24@1y=276",
+    "2026-09-24@2y=163",
+    "2026-09-24@3y=23",
+    "2026-09-24@4y=10",
+    "2026-09-24@5y=10"
+   ],
+   "uniqueness_noise": {
+    "duplicate_identifier_issue_rows": 491,
+    "on_item_or_material_fields": 309
+   },
+   "total_issues": 534,
+   "records_with_any_issue": 310
+  },
+  "scores": {
+   "overall": 70,
+   "dims": {
+    "completeness": 99,
+    "validity": 99,
+    "uniqueness": 44,
+    "consistency": 99,
+    "freshness": 97
+   }
+  },
+  "persisted_pairs": 5497,
+  "item_clusters": {
+   "count": 12,
+   "records": 299
+  },
+  "exact_repeat_entity_clusters_hidden_from_headline": 17
+ }
+}

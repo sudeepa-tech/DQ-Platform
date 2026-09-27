@@ -1,0 +1,124 @@
+{
+ "meta": {
+  "file": "Service_Entry_Sheet_23_09_2026.xlsx",
+  "rows": 1000,
+  "columns": 52,
+  "kind": "baseline (no labels)"
+ },
+ "facts": {
+  "empty_columns": 10,
+  "entry_sheet_unique": true,
+  "distinct_entry_sheets": 1000,
+  "purchasing_document_distinct": 927,
+  "purchasing_document_rows_in_repeats": 106,
+  "excel_date_columns": [
+   "Created On",
+   "Changed On",
+   "Price Reference Date",
+   "Period",
+   "End",
+   "Document Date",
+   "Posting Date"
+  ],
+  "text_dd_mm_yyyy_columns": [
+   "Pers. Rsp. (Internally)",
+   "Person Resp. (Externally)"
+  ],
+  "has_material_column": false,
+  "exact_duplicate_headers": [
+   "Item"
+  ],
+  "exact_business_duplicate_rows_excluding_entry_sheet": 0
+ },
+ "transaction_duplicates": {
+  "expected_exact_document_key_duplicates": 0,
+  "expected_exact_business_duplicates": 0,
+  "near_duplicate_tuple_groups_po_item_gross_postingdate": [
+   {
+    "entry_sheets": [
+     "1000280317",
+     "1000280318"
+    ],
+    "po": "4500014010",
+    "item": "10",
+    "gross": "330000.0",
+    "posting": "2026-09-22 00:00:00"
+   }
+  ],
+  "note": "expected transaction_duplicate count for exact document-key duplicates is 0; near-duplicate tuples are informational review candidates"
+ },
+ "expected_roles": {
+  "must_map": {
+   "Entry Sheet": [
+    "doc_key"
+   ],
+   "Purchasing Document": [
+    "doc_ref"
+   ],
+   "Created On": [
+    "created_date"
+   ],
+   "Changed On": [
+    "modified_date"
+   ],
+   "Created By": [
+    "audit_user"
+   ],
+   "Changed By": [
+    "audit_user"
+   ],
+   "Gross Value": [
+    "amount"
+   ],
+   "Net Value": [
+    "amount"
+   ],
+   "Currency": [
+    "currency"
+   ],
+   "Item": [
+    "line_item"
+   ]
+  },
+  "must_not_map": {
+   "Entry Sheet": [
+    "phone",
+    "quantity"
+   ],
+   "Purchasing Document": [
+    "phone"
+   ],
+   "Created By": [
+    "created_date",
+    "modified_date",
+    "date"
+   ],
+   "Changed By": [
+    "modified_date",
+    "date"
+   ],
+   "Short Text": [
+    "entity_name"
+   ],
+   "Pers. Rsp. (Internally)": [
+    "modified_date",
+    "created_date"
+   ],
+   "Person Resp. (Externally)": [
+    "modified_date",
+    "created_date"
+   ]
+  },
+  "must_require_review": {
+   "Pers. Rsp. (Internally)": "header says person-responsible, content is 100% text dd.mm.yyyy dates (header/content conflict)",
+   "Person Resp. (Externally)": "same"
+  },
+  "no_column_may_be_mapped_to": [
+   "material_key",
+   "entity_name",
+   "gstin",
+   "email",
+   "address_street"
+  ]
+ }
+}

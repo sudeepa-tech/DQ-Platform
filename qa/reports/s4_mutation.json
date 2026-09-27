@@ -1,0 +1,512 @@
+{
+ "summary": {
+  "control": "PASS (suite green without mutation)",
+  "mutants": 53,
+  "killed": 53,
+  "equivalent": [],
+  "survived": [],
+  "invalid": []
+ },
+ "results": [
+  {
+   "id": "CONTROL",
+   "status": "SURVIVED",
+   "killed_by": [],
+   "n_failing": 0,
+   "why": "no mutation: the suite must pass"
+  },
+  {
+   "id": "M01",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: COMPLETENESS: only REQUIRED / EXPECTED columns; optional and unidentified gaps are never d",
+    "backend: DATASET-LEVEL vs RECORD-LEVEL: a REQUIRED/EXPECTED column that is empty on every record is"
+   ],
+   "n_failing": 2,
+   "why": "optional / unidentified columns are treated like required ones (false defects from empty optional columns)"
+  },
+  {
+   "id": "M02",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DATASET-LEVEL vs RECORD-LEVEL: a REQUIRED/EXPECTED column that is empty on every record is"
+   ],
+   "n_failing": 1,
+   "why": "an entirely empty required column is reported per row instead of once"
+  },
+  {
+   "id": "M03",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ONE CAUSE = ONE FINDING: a rule that fails on (almost) every value is a systematic failure",
+    "backend: RULES RUN FROM THE CONFIRMED SNAPSHOT: planted defects are found by mapped role; provenanc",
+    "backend: CONFIG VERSIONING: the rule configuration (versions + effective settings + hash) lives INS"
+   ],
+   "n_failing": 3,
+   "why": "any failing column collapses into a systematic failure"
+  },
+  {
+   "id": "M04",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: EXCLUDED and UNIDENTIFIED columns are out of active quality analysis (and stay out of ever"
+   ],
+   "n_failing": 1,
+   "why": "excluded columns take part in analysis"
+  },
+  {
+   "id": "M05",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDITY attaches through the confirmed mapping ONLY: header text is irrelevant; a pending"
+   ],
+   "n_failing": 1,
+   "why": "validators attach from a pending-review profile"
+  },
+  {
+   "id": "M06",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: TEMPORAL: modified-before-created (day granularity by default), future dates against the f"
+   ],
+   "n_failing": 1,
+   "why": "same-day modification counted as modified-before-created"
+  },
+  {
+   "id": "M07",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: TEMPORAL: modified-before-created (day granularity by default), future dates against the f"
+   ],
+   "n_failing": 1,
+   "why": "the reference date itself counted as a future date"
+  },
+  {
+   "id": "M08",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: FRESHNESS: stale = older than the threshold at the reference date; ages from modification,"
+   ],
+   "n_failing": 1,
+   "why": "a blank in a populated modification column ages from creation"
+  },
+  {
+   "id": "M09",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: FRESHNESS: stale = older than the threshold at the reference date; ages from modification,",
+    "backend: FRESHNESS BASIS is explicit and persisted (S4 approval decision 5): each stale finding nam"
+   ],
+   "n_failing": 2,
+   "why": "creation fallback never applies when the modification column is empty"
+  },
+  {
+   "id": "M10",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: UNIQUENESS is role-aware: only identifiers that MUST be unique for this dataset type; a re"
+   ],
+   "n_failing": 1,
+   "why": "a pair of repeated identifiers is not reported"
+  },
+  {
+   "id": "M11",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: UNIQUENESS is role-aware: only identifiers that MUST be unique for this dataset type; a re"
+   ],
+   "n_failing": 1,
+   "why": "composite key ignores the line item (false duplicates on legitimate repeated documents)"
+  },
+  {
+   "id": "M12",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: COMPLETENESS: only REQUIRED / EXPECTED columns; optional and unidentified gaps are never d"
+   ],
+   "n_failing": 1,
+   "why": "expected gaps get the required severity"
+  },
+  {
+   "id": "M13",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DATASET-LEVEL vs RECORD-LEVEL: a REQUIRED/EXPECTED column that is empty on every record is"
+   ],
+   "n_failing": 1,
+   "why": "an empty required column gets the expected severity"
+  },
+  {
+   "id": "M14",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: TEMPORAL: modified-before-created (day granularity by default), future dates against the f"
+   ],
+   "n_failing": 1,
+   "why": "temporal comparison ignores the configured day granularity"
+  },
+  {
+   "id": "M15",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: FRESHNESS: stale = older than the threshold at the reference date; ages from modification,",
+    "backend: REFERENCE DATE + STALE THRESHOLD are run settings frozen in the configuration: a run_date "
+   ],
+   "n_failing": 2,
+   "why": "the stale threshold is off by one year"
+  },
+  {
+   "id": "M16",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: AMBIGUOUS text dates are never guessed: no per-record defect, one dataset-level \"decide th"
+   ],
+   "n_failing": 1,
+   "why": "ambiguous dates are silently ignored (no decision requested)"
+  },
+  {
+   "id": "M17",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CONFIG VERSIONING: the rule configuration (versions + effective settings + hash) lives INS"
+   ],
+   "n_failing": 1,
+   "why": "configured rule parameters are ignored by the engine"
+  },
+  {
+   "id": "M18",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CONFIG: versioned, hashed, immutable defaults; strict validation (typos, wrong types, bad ",
+    "backend: OPT-IN PACKS: GSTIN checksum and state-code checks exist but are OFF by default and switch",
+    "backend: CONFIG VERSIONING: the rule configuration (versions + effective settings + hash) lives INS"
+   ],
+   "n_failing": 3,
+   "why": "the GSTIN checksum pack is ON by default"
+  },
+  {
+   "id": "M19",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ONE CAUSE = ONE FINDING: a rule that fails on (almost) every value is a systematic failure"
+   ],
+   "n_failing": 1,
+   "why": "systematic failure is called on tiny populations"
+  },
+  {
+   "id": "M20",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: FRESHNESS: stale = older than the threshold at the reference date; ages from modification,",
+    "backend: FRESHNESS BASIS is explicit and persisted (S4 approval decision 5): each stale finding nam"
+   ],
+   "n_failing": 2,
+   "why": "default freshness policy ages every blank from creation"
+  },
+  {
+   "id": "M21",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: UNIQUENESS is role-aware: only identifiers that MUST be unique for this dataset type; a re"
+   ],
+   "n_failing": 1,
+   "why": "row ids are no longer checked for uniqueness"
+  },
+  {
+   "id": "M22",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: UNIQUENESS is role-aware: only identifiers that MUST be unique for this dataset type; a re"
+   ],
+   "n_failing": 1,
+   "why": "composite keys off by default"
+  },
+  {
+   "id": "M23",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: UNIQUENESS is role-aware: only identifiers that MUST be unique for this dataset type; a re"
+   ],
+   "n_failing": 1,
+   "why": "the material id is not required to be unique in a material master"
+  },
+  {
+   "id": "M24",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: UNIQUENESS is role-aware: only identifiers that MUST be unique for this dataset type; a re"
+   ],
+   "n_failing": 1,
+   "why": "repeated item codes are a defect in an entity master"
+  },
+  {
+   "id": "M25",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: COMPLETENESS: only REQUIRED / EXPECTED columns; optional and unidentified gaps are never d"
+   ],
+   "n_failing": 1,
+   "why": "required gaps are only medium"
+  },
+  {
+   "id": "M26",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: ONE CAUSE = ONE FINDING: a rule that fails on (almost) every value is a systematic failure"
+   ],
+   "n_failing": 1,
+   "why": "systematic failure fires at 10%"
+  },
+  {
+   "id": "M27",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DATES: calendar-aware staleness with an exact boundary; leap days; fractional thresholds; ",
+    "backend: FRESHNESS: stale = older than the threshold at the reference date; ages from modification,"
+   ],
+   "n_failing": 2,
+   "why": "stale boundary: a record exactly on the anniversary is stale"
+  },
+  {
+   "id": "M28",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DATES: calendar-aware staleness with an exact boundary; leap days; fractional thresholds; ",
+    "backend: FRESHNESS: stale = older than the threshold at the reference date; ages from modification,"
+   ],
+   "n_failing": 2,
+   "why": "threshold months wrong"
+  },
+  {
+   "id": "M29",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DATES: calendar-aware staleness with an exact boundary; leap days; fractional thresholds; "
+   ],
+   "n_failing": 1,
+   "why": "month-end clamping removed (impossible dates like 31 Feb)"
+  },
+  {
+   "id": "M30",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DATES: calendar-aware staleness with an exact boundary; leap days; fractional thresholds; ",
+    "backend: REFERENCE DATE + STALE THRESHOLD are run settings frozen in the configuration: a run_date "
+   ],
+   "n_failing": 2,
+   "why": "a run_date reference accepts a missing today"
+  },
+  {
+   "id": "M31",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, "
+   ],
+   "n_failing": 1,
+   "why": "e-mail without a dotted domain accepted"
+  },
+  {
+   "id": "M32",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, "
+   ],
+   "n_failing": 1,
+   "why": "any 10-digit number is a phone"
+  },
+  {
+   "id": "M33",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, "
+   ],
+   "n_failing": 1,
+   "why": "the +91 country prefix is not stripped"
+  },
+  {
+   "id": "M34",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, "
+   ],
+   "n_failing": 1,
+   "why": "GSTIN state code may be letters"
+  },
+  {
+   "id": "M35",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, "
+   ],
+   "n_failing": 1,
+   "why": "zero rejected as below the minimum"
+  },
+  {
+   "id": "M36",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, "
+   ],
+   "n_failing": 1,
+   "why": "a percentage of exactly 100 rejected"
+  },
+  {
+   "id": "M37",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, "
+   ],
+   "n_failing": 1,
+   "why": "malformed thousands separators accepted as numbers"
+  },
+  {
+   "id": "M38",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: AMBIGUOUS text dates are never guessed: no per-record defect, one dataset-level \"decide th"
+   ],
+   "n_failing": 1,
+   "why": "ambiguous text dates treated as parsed"
+  },
+  {
+   "id": "M39",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, ",
+    "backend: AMBIGUOUS text dates are never guessed: no per-record defect, one dataset-level \"decide th"
+   ],
+   "n_failing": 2,
+   "why": "an ambiguous date is reported as an invalid date"
+  },
+  {
+   "id": "M40",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, ",
+    "backend: OPT-IN PACKS: GSTIN checksum and state-code checks exist but are OFF by default and switch"
+   ],
+   "n_failing": 2,
+   "why": "GSTIN check-character weights wrong"
+  },
+  {
+   "id": "M41",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, "
+   ],
+   "n_failing": 1,
+   "why": "padded identifiers accepted"
+  },
+  {
+   "id": "M42",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: VALIDATORS (table-driven): e-mail, phone, PIN, GSTIN/PAN, numbers, percentages, currency, "
+   ],
+   "n_failing": 1,
+   "why": "a PIN may start with 0"
+  },
+  {
+   "id": "M43",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: OPT-IN PACKS: GSTIN checksum and state-code checks exist but are OFF by default and switch"
+   ],
+   "n_failing": 1,
+   "why": "GSTIN state code 00 accepted"
+  },
+  {
+   "id": "M44",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CONFIG VERSIONING: the rule configuration (versions + effective settings + hash) lives INS",
+    "backend: RE-RUN PLANNING carries the rule configuration forward and merges rule changes into a NEW ",
+    "backend: DEFENCE IN DEPTH (immutability triggers removed in this throwaway test database): a change"
+   ],
+   "n_failing": 3,
+   "why": "stored rule overrides ignored at run time"
+  },
+  {
+   "id": "M45",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: REFERENCE DATE + STALE THRESHOLD are run settings frozen in the configuration: a run_date "
+   ],
+   "n_failing": 1,
+   "why": "the configured stale threshold is ignored at run time"
+  },
+  {
+   "id": "M46",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DEFENCE IN DEPTH (immutability triggers removed in this throwaway test database): a change"
+   ],
+   "n_failing": 1,
+   "why": "a changed file is analysed under the old configuration"
+  },
+  {
+   "id": "M47",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: DEFENCE IN DEPTH (immutability triggers removed in this throwaway test database): a change"
+   ],
+   "n_failing": 1,
+   "why": "a tampered rule configuration is analysed"
+  },
+  {
+   "id": "M48",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CONFIG VERSIONING: the rule configuration (versions + effective settings + hash) lives INS"
+   ],
+   "n_failing": 1,
+   "why": "rule settings are not stored per configuration"
+  },
+  {
+   "id": "M49",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: RE-RUN PLANNING carries the rule configuration forward and merges rule changes into a NEW "
+   ],
+   "n_failing": 1,
+   "why": "a re-run forgets the parent's rule settings"
+  },
+  {
+   "id": "M50",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: CONFIG VERSIONING: the rule configuration (versions + effective settings + hash) lives INS"
+   ],
+   "n_failing": 1,
+   "why": "the rule catalog version is not recorded"
+  },
+  {
+   "id": "M51",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: RULES RUN FROM THE CONFIRMED SNAPSHOT: planted defects are found by mapped role; provenanc"
+   ],
+   "n_failing": 1,
+   "why": "quantity / price checks are not role-intrinsic (missed on entity masters)"
+  },
+  {
+   "id": "M52",
+   "status": "KILLED",
+   "killed_by": [
+    "qa: RT-40 range / format rules: PIN code, quantity, price and tax-rate values that are impossi",
+    "qa: minimal-fixture findings"
+   ],
+   "n_failing": 2,
+   "why": "numeric-looking text (CSV) is not numeric to the profiler"
+  },
+  {
+   "id": "M53",
+   "status": "KILLED",
+   "killed_by": [
+    "backend: S4 DUPLICATE non-critical roles: the requiredness default goes to the column that is subst"
+   ],
+   "n_failing": 1,
+   "why": "a sparse column can be the primary of a role (requiredness)"
+  }
+ ]
+}
